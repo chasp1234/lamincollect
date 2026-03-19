@@ -17,6 +17,7 @@ export default function App() {
   const [selectedUniverse, setSelectedUniverse] = useState<UniverseId>(defaultUniverseId);
   const [selectedCollection, setSelectedCollection] = useState<CollectionId>(defaultCollectionId);
   const [selectedCardId, setSelectedCardId] = useState<string>(pokemonVerticalAdvanced.cards[0].id);
+  const [gridMode, setGridMode] = useState<3 | 5>(5);
 
   const activeUniverse = useMemo(
     () => universes.find((universe) => universe.id === selectedUniverse) ?? universes[0],
@@ -121,11 +122,19 @@ export default function App() {
         <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
         <Text style={styles.listSubtitle}>{pokemonVerticalAdvanced.notes}</Text>
         <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+        <View style={styles.gridSwitchRow}>
+          <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 3 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(3)}>
+            <Text style={[styles.gridSwitchText, gridMode === 3 && styles.gridSwitchTextActive]}>3 colonne</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 5 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(5)}>
+            <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
+          </TouchableOpacity>
+        </View>
       </View>
 
       <View style={styles.cardsGrid}>
         {pokemonVerticalAdvanced.cards.map((card) => (
-          <TouchableOpacity key={card.id} style={styles.cardTile} onPress={() => openCard(card.id)}>
+          <TouchableOpacity key={card.id} style={[styles.cardTile, gridMode === 3 ? styles.cardTileThree : styles.cardTileFive]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
               <Image source={{ uri: card.image }} style={styles.cardTileImage} resizeMode="cover" />
               <View style={styles.cardTileBackBadge}><Text style={styles.cardTileBackBadgeText}>FRONT</Text></View>
@@ -224,8 +233,15 @@ const styles = StyleSheet.create({
   listTitle: { color: '#F8FAFC', fontSize: 20, fontWeight: '900' },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
+  gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12 },
+  gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
+  gridSwitchBtnActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
+  gridSwitchText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
+  gridSwitchTextActive: { color: '#F8FAFC' },
   cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-  cardTile: { width: '20.5%', backgroundColor: '#0F172A', borderRadius: 14, padding: 5, borderWidth: 1, borderColor: '#1E293B' },
+  cardTile: { backgroundColor: '#0F172A', borderRadius: 14, padding: 5, borderWidth: 1, borderColor: '#1E293B' },
+  cardTileThree: { width: '31%' },
+  cardTileFive: { width: '18.4%' },
   cardTileImageWrap: { position: 'relative' },
   cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
