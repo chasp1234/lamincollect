@@ -119,6 +119,7 @@ export default function App() {
       </TouchableOpacity>
 
       <View style={styles.listHero}>
+        <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
         <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
         <Text style={styles.listSubtitle}>{pokemonVerticalAdvanced.notes}</Text>
         <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
@@ -230,7 +231,8 @@ const styles = StyleSheet.create({
   collectionSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   collectionMeta: { color: '#64748B', fontSize: 12, marginTop: 8 },
   listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
-  listTitle: { color: '#F8FAFC', fontSize: 20, fontWeight: '900' },
+  listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
+  listTitle: { color: '#F8FAFC', fontSize: 24, fontWeight: '900', letterSpacing: 0.8, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12 },
@@ -238,7 +240,7 @@ const styles = StyleSheet.create({
   gridSwitchBtnActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   gridSwitchText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
   gridSwitchTextActive: { color: '#F8FAFC' },
-  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, justifyContent: 'center' },
   cardTile: { backgroundColor: '#0F172A', borderRadius: 14, padding: 5, borderWidth: 1, borderColor: '#1E293B' },
   cardTileThree: { width: '31%' },
   cardTileFive: { width: '18.4%' },
