@@ -3,6 +3,7 @@ import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, Touchable
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
+import { cardToning } from './src/data/card-toning';
 import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-advanced.json';
 
 type Screen = 'home' | 'collections' | 'cards' | 'card';
@@ -11,9 +12,6 @@ type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 
 
 const defaultUniverseId: UniverseId = 'pokemon';
 const defaultCollectionId: CollectionId = 'pokemon-vertical';
-const tonedDownCardNumbers = new Set([
-  '3','10','11','12','20','21','28','29','30','37','38','39','46','47','48','56','57','64','65','66','74','75','82','83','84','85','91','92','93','100','101','102','109','110','111','118','119','127','128','129','136','138','146','147'
-]);
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
@@ -138,12 +136,14 @@ export default function App() {
 
       <View style={styles.cardsGrid}>
         {pokemonVerticalAdvanced.cards.map((card) => {
-          const isTonedDown = tonedDownCardNumbers.has(card.number);
+          const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0 };
+          const tileFilter = { filter: `saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+          const tileOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, gridMode === 3 ? styles.cardTileThree : styles.cardTileFive]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
-              <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, isTonedDown && styles.cardTileImageTonedDown]} resizeMode="cover" />
-               <View style={[styles.cardImageToneOverlay, isTonedDown && styles.cardImageToneOverlayTonedDown]} pointerEvents="none" />
+              <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
+               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
               <View style={styles.cardTileBackBadge}><Text style={styles.cardTileBackBadgeText}>FRONT</Text></View>
             </View>
             <Text style={styles.cardTileNumber}>#{card.number}</Text>
@@ -156,7 +156,9 @@ export default function App() {
   );
 
   const renderCard = () => {
-    const isTonedDown = tonedDownCardNumbers.has(activeCard.number);
+    const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0 };
+    const detailFilter = { filter: `saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+    const detailOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
     return (
     <ScrollView contentContainerStyle={styles.content}>
       <TouchableOpacity style={styles.backButton} onPress={() => setScreen('cards')}>
@@ -168,13 +170,13 @@ export default function App() {
         <View style={styles.cardDualImages}>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>FRONTE</Text>
-            <Image source={{ uri: activeCard.image }} style={[styles.cardHalfImage as any, isTonedDown && styles.cardHalfImageTonedDown]} resizeMode="contain" />
-            <View style={[styles.cardImageToneOverlayLarge, isTonedDown && styles.cardImageToneOverlayLargeTonedDown]} pointerEvents="none" />
+            <Image source={{ uri: activeCard.image }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
+            <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>RETRO</Text>
-            <Image source={{ uri: activeCard.back }} style={[styles.cardHalfImage as any, isTonedDown && styles.cardHalfImageTonedDown]} resizeMode="contain" />
-            <View style={[styles.cardImageToneOverlayLarge, isTonedDown && styles.cardImageToneOverlayLargeTonedDown]} pointerEvents="none" />
+            <Image source={{ uri: activeCard.back }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
+            <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
         </View>
         <View style={styles.cardInfoBox}>
@@ -257,10 +259,8 @@ const styles = StyleSheet.create({
   cardTileThree: { width: '31%' },
   cardTileFive: { width: '18.4%' },
   cardTileImageWrap: { position: 'relative' },
-  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B', filter: 'saturate(1.14) contrast(1.06) brightness(1.03)' as any },
-  cardTileImageTonedDown: { filter: 'saturate(1.14) contrast(1.02) brightness(0.9)' as any },
+  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
   cardImageToneOverlay: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: 'rgba(96, 165, 250, 0.045)' },
-  cardImageToneOverlayTonedDown: { backgroundColor: 'rgba(15, 23, 42, 0.085)' },
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
   cardTileNumber: { color: '#60A5FA', fontSize: 9, fontWeight: '900', marginTop: 5 },
@@ -269,10 +269,8 @@ const styles = StyleSheet.create({
   cardDualImages: { flexDirection: 'row', gap: 10 },
   cardFaceBlock: { flex: 1, gap: 8, position: 'relative' },
   cardFaceLabel: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1, textAlign: 'center' },
-  cardHalfImage: { flex: 1, height: 360, borderRadius: 20, backgroundColor: '#1E293B', filter: 'saturate(1.16) contrast(1.07) brightness(1.04)' as any },
-  cardHalfImageTonedDown: { filter: 'saturate(1.15) contrast(1.02) brightness(0.91)' as any },
+  cardHalfImage: { flex: 1, height: 360, borderRadius: 20, backgroundColor: '#1E293B' },
   cardImageToneOverlayLarge: { position: 'absolute', inset: 0, borderRadius: 20, backgroundColor: 'rgba(96, 165, 250, 0.04)' },
-  cardImageToneOverlayLargeTonedDown: { backgroundColor: 'rgba(15, 23, 42, 0.08)' },
   cardInfoBox: { backgroundColor: '#0F172A', borderRadius: 24, padding: 16, borderWidth: 1, borderColor: '#1E293B', gap: 10 },
   cardTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
   cardSmall: { color: '#94A3B8', fontSize: 13, marginBottom: 4 },
