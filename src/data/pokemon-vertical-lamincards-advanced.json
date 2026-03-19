@@ -3,8 +3,8 @@
   "title": "Pokémon Vertical Lamincards Advanced",
   "source": "Bulbapedia",
   "sourceUrl": "https://m.bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Vertical_Lamincards_Advanced",
-  "total": 100,
-  "notes": "Prima base archiviata in app per LaminCollect. Lista 1-100 con immagini fronte/retro dalla fonte mobile Bulbapedia/Archives.",
+  "total": 150,
+  "notes": "Archivio completo Pokémon Vertical Lamincards Advanced: carte 1-150 con fronte e retro da Bulbapedia mobile / Bulbagarden Archives.",
   "cards": [
     {
       "id": "pvla-1",
@@ -805,6 +805,406 @@
       "image": "https://archives.bulbagarden.net/media/upload/d/d9/Pok%C3%A9mon_Advanced_Vertical_Lamincards_100.jpg",
       "subject": "Barboach",
       "back": "https://archives.bulbagarden.net/media/upload/1/1e/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_100.jpg"
+    },
+    {
+      "id": "pvla-101",
+      "number": "101",
+      "name": "Whiscash",
+      "image": "https://archives.bulbagarden.net/media/upload/1/1d/Pok%C3%A9mon_Advanced_Vertical_Lamincards_101.jpg",
+      "subject": "Whiscash",
+      "back": "https://archives.bulbagarden.net/media/upload/c/c0/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_101.jpg"
+    },
+    {
+      "id": "pvla-102",
+      "number": "102",
+      "name": "Corphish",
+      "image": "https://archives.bulbagarden.net/media/upload/c/ce/Pok%C3%A9mon_Advanced_Vertical_Lamincards_102.jpg",
+      "subject": "Corphish",
+      "back": "https://archives.bulbagarden.net/media/upload/a/a2/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_102.jpg"
+    },
+    {
+      "id": "pvla-103",
+      "number": "103",
+      "name": "Crawdaunt",
+      "image": "https://archives.bulbagarden.net/media/upload/1/1e/Pok%C3%A9mon_Advanced_Vertical_Lamincards_103.jpg",
+      "subject": "Crawdaunt",
+      "back": "https://archives.bulbagarden.net/media/upload/7/75/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_103.jpg"
+    },
+    {
+      "id": "pvla-104",
+      "number": "104",
+      "name": "Baltoy",
+      "image": "https://archives.bulbagarden.net/media/upload/a/a6/Pok%C3%A9mon_Advanced_Vertical_Lamincards_104.jpg",
+      "subject": "Baltoy",
+      "back": "https://archives.bulbagarden.net/media/upload/0/0a/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_104.jpg"
+    },
+    {
+      "id": "pvla-105",
+      "number": "105",
+      "name": "Claydol",
+      "image": "https://archives.bulbagarden.net/media/upload/9/9d/Pok%C3%A9mon_Advanced_Vertical_Lamincards_105.jpg",
+      "subject": "Claydol",
+      "back": "https://archives.bulbagarden.net/media/upload/0/00/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_105.jpg"
+    },
+    {
+      "id": "pvla-106",
+      "number": "106",
+      "name": "Lileep",
+      "image": "https://archives.bulbagarden.net/media/upload/a/a6/Pok%C3%A9mon_Advanced_Vertical_Lamincards_106.jpg",
+      "subject": "Lileep",
+      "back": "https://archives.bulbagarden.net/media/upload/3/36/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_106.jpg"
+    },
+    {
+      "id": "pvla-107",
+      "number": "107",
+      "name": "Cradily",
+      "image": "https://archives.bulbagarden.net/media/upload/b/b7/Pok%C3%A9mon_Advanced_Vertical_Lamincards_107.jpg",
+      "subject": "Cradily",
+      "back": "https://archives.bulbagarden.net/media/upload/c/c5/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_107.jpg"
+    },
+    {
+      "id": "pvla-108",
+      "number": "108",
+      "name": "Anorith",
+      "image": "https://archives.bulbagarden.net/media/upload/6/6b/Pok%C3%A9mon_Advanced_Vertical_Lamincards_108.jpg",
+      "subject": "Anorith",
+      "back": "https://archives.bulbagarden.net/media/upload/6/66/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_108.jpg"
+    },
+    {
+      "id": "pvla-109",
+      "number": "109",
+      "name": "Armaldo",
+      "image": "https://archives.bulbagarden.net/media/upload/e/eb/Pok%C3%A9mon_Advanced_Vertical_Lamincards_109.jpg",
+      "subject": "Armaldo",
+      "back": "https://archives.bulbagarden.net/media/upload/b/b5/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_109.jpg"
+    },
+    {
+      "id": "pvla-110",
+      "number": "110",
+      "name": "Feebas",
+      "image": "https://archives.bulbagarden.net/media/upload/3/3b/Pok%C3%A9mon_Advanced_Vertical_Lamincards_110.jpg",
+      "subject": "Feebas",
+      "back": "https://archives.bulbagarden.net/media/upload/a/ac/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_110.jpg"
+    },
+    {
+      "id": "pvla-111",
+      "number": "111",
+      "name": "Milotic",
+      "image": "https://archives.bulbagarden.net/media/upload/2/21/Pok%C3%A9mon_Advanced_Vertical_Lamincards_111.jpg",
+      "subject": "Milotic",
+      "back": "https://archives.bulbagarden.net/media/upload/9/95/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_111.jpg"
+    },
+    {
+      "id": "pvla-112",
+      "number": "112",
+      "name": "Castform",
+      "image": "https://archives.bulbagarden.net/media/upload/f/fd/Pok%C3%A9mon_Advanced_Vertical_Lamincards_112.jpg",
+      "subject": "Castform",
+      "back": "https://archives.bulbagarden.net/media/upload/c/ca/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_112.jpg"
+    },
+    {
+      "id": "pvla-113",
+      "number": "113",
+      "name": "Kecleon",
+      "image": "https://archives.bulbagarden.net/media/upload/7/77/Pok%C3%A9mon_Advanced_Vertical_Lamincards_113.jpg",
+      "subject": "Kecleon",
+      "back": "https://archives.bulbagarden.net/media/upload/6/6b/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_113.jpg"
+    },
+    {
+      "id": "pvla-114",
+      "number": "114",
+      "name": "Shuppet",
+      "image": "https://archives.bulbagarden.net/media/upload/4/44/Pok%C3%A9mon_Advanced_Vertical_Lamincards_114.jpg",
+      "subject": "Shuppet",
+      "back": "https://archives.bulbagarden.net/media/upload/b/b9/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_114.jpg"
+    },
+    {
+      "id": "pvla-115",
+      "number": "115",
+      "name": "Banette",
+      "image": "https://archives.bulbagarden.net/media/upload/e/ef/Pok%C3%A9mon_Advanced_Vertical_Lamincards_115.jpg",
+      "subject": "Banette",
+      "back": "https://archives.bulbagarden.net/media/upload/e/e7/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_115.jpg"
+    },
+    {
+      "id": "pvla-116",
+      "number": "116",
+      "name": "Duskull",
+      "image": "https://archives.bulbagarden.net/media/upload/b/b2/Pok%C3%A9mon_Advanced_Vertical_Lamincards_116.jpg",
+      "subject": "Duskull",
+      "back": "https://archives.bulbagarden.net/media/upload/e/ed/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_116.jpg"
+    },
+    {
+      "id": "pvla-117",
+      "number": "117",
+      "name": "Dusclops",
+      "image": "https://archives.bulbagarden.net/media/upload/b/bd/Pok%C3%A9mon_Advanced_Vertical_Lamincards_117.jpg",
+      "subject": "Dusclops",
+      "back": "https://archives.bulbagarden.net/media/upload/f/fd/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_117.jpg"
+    },
+    {
+      "id": "pvla-118",
+      "number": "118",
+      "name": "Tropius",
+      "image": "https://archives.bulbagarden.net/media/upload/8/88/Pok%C3%A9mon_Advanced_Vertical_Lamincards_118.jpg",
+      "subject": "Tropius",
+      "back": "https://archives.bulbagarden.net/media/upload/1/11/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_118.jpg"
+    },
+    {
+      "id": "pvla-119",
+      "number": "119",
+      "name": "Chimecho",
+      "image": "https://archives.bulbagarden.net/media/upload/e/e3/Pok%C3%A9mon_Advanced_Vertical_Lamincards_119.jpg",
+      "subject": "Chimecho",
+      "back": "https://archives.bulbagarden.net/media/upload/6/67/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_119.jpg"
+    },
+    {
+      "id": "pvla-120",
+      "number": "120",
+      "name": "Absol",
+      "image": "https://archives.bulbagarden.net/media/upload/0/03/Pok%C3%A9mon_Advanced_Vertical_Lamincards_120.jpg",
+      "subject": "Absol",
+      "back": "https://archives.bulbagarden.net/media/upload/5/5a/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_120.jpg"
+    },
+    {
+      "id": "pvla-121",
+      "number": "121",
+      "name": "Pichu",
+      "image": "https://archives.bulbagarden.net/media/upload/b/b2/Pok%C3%A9mon_Advanced_Vertical_Lamincards_121.jpg",
+      "subject": "Pichu",
+      "back": "https://archives.bulbagarden.net/media/upload/5/52/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_121.jpg"
+    },
+    {
+      "id": "pvla-122",
+      "number": "122",
+      "name": "Pikachu",
+      "image": "https://archives.bulbagarden.net/media/upload/e/e2/Pok%C3%A9mon_Advanced_Vertical_Lamincards_122.jpg",
+      "subject": "Pikachu",
+      "back": "https://archives.bulbagarden.net/media/upload/3/30/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_122.jpg"
+    },
+    {
+      "id": "pvla-123",
+      "number": "123",
+      "name": "Raichu",
+      "image": "https://archives.bulbagarden.net/media/upload/f/ff/Pok%C3%A9mon_Advanced_Vertical_Lamincards_123.jpg",
+      "subject": "Raichu",
+      "back": "https://archives.bulbagarden.net/media/upload/8/84/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_123.jpg"
+    },
+    {
+      "id": "pvla-124",
+      "number": "124",
+      "name": "Wynaut",
+      "image": "https://archives.bulbagarden.net/media/upload/5/5a/Pok%C3%A9mon_Advanced_Vertical_Lamincards_124.jpg",
+      "subject": "Wynaut",
+      "back": "https://archives.bulbagarden.net/media/upload/e/e9/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_124.jpg"
+    },
+    {
+      "id": "pvla-125",
+      "number": "125",
+      "name": "Snorunt",
+      "image": "https://archives.bulbagarden.net/media/upload/e/eb/Pok%C3%A9mon_Advanced_Vertical_Lamincards_125.jpg",
+      "subject": "Snorunt",
+      "back": "https://archives.bulbagarden.net/media/upload/b/b8/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_125.jpg"
+    },
+    {
+      "id": "pvla-126",
+      "number": "126",
+      "name": "Glalie",
+      "image": "https://archives.bulbagarden.net/media/upload/f/f3/Pok%C3%A9mon_Advanced_Vertical_Lamincards_126.jpg",
+      "subject": "Glalie",
+      "back": "https://archives.bulbagarden.net/media/upload/b/ba/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_126.jpg"
+    },
+    {
+      "id": "pvla-127",
+      "number": "127",
+      "name": "Spheal",
+      "image": "https://archives.bulbagarden.net/media/upload/7/78/Pok%C3%A9mon_Advanced_Vertical_Lamincards_127.jpg",
+      "subject": "Spheal",
+      "back": "https://archives.bulbagarden.net/media/upload/1/1d/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_127.jpg"
+    },
+    {
+      "id": "pvla-128",
+      "number": "128",
+      "name": "Sealeo",
+      "image": "https://archives.bulbagarden.net/media/upload/e/ed/Pok%C3%A9mon_Advanced_Vertical_Lamincards_128.jpg",
+      "subject": "Sealeo",
+      "back": "https://archives.bulbagarden.net/media/upload/4/4a/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_128.jpg"
+    },
+    {
+      "id": "pvla-129",
+      "number": "129",
+      "name": "Walrein",
+      "image": "https://archives.bulbagarden.net/media/upload/1/19/Pok%C3%A9mon_Advanced_Vertical_Lamincards_129.jpg",
+      "subject": "Walrein",
+      "back": "https://archives.bulbagarden.net/media/upload/7/7e/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_129.jpg"
+    },
+    {
+      "id": "pvla-130",
+      "number": "130",
+      "name": "Clamperl",
+      "image": "https://archives.bulbagarden.net/media/upload/b/b1/Pok%C3%A9mon_Advanced_Vertical_Lamincards_130.jpg",
+      "subject": "Clamperl",
+      "back": "https://archives.bulbagarden.net/media/upload/3/30/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_130.jpg"
+    },
+    {
+      "id": "pvla-131",
+      "number": "131",
+      "name": "Huntail",
+      "image": "https://archives.bulbagarden.net/media/upload/8/8f/Pok%C3%A9mon_Advanced_Vertical_Lamincards_131.jpg",
+      "subject": "Huntail",
+      "back": "https://archives.bulbagarden.net/media/upload/0/03/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_131.jpg"
+    },
+    {
+      "id": "pvla-132",
+      "number": "132",
+      "name": "Gorebyss",
+      "image": "https://archives.bulbagarden.net/media/upload/d/dc/Pok%C3%A9mon_Advanced_Vertical_Lamincards_132.jpg",
+      "subject": "Gorebyss",
+      "back": "https://archives.bulbagarden.net/media/upload/d/d7/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_132.jpg"
+    },
+    {
+      "id": "pvla-133",
+      "number": "133",
+      "name": "Relicanth",
+      "image": "https://archives.bulbagarden.net/media/upload/e/ee/Pok%C3%A9mon_Advanced_Vertical_Lamincards_133.jpg",
+      "subject": "Relicanth",
+      "back": "https://archives.bulbagarden.net/media/upload/1/1f/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_133.jpg"
+    },
+    {
+      "id": "pvla-134",
+      "number": "134",
+      "name": "Luvdisc",
+      "image": "https://archives.bulbagarden.net/media/upload/1/1b/Pok%C3%A9mon_Advanced_Vertical_Lamincards_134.jpg",
+      "subject": "Luvdisc",
+      "back": "https://archives.bulbagarden.net/media/upload/d/df/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_134.jpg"
+    },
+    {
+      "id": "pvla-135",
+      "number": "135",
+      "name": "Bagon",
+      "image": "https://archives.bulbagarden.net/media/upload/f/f4/Pok%C3%A9mon_Advanced_Vertical_Lamincards_135.jpg",
+      "subject": "Bagon",
+      "back": "https://archives.bulbagarden.net/media/upload/d/d7/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_135.jpg"
+    },
+    {
+      "id": "pvla-136",
+      "number": "136",
+      "name": "Shelgon",
+      "image": "https://archives.bulbagarden.net/media/upload/2/26/Pok%C3%A9mon_Advanced_Vertical_Lamincards_136.jpg",
+      "subject": "Shelgon",
+      "back": "https://archives.bulbagarden.net/media/upload/f/f6/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_136.jpg"
+    },
+    {
+      "id": "pvla-137",
+      "number": "137",
+      "name": "Salamence",
+      "image": "https://archives.bulbagarden.net/media/upload/d/db/Pok%C3%A9mon_Advanced_Vertical_Lamincards_137.jpg",
+      "subject": "Salamence",
+      "back": "https://archives.bulbagarden.net/media/upload/6/67/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_137.jpg"
+    },
+    {
+      "id": "pvla-138",
+      "number": "138",
+      "name": "Beldum",
+      "image": "https://archives.bulbagarden.net/media/upload/2/27/Pok%C3%A9mon_Advanced_Vertical_Lamincards_138.jpg",
+      "subject": "Beldum",
+      "back": "https://archives.bulbagarden.net/media/upload/6/6b/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_138.jpg"
+    },
+    {
+      "id": "pvla-139",
+      "number": "139",
+      "name": "Metang",
+      "image": "https://archives.bulbagarden.net/media/upload/8/8a/Pok%C3%A9mon_Advanced_Vertical_Lamincards_139.jpg",
+      "subject": "Metang",
+      "back": "https://archives.bulbagarden.net/media/upload/3/39/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_139.jpg"
+    },
+    {
+      "id": "pvla-140",
+      "number": "140",
+      "name": "Metagross",
+      "image": "https://archives.bulbagarden.net/media/upload/7/77/Pok%C3%A9mon_Advanced_Vertical_Lamincards_140.jpg",
+      "subject": "Metagross",
+      "back": "https://archives.bulbagarden.net/media/upload/6/65/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_140.jpg"
+    },
+    {
+      "id": "pvla-141",
+      "number": "141",
+      "name": "Regirock",
+      "image": "https://archives.bulbagarden.net/media/upload/5/53/Pok%C3%A9mon_Advanced_Vertical_Lamincards_141.jpg",
+      "subject": "Regirock",
+      "back": "https://archives.bulbagarden.net/media/upload/a/a1/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_141.jpg"
+    },
+    {
+      "id": "pvla-142",
+      "number": "142",
+      "name": "Regice",
+      "image": "https://archives.bulbagarden.net/media/upload/b/bc/Pok%C3%A9mon_Advanced_Vertical_Lamincards_142.jpg",
+      "subject": "Regice",
+      "back": "https://archives.bulbagarden.net/media/upload/b/bd/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_142.jpg"
+    },
+    {
+      "id": "pvla-143",
+      "number": "143",
+      "name": "Registeel",
+      "image": "https://archives.bulbagarden.net/media/upload/f/ff/Pok%C3%A9mon_Advanced_Vertical_Lamincards_143.jpg",
+      "subject": "Registeel",
+      "back": "https://archives.bulbagarden.net/media/upload/c/cd/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_143.jpg"
+    },
+    {
+      "id": "pvla-144",
+      "number": "144",
+      "name": "Latias",
+      "image": "https://archives.bulbagarden.net/media/upload/3/30/Pok%C3%A9mon_Advanced_Vertical_Lamincards_144.jpg",
+      "subject": "Latias",
+      "back": "https://archives.bulbagarden.net/media/upload/a/a7/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_144.jpg"
+    },
+    {
+      "id": "pvla-145",
+      "number": "145",
+      "name": "Latios",
+      "image": "https://archives.bulbagarden.net/media/upload/f/f6/Pok%C3%A9mon_Advanced_Vertical_Lamincards_145.jpg",
+      "subject": "Latios",
+      "back": "https://archives.bulbagarden.net/media/upload/b/b3/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_145.jpg"
+    },
+    {
+      "id": "pvla-146",
+      "number": "146",
+      "name": "Kyogre",
+      "image": "https://archives.bulbagarden.net/media/upload/6/69/Pok%C3%A9mon_Advanced_Vertical_Lamincards_146.jpg",
+      "subject": "Kyogre",
+      "back": "https://archives.bulbagarden.net/media/upload/e/e1/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_146.jpg"
+    },
+    {
+      "id": "pvla-147",
+      "number": "147",
+      "name": "Groudon",
+      "image": "https://archives.bulbagarden.net/media/upload/b/b8/Pok%C3%A9mon_Advanced_Vertical_Lamincards_147.jpg",
+      "subject": "Groudon",
+      "back": "https://archives.bulbagarden.net/media/upload/2/26/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_147.jpg"
+    },
+    {
+      "id": "pvla-148",
+      "number": "148",
+      "name": "Rayquaza",
+      "image": "https://archives.bulbagarden.net/media/upload/5/5b/Pok%C3%A9mon_Advanced_Vertical_Lamincards_148.jpg",
+      "subject": "Rayquaza",
+      "back": "https://archives.bulbagarden.net/media/upload/8/88/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_148.jpg"
+    },
+    {
+      "id": "pvla-149",
+      "number": "149",
+      "name": "Meowth",
+      "image": "https://archives.bulbagarden.net/media/upload/9/90/Pok%C3%A9mon_Advanced_Vertical_Lamincards_149.jpg",
+      "subject": "Meowth",
+      "back": "https://archives.bulbagarden.net/media/upload/8/80/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_149.jpg"
+    },
+    {
+      "id": "pvla-150",
+      "number": "150",
+      "name": "Pokédex",
+      "image": "https://archives.bulbagarden.net/media/upload/7/79/Pok%C3%A9mon_Advanced_Vertical_Lamincards_150.jpg",
+      "subject": "Pokédex",
+      "back": "https://archives.bulbagarden.net/media/upload/c/ce/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_150.jpg"
     }
   ]
 }
