@@ -126,7 +126,10 @@ export default function App() {
       <View style={styles.cardsGrid}>
         {pokemonVerticalAdvanced.cards.map((card) => (
           <TouchableOpacity key={card.id} style={styles.cardTile} onPress={() => openCard(card.id)}>
-            <Image source={{ uri: card.image }} style={styles.cardTileImage} resizeMode="cover" />
+            <View style={styles.cardTileImageWrap}>
+              <Image source={{ uri: card.image }} style={styles.cardTileImage} resizeMode="cover" />
+              <View style={styles.cardTileBackBadge}><Text style={styles.cardTileBackBadgeText}>FRONT</Text></View>
+            </View>
             <Text style={styles.cardTileNumber}>#{card.number}</Text>
             <Text style={styles.cardTileName}>{card.name}</Text>
           </TouchableOpacity>
@@ -217,7 +220,10 @@ const styles = StyleSheet.create({
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
   cardTile: { width: '20.5%', backgroundColor: '#0F172A', borderRadius: 14, padding: 5, borderWidth: 1, borderColor: '#1E293B' },
+  cardTileImageWrap: { position: 'relative' },
   cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
+  cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
+  cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
   cardTileNumber: { color: '#60A5FA', fontSize: 9, fontWeight: '900', marginTop: 5 },
   cardTileName: { color: '#F8FAFC', fontSize: 10, fontWeight: '700', marginTop: 3 },
   cardShell: { gap: 14 },
