@@ -2,109 +2,809 @@
   "setId": "pokemon-vertical-lamincards-advanced",
   "title": "Pokémon Vertical Lamincards Advanced",
   "source": "Bulbapedia",
-  "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Vertical_Lamincards_Advanced",
+  "sourceUrl": "https://m.bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Vertical_Lamincards_Advanced",
   "total": 100,
-  "notes": "Prima base archiviata in app per LaminCollect. Lista iniziale 1-100 con immagini per avviare l'archivio della collezione.",
+  "notes": "Prima base archiviata in app per LaminCollect. Lista 1-100 con immagini fronte/retro dalla fonte mobile Bulbapedia/Archives.",
   "cards": [
-    { "id": "pvla-1", "number": "1", "name": "Aggron", "image": "https://images.pokemontcg.io/ex1/1.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-2", "number": "2", "name": "Beautifly", "image": "https://images.pokemontcg.io/ex1/2.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-3", "number": "3", "name": "Blaziken", "image": "https://images.pokemontcg.io/ex1/3.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-4", "number": "4", "name": "Camerupt", "image": "https://images.pokemontcg.io/ex1/4.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-5", "number": "5", "name": "Delcatty", "image": "https://images.pokemontcg.io/ex1/5.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-6", "number": "6", "name": "Dustox", "image": "https://images.pokemontcg.io/ex1/6.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-7", "number": "7", "name": "Gardevoir", "image": "https://images.pokemontcg.io/ex1/7.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-8", "number": "8", "name": "Hariyama", "image": "https://images.pokemontcg.io/ex1/8.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-9", "number": "9", "name": "Manectric", "image": "https://images.pokemontcg.io/ex1/9.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-10", "number": "10", "name": "Mightyena", "image": "https://images.pokemontcg.io/ex1/10.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-11", "number": "11", "name": "Sceptile", "image": "https://images.pokemontcg.io/ex1/11.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-12", "number": "12", "name": "Slaking", "image": "https://images.pokemontcg.io/ex1/12.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-13", "number": "13", "name": "Swampert", "image": "https://images.pokemontcg.io/ex1/13.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-14", "number": "14", "name": "Wailord", "image": "https://images.pokemontcg.io/ex1/14.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-15", "number": "15", "name": "Blaziken", "image": "https://images.pokemontcg.io/ex1/15.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-16", "number": "16", "name": "Breloom", "image": "https://images.pokemontcg.io/ex1/16.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-17", "number": "17", "name": "Donphan", "image": "https://images.pokemontcg.io/ex1/17.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-18", "number": "18", "name": "Nosepass", "image": "https://images.pokemontcg.io/ex1/18.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-19", "number": "19", "name": "Pelipper", "image": "https://images.pokemontcg.io/ex1/19.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-20", "number": "20", "name": "Sceptile", "image": "https://images.pokemontcg.io/ex1/20.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-21", "number": "21", "name": "Seaking", "image": "https://images.pokemontcg.io/ex1/21.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-22", "number": "22", "name": "Sharpedo", "image": "https://images.pokemontcg.io/ex1/22.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-23", "number": "23", "name": "Swampert", "image": "https://images.pokemontcg.io/ex1/23.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-24", "number": "24", "name": "Weezing", "image": "https://images.pokemontcg.io/ex1/24.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-25", "number": "25", "name": "Aron", "image": "https://images.pokemontcg.io/ex1/25.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-26", "number": "26", "name": "Cascoon", "image": "https://images.pokemontcg.io/ex1/26.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-27", "number": "27", "name": "Combusken", "image": "https://images.pokemontcg.io/ex1/27.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-28", "number": "28", "name": "Combusken", "image": "https://images.pokemontcg.io/ex1/28.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-29", "number": "29", "name": "Delcatty", "image": "https://images.pokemontcg.io/ex1/29.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-30", "number": "30", "name": "Electrike", "image": "https://images.pokemontcg.io/ex1/30.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-31", "number": "31", "name": "Grovyle", "image": "https://images.pokemontcg.io/ex1/31.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-32", "number": "32", "name": "Grovyle", "image": "https://images.pokemontcg.io/ex1/32.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-33", "number": "33", "name": "Hariyama", "image": "https://images.pokemontcg.io/ex1/33.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-34", "number": "34", "name": "Kirlia", "image": "https://images.pokemontcg.io/ex1/34.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-35", "number": "35", "name": "Kirlia", "image": "https://images.pokemontcg.io/ex1/35.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-36", "number": "36", "name": "Lairon", "image": "https://images.pokemontcg.io/ex1/36.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-37", "number": "37", "name": "Lairon", "image": "https://images.pokemontcg.io/ex1/37.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-38", "number": "38", "name": "Linoone", "image": "https://images.pokemontcg.io/ex1/38.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-39", "number": "39", "name": "Manectric", "image": "https://images.pokemontcg.io/ex1/39.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-40", "number": "40", "name": "Marshtomp", "image": "https://images.pokemontcg.io/ex1/40.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-41", "number": "41", "name": "Marshtomp", "image": "https://images.pokemontcg.io/ex1/41.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-42", "number": "42", "name": "Mightyena", "image": "https://images.pokemontcg.io/ex1/42.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-43", "number": "43", "name": "Silcoon", "image": "https://images.pokemontcg.io/ex1/43.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-44", "number": "44", "name": "Skitty", "image": "https://images.pokemontcg.io/ex1/44.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-45", "number": "45", "name": "Slakoth", "image": "https://images.pokemontcg.io/ex1/45.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-46", "number": "46", "name": "Swellow", "image": "https://images.pokemontcg.io/ex1/46.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-47", "number": "47", "name": "Vigoroth", "image": "https://images.pokemontcg.io/ex1/47.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-48", "number": "48", "name": "Wailmer", "image": "https://images.pokemontcg.io/ex1/48.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-49", "number": "49", "name": "Aron", "image": "https://images.pokemontcg.io/ex1/49.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-50", "number": "50", "name": "Aron", "image": "https://images.pokemontcg.io/ex1/50.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-51", "number": "51", "name": "Carvanha", "image": "https://images.pokemontcg.io/ex1/51.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-52", "number": "52", "name": "Electrike", "image": "https://images.pokemontcg.io/ex1/52.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-53", "number": "53", "name": "Electrike", "image": "https://images.pokemontcg.io/ex1/53.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-54", "number": "54", "name": "Koffing", "image": "https://images.pokemontcg.io/ex1/54.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-55", "number": "55", "name": "Goldeen", "image": "https://images.pokemontcg.io/ex1/55.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-56", "number": "56", "name": "Makuhita", "image": "https://images.pokemontcg.io/ex1/56.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-57", "number": "57", "name": "Makuhita", "image": "https://images.pokemontcg.io/ex1/57.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-58", "number": "58", "name": "Makuhita", "image": "https://images.pokemontcg.io/ex1/58.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-59", "number": "59", "name": "Mudkip", "image": "https://images.pokemontcg.io/ex1/59.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-60", "number": "60", "name": "Mudkip", "image": "https://images.pokemontcg.io/ex1/60.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-61", "number": "61", "name": "Numel", "image": "https://images.pokemontcg.io/ex1/61.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-62", "number": "62", "name": "Phanpy", "image": "https://images.pokemontcg.io/ex1/62.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-63", "number": "63", "name": "Poochyena", "image": "https://images.pokemontcg.io/ex1/63.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-64", "number": "64", "name": "Poochyena", "image": "https://images.pokemontcg.io/ex1/64.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-65", "number": "65", "name": "Poochyena", "image": "https://images.pokemontcg.io/ex1/65.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-66", "number": "66", "name": "Ralts", "image": "https://images.pokemontcg.io/ex1/66.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-67", "number": "67", "name": "Ralts", "image": "https://images.pokemontcg.io/ex1/67.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-68", "number": "68", "name": "Ralts", "image": "https://images.pokemontcg.io/ex1/68.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-69", "number": "69", "name": "Shroomish", "image": "https://images.pokemontcg.io/ex1/69.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-70", "number": "70", "name": "Skitty", "image": "https://images.pokemontcg.io/ex1/70.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-71", "number": "71", "name": "Skitty", "image": "https://images.pokemontcg.io/ex1/71.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-72", "number": "72", "name": "Taillow", "image": "https://images.pokemontcg.io/ex1/72.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-73", "number": "73", "name": "Torchic", "image": "https://images.pokemontcg.io/ex1/73.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-74", "number": "74", "name": "Torchic", "image": "https://images.pokemontcg.io/ex1/74.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-75", "number": "75", "name": "Treecko", "image": "https://images.pokemontcg.io/ex1/75.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-76", "number": "76", "name": "Treecko", "image": "https://images.pokemontcg.io/ex1/76.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-77", "number": "77", "name": "Wingull", "image": "https://images.pokemontcg.io/ex1/77.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-78", "number": "78", "name": "Wurmple", "image": "https://images.pokemontcg.io/ex1/78.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-79", "number": "79", "name": "Zigzagoon", "image": "https://images.pokemontcg.io/ex1/79.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-80", "number": "80", "name": "Energy Removal 2", "image": "https://images.pokemontcg.io/ex1/80.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-81", "number": "81", "name": "Energy Restore", "image": "https://images.pokemontcg.io/ex1/81.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-82", "number": "82", "name": "Energy Switch", "image": "https://images.pokemontcg.io/ex1/82.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-83", "number": "83", "name": "Lady Outing", "image": "https://images.pokemontcg.io/ex1/83.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-84", "number": "84", "name": "Lum Berry", "image": "https://images.pokemontcg.io/ex1/84.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-85", "number": "85", "name": "Oran Berry", "image": "https://images.pokemontcg.io/ex1/85.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-86", "number": "86", "name": "Poké Ball", "image": "https://images.pokemontcg.io/ex1/86.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-87", "number": "87", "name": "Pokémon Reversal", "image": "https://images.pokemontcg.io/ex1/87.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-88", "number": "88", "name": "PokéNav", "image": "https://images.pokemontcg.io/ex1/88.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-89", "number": "89", "name": "Professor Birch", "image": "https://images.pokemontcg.io/ex1/89.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-90", "number": "90", "name": "Energy Search", "image": "https://images.pokemontcg.io/ex1/90.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-91", "number": "91", "name": "Potion", "image": "https://images.pokemontcg.io/ex1/91.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-92", "number": "92", "name": "Switch", "image": "https://images.pokemontcg.io/ex1/92.png", "subject": "Trainer", "back": "Retro da completare" },
-    { "id": "pvla-93", "number": "93", "name": "Darkness Energy", "image": "https://images.pokemontcg.io/ex1/93.png", "subject": "Energy", "back": "Retro da completare" },
-    { "id": "pvla-94", "number": "94", "name": "Metal Energy", "image": "https://images.pokemontcg.io/ex1/94.png", "subject": "Energy", "back": "Retro da completare" },
-    { "id": "pvla-95", "number": "95", "name": "Rainbow Energy", "image": "https://images.pokemontcg.io/ex1/95.png", "subject": "Energy", "back": "Retro da completare" },
-    { "id": "pvla-96", "number": "96", "name": "Chansey ex", "image": "https://images.pokemontcg.io/ex1/96.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-97", "number": "97", "name": "Electabuzz ex", "image": "https://images.pokemontcg.io/ex1/97.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-98", "number": "98", "name": "Hitmonchan ex", "image": "https://images.pokemontcg.io/ex1/98.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-99", "number": "99", "name": "Lapras ex", "image": "https://images.pokemontcg.io/ex1/99.png", "subject": "Pokémon", "back": "Retro da completare" },
-    { "id": "pvla-100", "number": "100", "name": "Magmar ex", "image": "https://images.pokemontcg.io/ex1/100.png", "subject": "Pokémon", "back": "Retro da completare" }
+    {
+      "id": "pvla-1",
+      "number": "1",
+      "name": "Aggron",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_1.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_1.jpg"
+    },
+    {
+      "id": "pvla-2",
+      "number": "2",
+      "name": "Beautifly",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_2.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_2.jpg"
+    },
+    {
+      "id": "pvla-3",
+      "number": "3",
+      "name": "Blaziken",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_3.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_3.jpg"
+    },
+    {
+      "id": "pvla-4",
+      "number": "4",
+      "name": "Camerupt",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_4.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_4.jpg"
+    },
+    {
+      "id": "pvla-5",
+      "number": "5",
+      "name": "Delcatty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_5.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_5.jpg"
+    },
+    {
+      "id": "pvla-6",
+      "number": "6",
+      "name": "Dustox",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_6.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_6.jpg"
+    },
+    {
+      "id": "pvla-7",
+      "number": "7",
+      "name": "Gardevoir",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_7.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_7.jpg"
+    },
+    {
+      "id": "pvla-8",
+      "number": "8",
+      "name": "Hariyama",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_8.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_8.jpg"
+    },
+    {
+      "id": "pvla-9",
+      "number": "9",
+      "name": "Manectric",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_9.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_9.jpg"
+    },
+    {
+      "id": "pvla-10",
+      "number": "10",
+      "name": "Mightyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_10.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_10.jpg"
+    },
+    {
+      "id": "pvla-11",
+      "number": "11",
+      "name": "Sceptile",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_11.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_11.jpg"
+    },
+    {
+      "id": "pvla-12",
+      "number": "12",
+      "name": "Slaking",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_12.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_12.jpg"
+    },
+    {
+      "id": "pvla-13",
+      "number": "13",
+      "name": "Swampert",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_13.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_13.jpg"
+    },
+    {
+      "id": "pvla-14",
+      "number": "14",
+      "name": "Wailord",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_14.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_14.jpg"
+    },
+    {
+      "id": "pvla-15",
+      "number": "15",
+      "name": "Blaziken",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_15.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_15.jpg"
+    },
+    {
+      "id": "pvla-16",
+      "number": "16",
+      "name": "Breloom",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_16.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_16.jpg"
+    },
+    {
+      "id": "pvla-17",
+      "number": "17",
+      "name": "Donphan",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_17.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_17.jpg"
+    },
+    {
+      "id": "pvla-18",
+      "number": "18",
+      "name": "Nosepass",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_18.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_18.jpg"
+    },
+    {
+      "id": "pvla-19",
+      "number": "19",
+      "name": "Pelipper",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_19.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_19.jpg"
+    },
+    {
+      "id": "pvla-20",
+      "number": "20",
+      "name": "Sceptile",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_20.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_20.jpg"
+    },
+    {
+      "id": "pvla-21",
+      "number": "21",
+      "name": "Seaking",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_21.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_21.jpg"
+    },
+    {
+      "id": "pvla-22",
+      "number": "22",
+      "name": "Sharpedo",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_22.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_22.jpg"
+    },
+    {
+      "id": "pvla-23",
+      "number": "23",
+      "name": "Swampert",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_23.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_23.jpg"
+    },
+    {
+      "id": "pvla-24",
+      "number": "24",
+      "name": "Weezing",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_24.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_24.jpg"
+    },
+    {
+      "id": "pvla-25",
+      "number": "25",
+      "name": "Aron",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_25.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_25.jpg"
+    },
+    {
+      "id": "pvla-26",
+      "number": "26",
+      "name": "Cascoon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_26.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_26.jpg"
+    },
+    {
+      "id": "pvla-27",
+      "number": "27",
+      "name": "Combusken",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_27.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_27.jpg"
+    },
+    {
+      "id": "pvla-28",
+      "number": "28",
+      "name": "Combusken",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_28.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_28.jpg"
+    },
+    {
+      "id": "pvla-29",
+      "number": "29",
+      "name": "Delcatty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_29.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_29.jpg"
+    },
+    {
+      "id": "pvla-30",
+      "number": "30",
+      "name": "Electrike",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_30.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_30.jpg"
+    },
+    {
+      "id": "pvla-31",
+      "number": "31",
+      "name": "Grovyle",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_31.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_31.jpg"
+    },
+    {
+      "id": "pvla-32",
+      "number": "32",
+      "name": "Grovyle",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_32.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_32.jpg"
+    },
+    {
+      "id": "pvla-33",
+      "number": "33",
+      "name": "Hariyama",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_33.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_33.jpg"
+    },
+    {
+      "id": "pvla-34",
+      "number": "34",
+      "name": "Kirlia",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_34.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_34.jpg"
+    },
+    {
+      "id": "pvla-35",
+      "number": "35",
+      "name": "Kirlia",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_35.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_35.jpg"
+    },
+    {
+      "id": "pvla-36",
+      "number": "36",
+      "name": "Lairon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_36.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_36.jpg"
+    },
+    {
+      "id": "pvla-37",
+      "number": "37",
+      "name": "Lairon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_37.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_37.jpg"
+    },
+    {
+      "id": "pvla-38",
+      "number": "38",
+      "name": "Linoone",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_38.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_38.jpg"
+    },
+    {
+      "id": "pvla-39",
+      "number": "39",
+      "name": "Manectric",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_39.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_39.jpg"
+    },
+    {
+      "id": "pvla-40",
+      "number": "40",
+      "name": "Marshtomp",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_40.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_40.jpg"
+    },
+    {
+      "id": "pvla-41",
+      "number": "41",
+      "name": "Marshtomp",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_41.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_41.jpg"
+    },
+    {
+      "id": "pvla-42",
+      "number": "42",
+      "name": "Mightyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_42.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_42.jpg"
+    },
+    {
+      "id": "pvla-43",
+      "number": "43",
+      "name": "Silcoon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_43.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_43.jpg"
+    },
+    {
+      "id": "pvla-44",
+      "number": "44",
+      "name": "Skitty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_44.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_44.jpg"
+    },
+    {
+      "id": "pvla-45",
+      "number": "45",
+      "name": "Slakoth",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_45.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_45.jpg"
+    },
+    {
+      "id": "pvla-46",
+      "number": "46",
+      "name": "Swellow",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_46.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_46.jpg"
+    },
+    {
+      "id": "pvla-47",
+      "number": "47",
+      "name": "Vigoroth",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_47.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_47.jpg"
+    },
+    {
+      "id": "pvla-48",
+      "number": "48",
+      "name": "Wailmer",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_48.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_48.jpg"
+    },
+    {
+      "id": "pvla-49",
+      "number": "49",
+      "name": "Aron",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_49.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_49.jpg"
+    },
+    {
+      "id": "pvla-50",
+      "number": "50",
+      "name": "Aron",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_50.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_50.jpg"
+    },
+    {
+      "id": "pvla-51",
+      "number": "51",
+      "name": "Carvanha",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_51.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_51.jpg"
+    },
+    {
+      "id": "pvla-52",
+      "number": "52",
+      "name": "Electrike",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_52.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_52.jpg"
+    },
+    {
+      "id": "pvla-53",
+      "number": "53",
+      "name": "Electrike",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_53.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_53.jpg"
+    },
+    {
+      "id": "pvla-54",
+      "number": "54",
+      "name": "Koffing",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_54.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_54.jpg"
+    },
+    {
+      "id": "pvla-55",
+      "number": "55",
+      "name": "Goldeen",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_55.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_55.jpg"
+    },
+    {
+      "id": "pvla-56",
+      "number": "56",
+      "name": "Makuhita",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_56.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_56.jpg"
+    },
+    {
+      "id": "pvla-57",
+      "number": "57",
+      "name": "Makuhita",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_57.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_57.jpg"
+    },
+    {
+      "id": "pvla-58",
+      "number": "58",
+      "name": "Makuhita",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_58.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_58.jpg"
+    },
+    {
+      "id": "pvla-59",
+      "number": "59",
+      "name": "Mudkip",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_59.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_59.jpg"
+    },
+    {
+      "id": "pvla-60",
+      "number": "60",
+      "name": "Mudkip",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_60.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_60.jpg"
+    },
+    {
+      "id": "pvla-61",
+      "number": "61",
+      "name": "Numel",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_61.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_61.jpg"
+    },
+    {
+      "id": "pvla-62",
+      "number": "62",
+      "name": "Phanpy",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_62.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_62.jpg"
+    },
+    {
+      "id": "pvla-63",
+      "number": "63",
+      "name": "Poochyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_63.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_63.jpg"
+    },
+    {
+      "id": "pvla-64",
+      "number": "64",
+      "name": "Poochyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_64.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_64.jpg"
+    },
+    {
+      "id": "pvla-65",
+      "number": "65",
+      "name": "Poochyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_65.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_65.jpg"
+    },
+    {
+      "id": "pvla-66",
+      "number": "66",
+      "name": "Ralts",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_66.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_66.jpg"
+    },
+    {
+      "id": "pvla-67",
+      "number": "67",
+      "name": "Ralts",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_67.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_67.jpg"
+    },
+    {
+      "id": "pvla-68",
+      "number": "68",
+      "name": "Ralts",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_68.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_68.jpg"
+    },
+    {
+      "id": "pvla-69",
+      "number": "69",
+      "name": "Shroomish",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_69.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_69.jpg"
+    },
+    {
+      "id": "pvla-70",
+      "number": "70",
+      "name": "Skitty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_70.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_70.jpg"
+    },
+    {
+      "id": "pvla-71",
+      "number": "71",
+      "name": "Skitty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_71.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_71.jpg"
+    },
+    {
+      "id": "pvla-72",
+      "number": "72",
+      "name": "Taillow",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_72.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_72.jpg"
+    },
+    {
+      "id": "pvla-73",
+      "number": "73",
+      "name": "Torchic",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_73.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_73.jpg"
+    },
+    {
+      "id": "pvla-74",
+      "number": "74",
+      "name": "Torchic",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_74.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_74.jpg"
+    },
+    {
+      "id": "pvla-75",
+      "number": "75",
+      "name": "Treecko",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_75.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_75.jpg"
+    },
+    {
+      "id": "pvla-76",
+      "number": "76",
+      "name": "Treecko",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_76.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_76.jpg"
+    },
+    {
+      "id": "pvla-77",
+      "number": "77",
+      "name": "Wingull",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_77.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_77.jpg"
+    },
+    {
+      "id": "pvla-78",
+      "number": "78",
+      "name": "Wurmple",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_78.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_78.jpg"
+    },
+    {
+      "id": "pvla-79",
+      "number": "79",
+      "name": "Zigzagoon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_79.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_79.jpg"
+    },
+    {
+      "id": "pvla-80",
+      "number": "80",
+      "name": "Energy Removal 2",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_80.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_80.jpg"
+    },
+    {
+      "id": "pvla-81",
+      "number": "81",
+      "name": "Energy Restore",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_81.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_81.jpg"
+    },
+    {
+      "id": "pvla-82",
+      "number": "82",
+      "name": "Energy Switch",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_82.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_82.jpg"
+    },
+    {
+      "id": "pvla-83",
+      "number": "83",
+      "name": "Lady Outing",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_83.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_83.jpg"
+    },
+    {
+      "id": "pvla-84",
+      "number": "84",
+      "name": "Lum Berry",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_84.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_84.jpg"
+    },
+    {
+      "id": "pvla-85",
+      "number": "85",
+      "name": "Oran Berry",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_85.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_85.jpg"
+    },
+    {
+      "id": "pvla-86",
+      "number": "86",
+      "name": "Poké Ball",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_86.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_86.jpg"
+    },
+    {
+      "id": "pvla-87",
+      "number": "87",
+      "name": "Pokémon Reversal",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_87.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_87.jpg"
+    },
+    {
+      "id": "pvla-88",
+      "number": "88",
+      "name": "PokéNav",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_88.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_88.jpg"
+    },
+    {
+      "id": "pvla-89",
+      "number": "89",
+      "name": "Professor Birch",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_89.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_89.jpg"
+    },
+    {
+      "id": "pvla-90",
+      "number": "90",
+      "name": "Energy Search",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_90.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_90.jpg"
+    },
+    {
+      "id": "pvla-91",
+      "number": "91",
+      "name": "Potion",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_91.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_91.jpg"
+    },
+    {
+      "id": "pvla-92",
+      "number": "92",
+      "name": "Switch",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_92.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_92.jpg"
+    },
+    {
+      "id": "pvla-93",
+      "number": "93",
+      "name": "Darkness Energy",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_93.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_93.jpg"
+    },
+    {
+      "id": "pvla-94",
+      "number": "94",
+      "name": "Metal Energy",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_94.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_94.jpg"
+    },
+    {
+      "id": "pvla-95",
+      "number": "95",
+      "name": "Rainbow Energy",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_95.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_95.jpg"
+    },
+    {
+      "id": "pvla-96",
+      "number": "96",
+      "name": "Chansey ex",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_96.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_96.jpg"
+    },
+    {
+      "id": "pvla-97",
+      "number": "97",
+      "name": "Electabuzz ex",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_97.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_97.jpg"
+    },
+    {
+      "id": "pvla-98",
+      "number": "98",
+      "name": "Hitmonchan ex",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_98.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_98.jpg"
+    },
+    {
+      "id": "pvla-99",
+      "number": "99",
+      "name": "Lapras ex",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_99.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_99.jpg"
+    },
+    {
+      "id": "pvla-100",
+      "number": "100",
+      "name": "Magmar ex",
+      "image": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_100.jpg",
+      "subject": "Pokémon Vertical Lamincards Advanced",
+      "back": "https://archives.bulbagarden.net/wiki/Special:Redirect/file/Pok%C3%A9mon_Advanced_Vertical_Lamincards_back_100.jpg"
+    }
   ]
 }

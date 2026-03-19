@@ -143,7 +143,10 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Scheda carta</Text>
       <View style={styles.cardShell}>
-        <Image source={{ uri: activeCard.image }} style={styles.cardImage} resizeMode="cover" />
+        <View style={styles.cardDualImages}>
+          <Image source={{ uri: activeCard.image }} style={styles.cardHalfImage} resizeMode="cover" />
+          <Image source={{ uri: activeCard.back }} style={styles.cardHalfImage} resizeMode="cover" />
+        </View>
         <View style={styles.cardInfoBox}>
           <Text style={styles.cardTitle}>{activeCard.name}</Text>
           <Text style={styles.cardSmall}>#{activeCard.number} · {pokemonVerticalAdvanced.title}</Text>
@@ -151,7 +154,7 @@ export default function App() {
           <View style={styles.infoLine}><Text style={styles.infoLabel}>Nome</Text><Text style={styles.infoValue}>{activeCard.name}</Text></View>
           <View style={styles.infoLine}><Text style={styles.infoLabel}>Numero</Text><Text style={styles.infoValue}>#{activeCard.number}</Text></View>
           <View style={styles.infoLine}><Text style={styles.infoLabel}>Subject</Text><Text style={styles.infoValue}>{activeCard.subject}</Text></View>
-          <View style={styles.infoLine}><Text style={styles.infoLabel}>Retro</Text><Text style={styles.infoValue}>{activeCard.back}</Text></View>
+          <View style={styles.infoLine}><Text style={styles.infoLabel}>Retro</Text><Text style={styles.infoValue}>Immagine retro caricata da Bulbagarden Archives</Text></View>
         </View>
       </View>
     </ScrollView>
@@ -212,13 +215,14 @@ const styles = StyleSheet.create({
   listTitle: { color: '#F8FAFC', fontSize: 20, fontWeight: '900' },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
-  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
-  cardTile: { width: '31%', backgroundColor: '#0F172A', borderRadius: 18, padding: 8, borderWidth: 1, borderColor: '#1E293B' },
+  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  cardTile: { width: '23%', backgroundColor: '#0F172A', borderRadius: 16, padding: 6, borderWidth: 1, borderColor: '#1E293B' },
   cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 12, backgroundColor: '#1E293B' },
-  cardTileNumber: { color: '#60A5FA', fontSize: 11, fontWeight: '900', marginTop: 8 },
-  cardTileName: { color: '#F8FAFC', fontSize: 12, fontWeight: '700', marginTop: 4 },
+  cardTileNumber: { color: '#60A5FA', fontSize: 10, fontWeight: '900', marginTop: 6 },
+  cardTileName: { color: '#F8FAFC', fontSize: 11, fontWeight: '700', marginTop: 4 },
   cardShell: { gap: 14 },
-  cardImage: { width: '100%', height: 320, borderRadius: 24, backgroundColor: '#1E293B' },
+  cardDualImages: { flexDirection: 'row', gap: 10 },
+  cardHalfImage: { flex: 1, height: 300, borderRadius: 20, backgroundColor: '#1E293B' },
   cardInfoBox: { backgroundColor: '#0F172A', borderRadius: 24, padding: 16, borderWidth: 1, borderColor: '#1E293B', gap: 10 },
   cardTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
   cardSmall: { color: '#94A3B8', fontSize: 13, marginBottom: 4 },
