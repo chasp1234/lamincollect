@@ -147,8 +147,14 @@ export default function App() {
       <Text style={styles.sectionTitle}>Scheda carta</Text>
       <View style={styles.cardShell}>
         <View style={styles.cardDualImages}>
-          <Image source={{ uri: activeCard.image }} style={styles.cardHalfImage} resizeMode="cover" />
-          <Image source={{ uri: activeCard.back }} style={styles.cardHalfImage} resizeMode="cover" />
+          <View style={styles.cardFaceBlock}>
+            <Text style={styles.cardFaceLabel}>FRONTE</Text>
+            <Image source={{ uri: activeCard.image }} style={styles.cardHalfImage} resizeMode="cover" />
+          </View>
+          <View style={styles.cardFaceBlock}>
+            <Text style={styles.cardFaceLabel}>RETRO</Text>
+            <Image source={{ uri: activeCard.back }} style={styles.cardHalfImage} resizeMode="cover" />
+          </View>
         </View>
         <View style={styles.cardInfoBox}>
           <Text style={styles.cardTitle}>{activeCard.name}</Text>
@@ -228,6 +234,8 @@ const styles = StyleSheet.create({
   cardTileName: { color: '#F8FAFC', fontSize: 10, fontWeight: '700', marginTop: 3 },
   cardShell: { gap: 14 },
   cardDualImages: { flexDirection: 'row', gap: 10 },
+  cardFaceBlock: { flex: 1, gap: 8 },
+  cardFaceLabel: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1, textAlign: 'center' },
   cardHalfImage: { flex: 1, height: 300, borderRadius: 20, backgroundColor: '#1E293B' },
   cardInfoBox: { backgroundColor: '#0F172A', borderRadius: 24, padding: 16, borderWidth: 1, borderColor: '#1E293B', gap: 10 },
   cardTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
