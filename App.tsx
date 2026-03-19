@@ -143,8 +143,8 @@ export default function App() {
 
       <View style={styles.cardsGrid}>
         {pokemonVerticalAdvanced.cards.map((card) => {
-          const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0 };
-          const tileFilter = { filter: `saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+          const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
+          const tileFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
           const tileOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, gridMode === 3 ? styles.cardTileThree : styles.cardTileFive]} onPress={() => openCard(card.id)}>
@@ -163,8 +163,8 @@ export default function App() {
   );
 
   const renderCard = () => {
-    const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0 };
-    const detailFilter = { filter: `saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+    const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
+    const detailFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
     const detailOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
     return (
     <ScrollView contentContainerStyle={styles.content}>
