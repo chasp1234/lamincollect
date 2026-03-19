@@ -137,7 +137,8 @@ export default function App() {
         {pokemonVerticalAdvanced.cards.map((card) => (
           <TouchableOpacity key={card.id} style={[styles.cardTile, gridMode === 3 ? styles.cardTileThree : styles.cardTileFive]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
-              <Image source={{ uri: card.image }} style={styles.cardTileImage} resizeMode="cover" />
+              <Image source={{ uri: card.image }} style={styles.cardTileImage as any} resizeMode="cover" />
+               <View style={styles.cardImageToneOverlay} pointerEvents="none" />
               <View style={styles.cardTileBackBadge}><Text style={styles.cardTileBackBadgeText}>FRONT</Text></View>
             </View>
             <Text style={styles.cardTileNumber}>#{card.number}</Text>
@@ -159,11 +160,13 @@ export default function App() {
         <View style={styles.cardDualImages}>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>FRONTE</Text>
-            <Image source={{ uri: activeCard.image }} style={styles.cardHalfImage} resizeMode="contain" />
+            <Image source={{ uri: activeCard.image }} style={styles.cardHalfImage as any} resizeMode="contain" />
+            <View style={styles.cardImageToneOverlayLarge} pointerEvents="none" />
           </View>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>RETRO</Text>
-            <Image source={{ uri: activeCard.back }} style={styles.cardHalfImage} resizeMode="contain" />
+            <Image source={{ uri: activeCard.back }} style={styles.cardHalfImage as any} resizeMode="contain" />
+            <View style={styles.cardImageToneOverlayLarge} pointerEvents="none" />
           </View>
         </View>
         <View style={styles.cardInfoBox}>
@@ -245,16 +248,18 @@ const styles = StyleSheet.create({
   cardTileThree: { width: '31%' },
   cardTileFive: { width: '18.4%' },
   cardTileImageWrap: { position: 'relative' },
-  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
+  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B', filter: 'saturate(1.14) contrast(1.06) brightness(1.03)' as any },
+  cardImageToneOverlay: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: 'rgba(96, 165, 250, 0.045)' },
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
   cardTileNumber: { color: '#60A5FA', fontSize: 9, fontWeight: '900', marginTop: 5 },
   cardTileName: { color: '#F8FAFC', fontSize: 10, fontWeight: '700', marginTop: 3 },
   cardShell: { gap: 14 },
   cardDualImages: { flexDirection: 'row', gap: 10 },
-  cardFaceBlock: { flex: 1, gap: 8 },
+  cardFaceBlock: { flex: 1, gap: 8, position: 'relative' },
   cardFaceLabel: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1, textAlign: 'center' },
-  cardHalfImage: { flex: 1, height: 360, borderRadius: 20, backgroundColor: '#1E293B' },
+  cardHalfImage: { flex: 1, height: 360, borderRadius: 20, backgroundColor: '#1E293B', filter: 'saturate(1.16) contrast(1.07) brightness(1.04)' as any },
+  cardImageToneOverlayLarge: { position: 'absolute', inset: 0, borderRadius: 20, backgroundColor: 'rgba(96, 165, 250, 0.04)' },
   cardInfoBox: { backgroundColor: '#0F172A', borderRadius: 24, padding: 16, borderWidth: 1, borderColor: '#1E293B', gap: 10 },
   cardTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
   cardSmall: { color: '#94A3B8', fontSize: 13, marginBottom: 4 },
