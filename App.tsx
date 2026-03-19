@@ -3,17 +3,20 @@ import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, Touchable
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
-import pokemonAdvanceEx1 from './src/data/pokemon-advance-ex1.json';
+import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-advanced.json';
 
-type Screen = 'home' | 'collections' | 'card';
+type Screen = 'home' | 'collections' | 'cards' | 'card';
 type UniverseId = keyof typeof universeCollections;
+type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'mixed-weird';
 
 const defaultUniverseId: UniverseId = 'pokemon';
-const selectedCard = pokemonAdvanceEx1.cards[0];
+const defaultCollectionId: CollectionId = 'pokemon-vertical';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
   const [selectedUniverse, setSelectedUniverse] = useState<UniverseId>(defaultUniverseId);
+  const [selectedCollection, setSelectedCollection] = useState<CollectionId>(defaultCollectionId);
+  const [selectedCardId, setSelectedCardId] = useState<string>(pokemonVerticalAdvanced.cards[0].id);
 
   const activeUniverse = useMemo(
     () => universes.find((universe) => universe.id === selectedUniverse) ?? universes[0],
@@ -22,9 +25,24 @@ export default function App() {
 
   const activeCollections = universeCollections[selectedUniverse] ?? [];
 
+  const activeCard = useMemo(
+    () => pokemonVerticalAdvanced.cards.find((card) => card.id === selectedCardId) ?? pokemonVerticalAdvanced.cards[0],
+    [selectedCardId],
+  );
+
   const openUniverse = (universeId: UniverseId) => {
     setSelectedUniverse(universeId);
     setScreen('collections');
+  };
+
+  const openCollection = (collectionId: CollectionId) => {
+    setSelectedCollection(collectionId);
+    setScreen('cards');
+  };
+
+  const openCard = (cardId: string) => {
+    setSelectedCardId(cardId);
+    setScreen('card');
   };
 
   const renderHome = () => (
@@ -33,7 +51,7 @@ export default function App() {
         <Text style={styles.heroEyebrow}>LAMINCOLLECT</Text>
         <Text style={styles.heroTitle}>Apri un cartone. Vedi subito le sue collezioni.</Text>
         <Text style={styles.heroText}>
-          Zero casino. Zero mille scomparti. Tocchi il mondo che ti interessa e scendi dentro alle raccolte vere.
+          Zero casino. Tocchi Pokémon, entri nella collezione e ti scorri le carte come un archivio vero.
         </Text>
       </View>
 
@@ -42,7 +60,7 @@ export default function App() {
           <Text style={styles.rankMini}>RANK</Text>
           <Text style={styles.rankMain}>{appLevels[4]}</Text>
         </View>
-        <Text style={styles.rankMeta}>Pokémon first. Promo later. Archivio pulito.</Text>
+        <Text style={styles.rankMeta}>Prima collezione reale: Pokémon Vertical Lamincards Advanced.</Text>
       </View>
 
       <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
@@ -78,7 +96,7 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Collezioni</Text>
       {activeCollections.map((collection) => (
-        <TouchableOpacity key={collection.id} style={styles.collectionCard} onPress={() => setScreen('card')}>
+        <TouchableOpacity key={collection.id} style={styles.collectionCard} onPress={() => openCollection(collection.id as CollectionId)}>
           <View style={[styles.collectionAccent, { backgroundColor: collection.accent }]} />
           <View style={{ flex: 1 }}>
             <View style={styles.collectionTopRow}>
@@ -86,48 +104,54 @@ export default function App() {
               <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{collection.pill}</Text></View>
             </View>
             <Text style={styles.collectionSubtitle}>{collection.subtitle}</Text>
-            <Text style={styles.collectionMeta}>{collection.total} carte archiviate / placeholder</Text>
+            <Text style={styles.collectionMeta}>{collection.total} carte archiviate</Text>
           </View>
         </TouchableOpacity>
       ))}
-
-      {selectedUniverse === 'pokemon' && (
-        <View style={styles.realDataCard}>
-          <Text style={styles.realDataTitle}>Prima base dati reale</Text>
-          <Text style={styles.realDataText}>
-            Pokémon Advance / EX Ruby & Sapphire è già agganciato come base reale per nome, numero e immagini. La lista Bulbapedia verticale precisa la innesto appena mi passi la pagina giusta.
-          </Text>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.cardRail}>
-            {pokemonAdvanceEx1.cards.slice(0, 6).map((card: any) => (
-              <TouchableOpacity key={card.id} style={styles.cardMini} onPress={() => setScreen('card')}>
-                <Image source={{ uri: card.image }} style={styles.cardMiniImage} resizeMode="cover" />
-                <Text style={styles.cardMiniText}>#{card.number} {card.name}</Text>
-              </TouchableOpacity>
-            ))}
-          </ScrollView>
-        </View>
-      )}
     </ScrollView>
   );
 
-  const renderCard = () => (
+  const renderCards = () => (
     <ScrollView contentContainerStyle={styles.content}>
       <TouchableOpacity style={styles.backButton} onPress={() => setScreen('collections')}>
         <Text style={styles.backButtonText}>← Torna alle collezioni</Text>
       </TouchableOpacity>
 
+      <View style={styles.listHero}>
+        <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
+        <Text style={styles.listSubtitle}>{pokemonVerticalAdvanced.notes}</Text>
+        <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+      </View>
+
+      <View style={styles.cardsGrid}>
+        {pokemonVerticalAdvanced.cards.map((card) => (
+          <TouchableOpacity key={card.id} style={styles.cardTile} onPress={() => openCard(card.id)}>
+            <Image source={{ uri: card.image }} style={styles.cardTileImage} resizeMode="cover" />
+            <Text style={styles.cardTileNumber}>#{card.number}</Text>
+            <Text style={styles.cardTileName}>{card.name}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+    </ScrollView>
+  );
+
+  const renderCard = () => (
+    <ScrollView contentContainerStyle={styles.content}>
+      <TouchableOpacity style={styles.backButton} onPress={() => setScreen('cards')}>
+        <Text style={styles.backButtonText}>← Torna alla lista carte</Text>
+      </TouchableOpacity>
+
       <Text style={styles.sectionTitle}>Scheda carta</Text>
       <View style={styles.cardShell}>
-        <Image source={{ uri: selectedCard.image }} style={styles.cardImage} resizeMode="cover" />
+        <Image source={{ uri: activeCard.image }} style={styles.cardImage} resizeMode="cover" />
         <View style={styles.cardInfoBox}>
-          <Text style={styles.cardTitle}>{selectedCard.name}</Text>
-          <Text style={styles.cardSmall}>#{selectedCard.number} · Pokémon Advance / EX Ruby & Sapphire</Text>
+          <Text style={styles.cardTitle}>{activeCard.name}</Text>
+          <Text style={styles.cardSmall}>#{activeCard.number} · {pokemonVerticalAdvanced.title}</Text>
 
-          <View style={styles.infoLine}><Text style={styles.infoLabel}>Nome</Text><Text style={styles.infoValue}>{selectedCard.name}</Text></View>
-          <View style={styles.infoLine}><Text style={styles.infoLabel}>Numero</Text><Text style={styles.infoValue}>#{selectedCard.number}</Text></View>
-          <View style={styles.infoLine}><Text style={styles.infoLabel}>Subject</Text><Text style={styles.infoValue}>Da completare con fonte verticale corretta</Text></View>
-          <View style={styles.infoLine}><Text style={styles.infoLabel}>Retro</Text><Text style={styles.infoValue}>Tabella / dettagli da agganciare</Text></View>
-          <View style={styles.infoLine}><Text style={styles.infoLabel}>Rarity</Text><Text style={styles.infoValue}>{selectedCard.rarity || 'N/D'}</Text></View>
+          <View style={styles.infoLine}><Text style={styles.infoLabel}>Nome</Text><Text style={styles.infoValue}>{activeCard.name}</Text></View>
+          <View style={styles.infoLine}><Text style={styles.infoLabel}>Numero</Text><Text style={styles.infoValue}>#{activeCard.number}</Text></View>
+          <View style={styles.infoLine}><Text style={styles.infoLabel}>Subject</Text><Text style={styles.infoValue}>{activeCard.subject}</Text></View>
+          <View style={styles.infoLine}><Text style={styles.infoLabel}>Retro</Text><Text style={styles.infoValue}>{activeCard.back}</Text></View>
         </View>
       </View>
     </ScrollView>
@@ -138,10 +162,11 @@ export default function App() {
       <StatusBar barStyle="light-content" />
       <View style={styles.header}>
         <Text style={styles.headerTitle}>LaminCollect</Text>
-        <Text style={styles.headerSub}>Archivio minimale, leggibile, cliccabile</Text>
+        <Text style={styles.headerSub}>Archivio minimale, leggibile, cattivo il giusto</Text>
       </View>
       {screen === 'home' && renderHome()}
       {screen === 'collections' && renderCollections()}
+      {screen === 'cards' && renderCards()}
       {screen === 'card' && renderCard()}
     </SafeAreaView>
   );
@@ -183,13 +208,15 @@ const styles = StyleSheet.create({
   collectionPillText: { color: '#DBEAFE', fontSize: 10, fontWeight: '900' },
   collectionSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   collectionMeta: { color: '#64748B', fontSize: 12, marginTop: 8 },
-  realDataCard: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
-  realDataTitle: { color: '#F8FAFC', fontSize: 16, fontWeight: '900' },
-  realDataText: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
-  cardRail: { gap: 10, paddingTop: 12 },
-  cardMini: { width: 110 },
-  cardMiniImage: { width: 110, height: 154, borderRadius: 14, backgroundColor: '#1E293B' },
-  cardMiniText: { color: '#E2E8F0', fontSize: 11, fontWeight: '700', marginTop: 8 },
+  listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
+  listTitle: { color: '#F8FAFC', fontSize: 20, fontWeight: '900' },
+  listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
+  listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
+  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
+  cardTile: { width: '31%', backgroundColor: '#0F172A', borderRadius: 18, padding: 8, borderWidth: 1, borderColor: '#1E293B' },
+  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 12, backgroundColor: '#1E293B' },
+  cardTileNumber: { color: '#60A5FA', fontSize: 11, fontWeight: '900', marginTop: 8 },
+  cardTileName: { color: '#F8FAFC', fontSize: 12, fontWeight: '700', marginTop: 4 },
   cardShell: { gap: 14 },
   cardImage: { width: '100%', height: 320, borderRadius: 24, backgroundColor: '#1E293B' },
   cardInfoBox: { backgroundColor: '#0F172A', borderRadius: 24, padding: 16, borderWidth: 1, borderColor: '#1E293B', gap: 10 },

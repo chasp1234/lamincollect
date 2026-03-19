@@ -2,11 +2,11 @@ export const universeCollections = {
   pokemon: [
     {
       id: 'pokemon-vertical',
-      title: 'Lamincards Vertical',
-      subtitle: 'Serie verticali, liste numerate, fronte / subject / retro',
+      title: 'Pokémon Vertical Lamincards Advanced',
+      subtitle: 'Prima espansione vera: lista 1-100, immagini e archivio carte',
       total: 100,
       accent: '#2563EB',
-      pill: 'VERTICAL',
+      pill: 'SET #1',
     },
     {
       id: 'pokemon-advanced',
