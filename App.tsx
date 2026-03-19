@@ -39,7 +39,11 @@ export default function App() {
 
   const openCollection = (collectionId: CollectionId) => {
     setSelectedCollection(collectionId);
-    setScreen('cards');
+    if (selectedUniverse === 'pokemon' && collectionId === 'pokemon-vertical') {
+      setScreen('cards');
+      return;
+    }
+    setScreen('collections');
   };
 
   const openCard = (cardId: string) => {
@@ -97,19 +101,22 @@ export default function App() {
       </View>
 
       <Text style={styles.sectionTitle}>Collezioni</Text>
-      {activeCollections.map((collection) => (
-        <TouchableOpacity key={collection.id} style={styles.collectionCard} onPress={() => openCollection(collection.id as CollectionId)}>
+      {activeCollections.map((collection) => {
+        const isLivePokemonArchive = selectedUniverse === 'pokemon' && collection.id === 'pokemon-vertical';
+        return (
+        <TouchableOpacity key={collection.id} style={[styles.collectionCard, !isLivePokemonArchive && styles.collectionCardDisabled]} onPress={() => openCollection(collection.id as CollectionId)}>
           <View style={[styles.collectionAccent, { backgroundColor: collection.accent }]} />
           <View style={{ flex: 1 }}>
             <View style={styles.collectionTopRow}>
               <Text style={styles.collectionTitle}>{collection.title}</Text>
-              <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{collection.pill}</Text></View>
+              <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLivePokemonArchive ? collection.pill : 'PREVIEW'}</Text></View>
             </View>
             <Text style={styles.collectionSubtitle}>{collection.subtitle}</Text>
-            <Text style={styles.collectionMeta}>{collection.total} carte archiviate</Text>
+            <Text style={styles.collectionMeta}>{isLivePokemonArchive ? `${collection.total} carte archiviate` : 'Struttura pronta, database non collegato qui'}</Text>
           </View>
         </TouchableOpacity>
-      ))}
+        );
+      })}
     </ScrollView>
   );
 
@@ -237,6 +244,7 @@ const styles = StyleSheet.create({
   collectionsTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
   collectionsSubtitle: { color: '#94A3B8', fontSize: 13, marginTop: 5, lineHeight: 18 },
   collectionCard: { backgroundColor: '#0F172A', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1E293B', flexDirection: 'row', gap: 12, alignItems: 'stretch' },
+  collectionCardDisabled: { opacity: 0.68 },
   collectionAccent: { width: 6, borderRadius: 999 },
   collectionTopRow: { flexDirection: 'row', justifyContent: 'space-between', gap: 8, alignItems: 'center' },
   collectionTitle: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', flex: 1 },
