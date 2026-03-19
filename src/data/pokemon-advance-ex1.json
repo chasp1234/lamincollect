@@ -1,0 +1,879 @@
+{
+  "setId": "ex1",
+  "title": "Pokémon Advance / EX Ruby & Sapphire",
+  "total": 109,
+  "cards": [
+    {
+      "id": "ex1-1",
+      "name": "Aggron",
+      "number": "1",
+      "image": "https://images.pokemontcg.io/ex1/1.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-2",
+      "name": "Beautifly",
+      "number": "2",
+      "image": "https://images.pokemontcg.io/ex1/2.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-3",
+      "name": "Blaziken",
+      "number": "3",
+      "image": "https://images.pokemontcg.io/ex1/3.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-4",
+      "name": "Camerupt",
+      "number": "4",
+      "image": "https://images.pokemontcg.io/ex1/4.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-5",
+      "name": "Delcatty",
+      "number": "5",
+      "image": "https://images.pokemontcg.io/ex1/5.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-6",
+      "name": "Dustox",
+      "number": "6",
+      "image": "https://images.pokemontcg.io/ex1/6.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-7",
+      "name": "Gardevoir",
+      "number": "7",
+      "image": "https://images.pokemontcg.io/ex1/7.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-8",
+      "name": "Hariyama",
+      "number": "8",
+      "image": "https://images.pokemontcg.io/ex1/8.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-9",
+      "name": "Manectric",
+      "number": "9",
+      "image": "https://images.pokemontcg.io/ex1/9.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-10",
+      "name": "Mightyena",
+      "number": "10",
+      "image": "https://images.pokemontcg.io/ex1/10.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-11",
+      "name": "Sceptile",
+      "number": "11",
+      "image": "https://images.pokemontcg.io/ex1/11.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-12",
+      "name": "Slaking",
+      "number": "12",
+      "image": "https://images.pokemontcg.io/ex1/12.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-13",
+      "name": "Swampert",
+      "number": "13",
+      "image": "https://images.pokemontcg.io/ex1/13.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-14",
+      "name": "Wailord",
+      "number": "14",
+      "image": "https://images.pokemontcg.io/ex1/14.png",
+      "rarity": "Rare Holo",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-15",
+      "name": "Blaziken",
+      "number": "15",
+      "image": "https://images.pokemontcg.io/ex1/15.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-16",
+      "name": "Breloom",
+      "number": "16",
+      "image": "https://images.pokemontcg.io/ex1/16.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-17",
+      "name": "Donphan",
+      "number": "17",
+      "image": "https://images.pokemontcg.io/ex1/17.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-18",
+      "name": "Nosepass",
+      "number": "18",
+      "image": "https://images.pokemontcg.io/ex1/18.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-19",
+      "name": "Pelipper",
+      "number": "19",
+      "image": "https://images.pokemontcg.io/ex1/19.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-20",
+      "name": "Sceptile",
+      "number": "20",
+      "image": "https://images.pokemontcg.io/ex1/20.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-21",
+      "name": "Seaking",
+      "number": "21",
+      "image": "https://images.pokemontcg.io/ex1/21.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-22",
+      "name": "Sharpedo",
+      "number": "22",
+      "image": "https://images.pokemontcg.io/ex1/22.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-23",
+      "name": "Swampert",
+      "number": "23",
+      "image": "https://images.pokemontcg.io/ex1/23.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-24",
+      "name": "Weezing",
+      "number": "24",
+      "image": "https://images.pokemontcg.io/ex1/24.png",
+      "rarity": "Rare",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-25",
+      "name": "Aron",
+      "number": "25",
+      "image": "https://images.pokemontcg.io/ex1/25.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-26",
+      "name": "Cascoon",
+      "number": "26",
+      "image": "https://images.pokemontcg.io/ex1/26.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-27",
+      "name": "Combusken",
+      "number": "27",
+      "image": "https://images.pokemontcg.io/ex1/27.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-28",
+      "name": "Combusken",
+      "number": "28",
+      "image": "https://images.pokemontcg.io/ex1/28.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-29",
+      "name": "Delcatty",
+      "number": "29",
+      "image": "https://images.pokemontcg.io/ex1/29.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-30",
+      "name": "Electrike",
+      "number": "30",
+      "image": "https://images.pokemontcg.io/ex1/30.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-31",
+      "name": "Grovyle",
+      "number": "31",
+      "image": "https://images.pokemontcg.io/ex1/31.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-32",
+      "name": "Grovyle",
+      "number": "32",
+      "image": "https://images.pokemontcg.io/ex1/32.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-33",
+      "name": "Hariyama",
+      "number": "33",
+      "image": "https://images.pokemontcg.io/ex1/33.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-34",
+      "name": "Kirlia",
+      "number": "34",
+      "image": "https://images.pokemontcg.io/ex1/34.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-35",
+      "name": "Kirlia",
+      "number": "35",
+      "image": "https://images.pokemontcg.io/ex1/35.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-36",
+      "name": "Lairon",
+      "number": "36",
+      "image": "https://images.pokemontcg.io/ex1/36.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-37",
+      "name": "Lairon",
+      "number": "37",
+      "image": "https://images.pokemontcg.io/ex1/37.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-38",
+      "name": "Linoone",
+      "number": "38",
+      "image": "https://images.pokemontcg.io/ex1/38.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-39",
+      "name": "Manectric",
+      "number": "39",
+      "image": "https://images.pokemontcg.io/ex1/39.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-40",
+      "name": "Marshtomp",
+      "number": "40",
+      "image": "https://images.pokemontcg.io/ex1/40.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-41",
+      "name": "Marshtomp",
+      "number": "41",
+      "image": "https://images.pokemontcg.io/ex1/41.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-42",
+      "name": "Mightyena",
+      "number": "42",
+      "image": "https://images.pokemontcg.io/ex1/42.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-43",
+      "name": "Silcoon",
+      "number": "43",
+      "image": "https://images.pokemontcg.io/ex1/43.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-44",
+      "name": "Skitty",
+      "number": "44",
+      "image": "https://images.pokemontcg.io/ex1/44.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-45",
+      "name": "Slakoth",
+      "number": "45",
+      "image": "https://images.pokemontcg.io/ex1/45.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-46",
+      "name": "Swellow",
+      "number": "46",
+      "image": "https://images.pokemontcg.io/ex1/46.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-47",
+      "name": "Vigoroth",
+      "number": "47",
+      "image": "https://images.pokemontcg.io/ex1/47.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-48",
+      "name": "Wailmer",
+      "number": "48",
+      "image": "https://images.pokemontcg.io/ex1/48.png",
+      "rarity": "Uncommon",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-49",
+      "name": "Aron",
+      "number": "49",
+      "image": "https://images.pokemontcg.io/ex1/49.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-50",
+      "name": "Aron",
+      "number": "50",
+      "image": "https://images.pokemontcg.io/ex1/50.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-51",
+      "name": "Carvanha",
+      "number": "51",
+      "image": "https://images.pokemontcg.io/ex1/51.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-52",
+      "name": "Electrike",
+      "number": "52",
+      "image": "https://images.pokemontcg.io/ex1/52.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-53",
+      "name": "Electrike",
+      "number": "53",
+      "image": "https://images.pokemontcg.io/ex1/53.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-54",
+      "name": "Koffing",
+      "number": "54",
+      "image": "https://images.pokemontcg.io/ex1/54.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-55",
+      "name": "Goldeen",
+      "number": "55",
+      "image": "https://images.pokemontcg.io/ex1/55.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-56",
+      "name": "Makuhita",
+      "number": "56",
+      "image": "https://images.pokemontcg.io/ex1/56.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-57",
+      "name": "Makuhita",
+      "number": "57",
+      "image": "https://images.pokemontcg.io/ex1/57.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-58",
+      "name": "Makuhita",
+      "number": "58",
+      "image": "https://images.pokemontcg.io/ex1/58.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-59",
+      "name": "Mudkip",
+      "number": "59",
+      "image": "https://images.pokemontcg.io/ex1/59.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-60",
+      "name": "Mudkip",
+      "number": "60",
+      "image": "https://images.pokemontcg.io/ex1/60.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-61",
+      "name": "Numel",
+      "number": "61",
+      "image": "https://images.pokemontcg.io/ex1/61.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-62",
+      "name": "Phanpy",
+      "number": "62",
+      "image": "https://images.pokemontcg.io/ex1/62.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-63",
+      "name": "Poochyena",
+      "number": "63",
+      "image": "https://images.pokemontcg.io/ex1/63.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-64",
+      "name": "Poochyena",
+      "number": "64",
+      "image": "https://images.pokemontcg.io/ex1/64.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-65",
+      "name": "Poochyena",
+      "number": "65",
+      "image": "https://images.pokemontcg.io/ex1/65.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-66",
+      "name": "Ralts",
+      "number": "66",
+      "image": "https://images.pokemontcg.io/ex1/66.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-67",
+      "name": "Ralts",
+      "number": "67",
+      "image": "https://images.pokemontcg.io/ex1/67.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-68",
+      "name": "Ralts",
+      "number": "68",
+      "image": "https://images.pokemontcg.io/ex1/68.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-69",
+      "name": "Shroomish",
+      "number": "69",
+      "image": "https://images.pokemontcg.io/ex1/69.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-70",
+      "name": "Skitty",
+      "number": "70",
+      "image": "https://images.pokemontcg.io/ex1/70.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-71",
+      "name": "Skitty",
+      "number": "71",
+      "image": "https://images.pokemontcg.io/ex1/71.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-72",
+      "name": "Taillow",
+      "number": "72",
+      "image": "https://images.pokemontcg.io/ex1/72.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-73",
+      "name": "Torchic",
+      "number": "73",
+      "image": "https://images.pokemontcg.io/ex1/73.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-74",
+      "name": "Torchic",
+      "number": "74",
+      "image": "https://images.pokemontcg.io/ex1/74.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-75",
+      "name": "Treecko",
+      "number": "75",
+      "image": "https://images.pokemontcg.io/ex1/75.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-76",
+      "name": "Treecko",
+      "number": "76",
+      "image": "https://images.pokemontcg.io/ex1/76.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-77",
+      "name": "Wingull",
+      "number": "77",
+      "image": "https://images.pokemontcg.io/ex1/77.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-78",
+      "name": "Wurmple",
+      "number": "78",
+      "image": "https://images.pokemontcg.io/ex1/78.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-79",
+      "name": "Zigzagoon",
+      "number": "79",
+      "image": "https://images.pokemontcg.io/ex1/79.png",
+      "rarity": "Common",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-80",
+      "name": "Energy Removal 2",
+      "number": "80",
+      "image": "https://images.pokemontcg.io/ex1/80.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-81",
+      "name": "Energy Restore",
+      "number": "81",
+      "image": "https://images.pokemontcg.io/ex1/81.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-82",
+      "name": "Energy Switch",
+      "number": "82",
+      "image": "https://images.pokemontcg.io/ex1/82.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-83",
+      "name": "Lady Outing",
+      "number": "83",
+      "image": "https://images.pokemontcg.io/ex1/83.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-84",
+      "name": "Lum Berry",
+      "number": "84",
+      "image": "https://images.pokemontcg.io/ex1/84.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-85",
+      "name": "Oran Berry",
+      "number": "85",
+      "image": "https://images.pokemontcg.io/ex1/85.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-86",
+      "name": "Poké Ball",
+      "number": "86",
+      "image": "https://images.pokemontcg.io/ex1/86.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-87",
+      "name": "Pokémon Reversal",
+      "number": "87",
+      "image": "https://images.pokemontcg.io/ex1/87.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-88",
+      "name": "PokéNav",
+      "number": "88",
+      "image": "https://images.pokemontcg.io/ex1/88.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-89",
+      "name": "Professor Birch",
+      "number": "89",
+      "image": "https://images.pokemontcg.io/ex1/89.png",
+      "rarity": "Uncommon",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-90",
+      "name": "Energy Search",
+      "number": "90",
+      "image": "https://images.pokemontcg.io/ex1/90.png",
+      "rarity": "Common",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-91",
+      "name": "Potion",
+      "number": "91",
+      "image": "https://images.pokemontcg.io/ex1/91.png",
+      "rarity": "Common",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-92",
+      "name": "Switch",
+      "number": "92",
+      "image": "https://images.pokemontcg.io/ex1/92.png",
+      "rarity": "Common",
+      "supertype": "Trainer"
+    },
+    {
+      "id": "ex1-93",
+      "name": "Darkness Energy",
+      "number": "93",
+      "image": "https://images.pokemontcg.io/ex1/93.png",
+      "rarity": "Rare",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-94",
+      "name": "Metal Energy",
+      "number": "94",
+      "image": "https://images.pokemontcg.io/ex1/94.png",
+      "rarity": "Rare",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-95",
+      "name": "Rainbow Energy",
+      "number": "95",
+      "image": "https://images.pokemontcg.io/ex1/95.png",
+      "rarity": "Rare",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-96",
+      "name": "Chansey ex",
+      "number": "96",
+      "image": "https://images.pokemontcg.io/ex1/96.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-97",
+      "name": "Electabuzz ex",
+      "number": "97",
+      "image": "https://images.pokemontcg.io/ex1/97.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-98",
+      "name": "Hitmonchan ex",
+      "number": "98",
+      "image": "https://images.pokemontcg.io/ex1/98.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-99",
+      "name": "Lapras ex",
+      "number": "99",
+      "image": "https://images.pokemontcg.io/ex1/99.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-100",
+      "name": "Magmar ex",
+      "number": "100",
+      "image": "https://images.pokemontcg.io/ex1/100.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-101",
+      "name": "Mewtwo ex",
+      "number": "101",
+      "image": "https://images.pokemontcg.io/ex1/101.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-102",
+      "name": "Scyther ex",
+      "number": "102",
+      "image": "https://images.pokemontcg.io/ex1/102.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-103",
+      "name": "Sneasel ex",
+      "number": "103",
+      "image": "https://images.pokemontcg.io/ex1/103.png",
+      "rarity": "Rare Holo EX",
+      "supertype": "Pokémon"
+    },
+    {
+      "id": "ex1-104",
+      "name": "Grass Energy",
+      "number": "104",
+      "image": "https://images.pokemontcg.io/ex1/104.png",
+      "rarity": "Common",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-105",
+      "name": "Fighting Energy",
+      "number": "105",
+      "image": "https://images.pokemontcg.io/ex1/105.png",
+      "rarity": "Common",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-106",
+      "name": "Water Energy",
+      "number": "106",
+      "image": "https://images.pokemontcg.io/ex1/106.png",
+      "rarity": "Common",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-107",
+      "name": "Psychic Energy",
+      "number": "107",
+      "image": "https://images.pokemontcg.io/ex1/107.png",
+      "rarity": "Common",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-108",
+      "name": "Fire Energy",
+      "number": "108",
+      "image": "https://images.pokemontcg.io/ex1/108.png",
+      "rarity": "Common",
+      "supertype": "Energy"
+    },
+    {
+      "id": "ex1-109",
+      "name": "Lightning Energy",
+      "number": "109",
+      "image": "https://images.pokemontcg.io/ex1/109.png",
+      "rarity": "Common",
+      "supertype": "Energy"
+    }
+  ]
+}

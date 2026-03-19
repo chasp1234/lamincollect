@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "LaminCollect",
+    "slug": "lamincollect",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0B0E13"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0E13"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
