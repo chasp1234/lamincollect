@@ -80,14 +80,6 @@ export default function App() {
 
   const renderHome = () => (
     <ScrollView contentContainerStyle={styles.content}>
-      <View style={styles.heroCard}>
-        <Text style={styles.heroEyebrow}>LAMINCOLLECT</Text>
-        <Text style={styles.heroTitle}>Apri un cartone. Vedi subito le sue collezioni.</Text>
-        <Text style={styles.heroText}>
-          Zero casino. Tocchi Pokémon, entri nella collezione e ti scorri le carte come un archivio vero.
-        </Text>
-      </View>
-
       <View style={styles.rankStrip}>
         <View>
           <Text style={styles.rankMini}>RANK</Text>
@@ -323,7 +315,7 @@ const styles = StyleSheet.create({
   headerBandPokemonTheme: { backgroundColor: '#B91C1C', borderBottomColor: '#450A0A' },
   header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 10, alignItems: 'center' },
   headerPokemonTheme: { },
-  headerTitle: { color: '#FFDE59', fontSize: 32, fontWeight: '900', letterSpacing: 0.6, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.6, height: 1.6 }, textShadowRadius: 0.8 },
+  headerTitle: { color: '#FFDE59', fontSize: 32, fontWeight: '900', fontFamily: 'Arial Rounded MT Bold, Trebuchet MS, Verdana, sans-serif' as any, letterSpacing: 0.6, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.6, height: 1.6 }, textShadowRadius: 0.8 },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
@@ -394,7 +386,7 @@ const styles = StyleSheet.create({
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
   cardTileNumber: { color: '#60A5FA', fontSize: 9, fontWeight: '900', marginTop: 5 },
-  cardTileName: { color: '#FFDE59', fontSize: 9, fontWeight: '800', marginTop: 4, letterSpacing: 0.1, textTransform: 'uppercase', textShadowColor: '#1E3A8A', textShadowOffset: { width: 0.6, height: 0.6 }, textShadowRadius: 0.4, lineHeight: 11, minHeight: 11 },
+  cardTileName: { color: '#FFDE59', fontSize: 9, fontWeight: '800', fontFamily: 'Arial Rounded MT Bold, Trebuchet MS, Verdana, sans-serif' as any, marginTop: 4, letterSpacing: 0.1, textTransform: 'uppercase', textShadowColor: '#1E3A8A', textShadowOffset: { width: 0.6, height: 0.6 }, textShadowRadius: 0.4, lineHeight: 11, minHeight: 11 },
   packInfoCard: { backgroundColor: '#0F172A', borderRadius: 20, borderWidth: 1, borderColor: '#1E293B', padding: 12, gap: 12 },
   packInfoImage: { width: '100%', height: 260, borderRadius: 12, backgroundColor: '#111827' },
   packInfoBody: { gap: 8 },
