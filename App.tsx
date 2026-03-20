@@ -163,7 +163,7 @@ export default function App() {
           const logo = universeLogos[uid];
           return (
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(uid)}>
-            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }]}>
+            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }, uid === 'marvel' && styles.universeBadgeMarvel]}>
               {logo ? (
                 <Image source={logo} style={[styles.universeLogoImage, uid === 'marvel' && styles.universeLogoImageMarvel]} resizeMode="contain" />
               ) : (
@@ -481,8 +481,9 @@ const styles = StyleSheet.create({
   universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 16, padding: 8, borderWidth: 1, borderColor: '#1E293B', minHeight: 56 },
   universeBadge: { width: 48, height: 48, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   universeBadgeLogo: { width: '100%', backgroundColor: 'transparent' },
+  universeBadgeMarvel: { backgroundColor: '#ED1D24', borderRadius: 8, paddingHorizontal: 4 },
   universeLogoImage: { width: '100%', height: 34 },
-  universeLogoImageMarvel: { height: 42 },
+  universeLogoImageMarvel: { height: 38 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
@@ -490,7 +491,7 @@ const styles = StyleSheet.create({
   backButtonText: { color: '#E2E8F0', fontSize: 12, fontWeight: '800' },
   collectionsHero: { flexDirection: 'row', gap: 12, backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B', alignItems: 'center' },
   collectionsHeroLogo: { width: '100%', height: 46 },
-  collectionsHeroLogoMarvel: { height: 60 },
+  collectionsHeroLogoMarvel: { height: 54, backgroundColor: '#ED1D24', borderRadius: 8, paddingHorizontal: 8 },
   collectionsBadge: { width: 58, height: 58, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   collectionsEmoji: { fontSize: 28 },
   collectionsTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
