@@ -20,6 +20,14 @@ const pokemonVerticalPack = {
   info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
 };
 const pokemonLogoPng = require('./assets/pokemon-logo.png');
+const universeLogos: Partial<Record<UniverseId, any>> = {
+  pokemon: pokemonLogoPng,
+  'dragon-ball': require('./assets/dragon-ball-logo.png'),
+  'yu-gi-oh': require('./assets/yugioh-logo.png'),
+  naruto: require('./assets/naruto-logo.png'),
+  'one-piece': require('./assets/onepiece-logo.png'),
+  mixed: require('./assets/mixed-logo.png'),
+};
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
@@ -104,17 +112,18 @@ export default function App() {
       <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
       <View style={styles.grid}>
         {universes.map((universe) => {
-          const isPokemon = universe.id === 'pokemon';
+          const uid = universe.id as UniverseId;
+          const logo = universeLogos[uid];
           return (
-          <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(universe.id as UniverseId)}>
-            <View style={[styles.universeBadge, isPokemon ? styles.universeBadgePokemon : { backgroundColor: universe.color }]}> 
-              {isPokemon ? (
-                <Image source={pokemonLogoPng} style={styles.pokemonLogo} resizeMode="contain" />
+          <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(uid)}>
+            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }]}> 
+              {logo ? (
+                <Image source={logo} style={styles.universeLogoImage} resizeMode="contain" />
               ) : (
                 <Text style={styles.universeEmoji}>{universe.emoji}</Text>
               )}
             </View>
-            {!isPokemon ? (
+            {!logo ? (
               <>
                 <Text style={styles.universeName}>{universe.title}</Text>
                 <Text style={styles.universeInfo}>{universe.subtitle}</Text>
@@ -160,6 +169,8 @@ export default function App() {
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
               <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
+            ) : universeLogos[selectedUniverse] ? (
+              <Image source={universeLogos[selectedUniverse]} style={styles.collectionUniverseLogo} resizeMode="contain" />
             ) : null}
           </View>
         </TouchableOpacity>
@@ -353,8 +364,8 @@ const styles = StyleSheet.create({
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 22, padding: 14, borderWidth: 1, borderColor: '#1E293B', minHeight: 144 },
   universeBadge: { width: 52, height: 52, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-  universeBadgePokemon: { width: '100%', backgroundColor: 'transparent' },
-  pokemonLogo: { width: '100%', height: 34 },
+  universeBadgeLogo: { width: '100%', backgroundColor: 'transparent' },
+  universeLogoImage: { width: '100%', height: 34 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
@@ -368,6 +379,7 @@ const styles = StyleSheet.create({
   collectionCard: { backgroundColor: '#0F172A', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1E293B', flexDirection: 'row', gap: 12, alignItems: 'stretch' },
   collectionMainRow: { flex: 1, flexDirection: 'row', gap: 12, alignItems: 'flex-start' },
   collectionSealedImage: { width: 68, height: 104, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827' },
+  collectionUniverseLogo: { width: 84, height: 36, marginTop: 2 },
   collectionCardDisabled: { opacity: 0.68 },
   collectionAccent: { width: 6, borderRadius: 999 },
   collectionTopRow: { flexDirection: 'row', justifyContent: 'space-between', gap: 8, alignItems: 'center' },
