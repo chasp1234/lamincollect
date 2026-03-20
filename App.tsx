@@ -6,8 +6,6 @@ import { universeCollections } from './src/data/universe-collections';
 import { cardToning } from './src/data/card-toning';
 import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-advanced.json';
 
-const pvla3CleanImage = require('./assets/pvla-3-clean.jpg');
-
 type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
 type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'mixed-weird';
@@ -225,7 +223,7 @@ export default function App() {
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidth }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
-              <Image source={card.number === '3' ? pvla3CleanImage : { uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
+              <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
             <Text style={styles.cardTileName}>{card.name}</Text>
@@ -270,7 +268,7 @@ export default function App() {
         <View style={styles.cardDualImages}>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>FRONTE</Text>
-            <Image source={activeCard.number === '3' ? pvla3CleanImage : { uri: activeCard.image }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
+            <Image source={{ uri: activeCard.image }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
             <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
           <View style={styles.cardFaceBlock}>
