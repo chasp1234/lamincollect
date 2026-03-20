@@ -226,7 +226,7 @@ export default function App() {
               <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
-            <Text style={styles.cardTileName}>{card.name}</Text>
+            <Text style={styles.cardTileName} numberOfLines={2}>{card.name}</Text>
           </TouchableOpacity>
           );
         })}
@@ -377,7 +377,7 @@ const styles = StyleSheet.create({
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
   cardTileNumber: { color: '#60A5FA', fontSize: 9, fontWeight: '900', marginTop: 5 },
-  cardTileName: { color: '#F8FAFC', fontSize: 10, fontWeight: '700', marginTop: 3 },
+  cardTileName: { color: '#FFDE59', fontSize: 10, fontWeight: '900', marginTop: 4, letterSpacing: 0.2, textTransform: 'uppercase', textShadowColor: '#1E3A8A', textShadowOffset: { width: 0.8, height: 0.8 }, textShadowRadius: 0.6, lineHeight: 12, minHeight: 24 },
   packInfoCard: { backgroundColor: '#0F172A', borderRadius: 20, borderWidth: 1, borderColor: '#1E293B', padding: 12, gap: 12 },
   packInfoImage: { width: '100%', height: 260, borderRadius: 12, backgroundColor: '#111827' },
   packInfoBody: { gap: 8 },
