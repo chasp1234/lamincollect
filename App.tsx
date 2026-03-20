@@ -5,6 +5,7 @@ import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
 import { cardToning } from './src/data/card-toning';
 import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-advanced.json';
+import dbzEdibasLamincards from './src/data/dbz-edibas-lamincards.json';
 
 type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
@@ -66,9 +67,14 @@ export default function App() {
   const activeUniverseLogo = universeLogos[selectedUniverse];
   const isPokemonTheme = selectedUniverse === 'pokemon' && screen !== 'home';
 
+  const activeSet = useMemo(() => {
+    if (selectedUniverse === 'dragon-ball' && selectedCollection === 'dragon-ball-core') return dbzEdibasLamincards;
+    return pokemonVerticalAdvanced;
+  }, [selectedUniverse, selectedCollection]);
+
   const activeCard = useMemo(
-    () => pokemonVerticalAdvanced.cards.find((card) => card.id === selectedCardId) ?? pokemonVerticalAdvanced.cards[0],
-    [selectedCardId],
+    () => activeSet.cards.find((card) => card.id === selectedCardId) ?? activeSet.cards[0],
+    [selectedCardId, activeSet],
   );
 
   const resolveAssetUri = (uri: string) => {
@@ -81,7 +87,7 @@ export default function App() {
   };
 
   const sortedCards = useMemo(() => {
-    const cards = [...pokemonVerticalAdvanced.cards];
+    const cards = [...activeSet.cards];
     switch (sortMode) {
       case 'num-desc':
         return cards.sort((a, b) => Number(b.number) - Number(a.number));
@@ -93,7 +99,7 @@ export default function App() {
       default:
         return cards.sort((a, b) => Number(a.number) - Number(b.number));
     }
-  }, [sortMode]);
+  }, [sortMode, activeSet]);
 
   const searchNormalized = searchQuery.trim().toLowerCase();
 
@@ -113,10 +119,10 @@ export default function App() {
 
   const searchCardSuggestions = useMemo(() => {
     if (!searchNormalized || searchNormalized.length < 2) return [];
-    return pokemonVerticalAdvanced.cards
+    return activeSet.cards
       .filter((card) => card.name.toLowerCase().includes(searchNormalized))
       .slice(0, 8);
-  }, [searchNormalized]);
+  }, [searchNormalized, activeSet]);
 
   const openUniverse = (universeId: UniverseId) => {
     setSelectedUniverse(universeId);
@@ -126,6 +132,12 @@ export default function App() {
   const openCollection = (collectionId: CollectionId) => {
     setSelectedCollection(collectionId);
     if (selectedUniverse === 'pokemon' && collectionId === 'pokemon-vertical') {
+      setSelectedCardId(pokemonVerticalAdvanced.cards[0].id);
+      setScreen('cards');
+      return;
+    }
+    if (selectedUniverse === 'dragon-ball' && collectionId === 'dragon-ball-core') {
+      setSelectedCardId(dbzEdibasLamincards.cards[0].id);
       setScreen('cards');
       return;
     }
@@ -207,18 +219,20 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Collezioni</Text>
       {filteredCollections.map((collection) => {
-        const isLivePokemonArchive = selectedUniverse === 'pokemon' && collection.id === 'pokemon-vertical';
+        const isLiveArchive =
+          (selectedUniverse === 'pokemon' && collection.id === 'pokemon-vertical') ||
+          (selectedUniverse === 'dragon-ball' && collection.id === 'dragon-ball-core');
         return (
-        <TouchableOpacity key={collection.id} style={[styles.collectionCard, !isLivePokemonArchive && styles.collectionCardDisabled]} onPress={() => openCollection(collection.id as CollectionId)}>
+        <TouchableOpacity key={collection.id} style={[styles.collectionCard, !isLiveArchive && styles.collectionCardDisabled]} onPress={() => openCollection(collection.id as CollectionId)}>
           <View style={[styles.collectionAccent, { backgroundColor: collection.accent }]} />
           <View style={styles.collectionMainRow}>
             <View style={{ flex: 1 }}>
               <View style={styles.collectionTopRow}>
                 <Text style={styles.collectionTitle}>{collection.title}</Text>
-                <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLivePokemonArchive ? collection.pill : 'PREVIEW'}</Text></View>
+                <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLiveArchive ? collection.pill : 'PREVIEW'}</Text></View>
               </View>
               <Text style={styles.collectionSubtitle}>{collection.subtitle}</Text>
-              <Text style={styles.collectionMeta}>{isLivePokemonArchive ? `${collection.total} carte archiviate` : 'Struttura pronta, database non collegato qui'}</Text>
+              <Text style={styles.collectionMeta}>{isLiveArchive ? `${collection.total} carte archiviate` : 'Struttura pronta, database non collegato qui'}</Text>
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
               <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
@@ -249,9 +263,9 @@ export default function App() {
         <View style={styles.listHeroMainRow}>
           <View style={styles.listHeroTextCol}>
             <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
-            <Text style={styles.listTitle} numberOfLines={2}>{pokemonVerticalAdvanced.title}</Text>
-            <Text style={styles.listSubtitle} numberOfLines={3}>{pokemonVerticalAdvanced.notes}</Text>
-            <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+            <Text style={styles.listTitle} numberOfLines={2}>{activeSet.title}</Text>
+            <Text style={styles.listSubtitle} numberOfLines={3}>{activeSet.notes}</Text>
+            <Text style={styles.listMeta}>Fonte: {activeSet.source} · Carte inserite: {activeSet.total}</Text>
           </View>
 
           <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
@@ -367,7 +381,7 @@ export default function App() {
         </View>
         <View style={styles.cardInfoBox}>
           <Text style={styles.cardTitle}>{activeCard.name}</Text>
-          <Text style={styles.cardSmall}>#{activeCard.number} · {pokemonVerticalAdvanced.title}</Text>
+          <Text style={styles.cardSmall}>#{activeCard.number} · {activeSet.title}</Text>
 
           <View style={styles.infoLine}><Text style={styles.infoLabel}>Nome</Text><Text style={styles.infoValue}>{activeCard.name}</Text></View>
           <View style={styles.infoLine}><Text style={styles.infoLabel}>Numero</Text><Text style={styles.infoValue}>#{activeCard.number}</Text></View>

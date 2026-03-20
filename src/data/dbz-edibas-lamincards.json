@@ -1,0 +1,100 @@
+{
+  "setId": "dbz-edibas-lamincards",
+  "title": "Dragon Ball Z Lamincards",
+  "source": "dragonball.center",
+  "sourceUrl": "https://dragonball.center/catalogo/coleccion/58/dragon-ball-z-lamincards",
+  "total": 10,
+  "notes": "Primo step DBZ Edibas: prime 10 carte agganciate dalla fonte dragonball.center.",
+  "cards": [
+    {
+      "id": "dbz-edibas-1",
+      "number": "1",
+      "name": "Lamincard 1",
+      "image": "https://dragonball.center/files/module_dbc/objetos/reqh160809.jpg",
+      "subject": "Lamincard 1 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6456/lamincard-1"
+    },
+    {
+      "id": "dbz-edibas-2",
+      "number": "2",
+      "name": "Lamincard 2",
+      "image": "https://dragonball.center/files/module_dbc/objetos/90uu79601.jpg",
+      "subject": "Lamincard 2 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6457/lamincard-2"
+    },
+    {
+      "id": "dbz-edibas-3",
+      "number": "3",
+      "name": "Lamincard 3",
+      "image": "https://dragonball.center/files/module_dbc/objetos/unfc79602.jpg",
+      "subject": "Lamincard 3 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6458/lamincard-3"
+    },
+    {
+      "id": "dbz-edibas-4",
+      "number": "4",
+      "name": "Lamincard 4",
+      "image": "https://dragonball.center/files/module_dbc/objetos/c1ks79603.jpg",
+      "subject": "Lamincard 4 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6459/lamincard-4"
+    },
+    {
+      "id": "dbz-edibas-5",
+      "number": "5",
+      "name": "Lamincard 5",
+      "image": "https://dragonball.center/files/module_dbc/objetos/zg4j79604.jpg",
+      "subject": "Lamincard 5 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6460/lamincard-5"
+    },
+    {
+      "id": "dbz-edibas-6",
+      "number": "6",
+      "name": "Lamincard 6",
+      "image": "https://dragonball.center/files/module_dbc/objetos/mvay79605.jpg",
+      "subject": "Lamincard 6 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6461/lamincard-6"
+    },
+    {
+      "id": "dbz-edibas-7",
+      "number": "7",
+      "name": "Lamincard 7",
+      "image": "https://dragonball.center/files/module_dbc/objetos/ddfd79606.jpg",
+      "subject": "Lamincard 7 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6462/lamincard-7"
+    },
+    {
+      "id": "dbz-edibas-8",
+      "number": "8",
+      "name": "Lamincard 8",
+      "image": "https://dragonball.center/files/module_dbc/objetos/0pbc79607.jpg",
+      "subject": "Lamincard 8 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6463/lamincard-8"
+    },
+    {
+      "id": "dbz-edibas-9",
+      "number": "9",
+      "name": "Lamincard 9",
+      "image": "https://dragonball.center/files/module_dbc/objetos/bmzk79608.jpg",
+      "subject": "Lamincard 9 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6464/lamincard-9"
+    },
+    {
+      "id": "dbz-edibas-10",
+      "number": "10",
+      "name": "Lamincard 10",
+      "image": "https://dragonball.center/files/module_dbc/objetos/8w6c79609.jpg",
+      "subject": "Lamincard 10 < Dragon Ball Z Lamincards < Edibas",
+      "back": "",
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6465/lamincard-10"
+    }
+  ]
+}
