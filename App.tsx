@@ -177,7 +177,7 @@ export default function App() {
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(uid)}>
             <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }, uid === 'marvel' && styles.universeBadgeMarvel]}>
               {logo ? (
-                <Image source={logo} style={[styles.universeLogoImage, (uid === 'marvel' || uid === 'spongebob' || uid === 'gormiti') && styles.universeLogoImageFeature]} resizeMode="contain" />
+                <Image source={logo} style={[styles.universeLogoImage, (uid === 'marvel' || uid === 'spongebob') && styles.universeLogoImageFeature, uid === 'gormiti' && styles.universeLogoImageGormiti]} resizeMode="contain" />
               ) : (
                 <Text style={styles.universeEmoji}>{universe.emoji}</Text>
               )}
@@ -498,6 +498,7 @@ const styles = StyleSheet.create({
   universeBadgeMarvel: { backgroundColor: 'transparent', borderRadius: 8, paddingHorizontal: 4 },
   universeLogoImage: { width: '100%', height: 34 },
   universeLogoImageFeature: { height: 40 },
+  universeLogoImageGormiti: { height: 44 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
