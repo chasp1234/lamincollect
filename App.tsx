@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Image, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import { Image, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
@@ -41,6 +41,7 @@ export default function App() {
   const [sortMode, setSortMode] = useState<SortMode>('num-asc');
   const [sortPanelOpen, setSortPanelOpen] = useState(false);
   const [showCardNames, setShowCardNames] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
   const { width: viewportWidth } = useWindowDimensions();
 
   useEffect(() => {
@@ -83,6 +84,22 @@ export default function App() {
         return cards.sort((a, b) => Number(a.number) - Number(b.number));
     }
   }, [sortMode]);
+
+  const searchNormalized = searchQuery.trim().toLowerCase();
+
+  const filteredCollections = useMemo(() => {
+    if (!searchNormalized) return activeCollections;
+    return activeCollections.filter((collection) =>
+      `${collection.title} ${collection.subtitle} ${collection.pill}`.toLowerCase().includes(searchNormalized),
+    );
+  }, [activeCollections, searchNormalized]);
+
+  const filteredCards = useMemo(() => {
+    if (!searchNormalized) return sortedCards;
+    return sortedCards.filter((card) =>
+      `${card.number} ${card.name}`.toLowerCase().includes(searchNormalized),
+    );
+  }, [sortedCards, searchNormalized]);
 
   const openUniverse = (universeId: UniverseId) => {
     setSelectedUniverse(universeId);
@@ -163,7 +180,7 @@ export default function App() {
       </View>
 
       <Text style={styles.sectionTitle}>Collezioni</Text>
-      {activeCollections.map((collection) => {
+      {filteredCollections.map((collection) => {
         const isLivePokemonArchive = selectedUniverse === 'pokemon' && collection.id === 'pokemon-vertical';
         return (
         <TouchableOpacity key={collection.id} style={[styles.collectionCard, !isLivePokemonArchive && styles.collectionCardDisabled]} onPress={() => openCollection(collection.id as CollectionId)}>
@@ -261,7 +278,7 @@ export default function App() {
       </View>
 
       <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}>
-        {sortedCards.map((card) => {
+        {filteredCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
           const tileOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
@@ -344,6 +361,15 @@ export default function App() {
           <Text style={styles.headerTitle}>LaminCollect</Text>
         </View>
       </View>
+      <View style={styles.searchSubBand}>
+        <TextInput
+          value={searchQuery}
+          onChangeText={setSearchQuery}
+          placeholder="Cerca carte o espansioni"
+          placeholderTextColor="#94A3B8"
+          style={styles.searchInput}
+        />
+      </View>
       {screen === 'home' && renderHome()}
       {screen === 'collections' && renderCollections()}
       {screen === 'cards' && renderCards()}
@@ -361,6 +387,8 @@ const styles = StyleSheet.create({
   header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 10, alignItems: 'center' },
   headerPokemonTheme: { },
   headerTitle: { color: '#F1EDE2', fontSize: 34, fontWeight: '900', fontFamily: 'Bungee' as any, letterSpacing: 0.8, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
+  searchSubBand: { backgroundColor: '#0B1220', borderBottomWidth: 1, borderBottomColor: '#1E293B', paddingHorizontal: 12, paddingVertical: 8, alignItems: 'flex-end' },
+  searchInput: { width: '72%', maxWidth: 360, minWidth: 180, backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700' },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
