@@ -29,11 +29,12 @@ export const universeCollections = {
   'dragon-ball': [
     {
       id: 'dragon-ball-core',
-      title: 'Serie principali',
-      subtitle: 'Base, movie, GT e set classici',
-      total: 48,
+      title: 'Dragon Ball Z Lamincards',
+      subtitle: 'Edibas base set agganciato da dragonball.center come prima fonte reale DBZ',
+      total: 0,
       accent: '#F97316',
-      pill: 'CORE',
+      pill: 'EDIBAS',
+      sealedImage: 'https://dragonball.center/files/module_dbc/colecciones/hx4392152.jpg',
     },
   ],
   'yu-gi-oh': [
