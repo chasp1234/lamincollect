@@ -101,6 +101,13 @@ export default function App() {
     );
   }, [sortedCards, searchNormalized]);
 
+  const searchCardSuggestions = useMemo(() => {
+    if (!searchNormalized || searchNormalized.length < 2) return [];
+    return pokemonVerticalAdvanced.cards
+      .filter((card) => card.name.toLowerCase().includes(searchNormalized))
+      .slice(0, 8);
+  }, [searchNormalized]);
+
   const openUniverse = (universeId: UniverseId) => {
     setSelectedUniverse(universeId);
     setScreen('collections');
@@ -118,6 +125,14 @@ export default function App() {
   const openCard = (cardId: string) => {
     setSelectedCardId(cardId);
     setScreen('card');
+  };
+
+  const openSearchCard = (cardId: string) => {
+    setSelectedUniverse('pokemon');
+    setSelectedCollection('pokemon-vertical');
+    setSelectedCardId(cardId);
+    setScreen('card');
+    setSearchQuery('');
   };
 
   const renderHome = () => (
@@ -362,13 +377,24 @@ export default function App() {
         </View>
       </View>
       <View style={styles.searchSubBand}>
-        <TextInput
-          value={searchQuery}
-          onChangeText={setSearchQuery}
-          placeholder="Cerca carte o espansioni"
-          placeholderTextColor="#94A3B8"
-          style={styles.searchInput}
-        />
+        <View style={styles.searchWrap}>
+          <TextInput
+            value={searchQuery}
+            onChangeText={setSearchQuery}
+            placeholder="Cerca carte o espansioni"
+            placeholderTextColor="#94A3B8"
+            style={styles.searchInput}
+          />
+          {searchCardSuggestions.length > 0 ? (
+            <View style={styles.searchDropdown}>
+              {searchCardSuggestions.map((card) => (
+                <TouchableOpacity key={card.id} style={styles.searchDropdownItem} onPress={() => openSearchCard(card.id)}>
+                  <Text style={styles.searchDropdownText}>{card.name}</Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          ) : null}
+        </View>
       </View>
       {screen === 'home' && renderHome()}
       {screen === 'collections' && renderCollections()}
@@ -387,8 +413,12 @@ const styles = StyleSheet.create({
   header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 10, alignItems: 'center' },
   headerPokemonTheme: { },
   headerTitle: { color: '#F1EDE2', fontSize: 34, fontWeight: '900', fontFamily: 'Bungee' as any, letterSpacing: 0.8, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
-  searchSubBand: { backgroundColor: '#0B1220', borderBottomWidth: 1, borderBottomColor: '#1E293B', paddingHorizontal: 12, paddingVertical: 8, alignItems: 'flex-end' },
-  searchInput: { width: '72%', maxWidth: 360, minWidth: 180, backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700' },
+  searchSubBand: { backgroundColor: '#0B1220', borderBottomWidth: 1, borderBottomColor: '#1E293B', paddingHorizontal: 12, paddingVertical: 8, alignItems: 'flex-end', zIndex: 40 },
+  searchWrap: { width: '72%', maxWidth: 360, minWidth: 180, position: 'relative' },
+  searchInput: { width: '100%', backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700' },
+  searchDropdown: { position: 'absolute', top: 40, left: 0, right: 0, backgroundColor: '#0F172A', borderWidth: 1, borderColor: '#334155', borderRadius: 12, overflow: 'hidden', zIndex: 50 },
+  searchDropdownItem: { paddingHorizontal: 10, paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: '#1E293B' },
+  searchDropdownText: { color: '#E2E8F0', fontSize: 12, fontWeight: '700' },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
