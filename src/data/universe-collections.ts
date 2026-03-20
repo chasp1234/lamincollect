@@ -7,6 +7,7 @@ export const universeCollections = {
       total: 100,
       accent: '#2563EB',
       pill: 'SET #1',
+      sealedImage: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
     },
     {
       id: 'pokemon-advanced',

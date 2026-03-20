@@ -125,13 +125,18 @@ export default function App() {
         return (
         <TouchableOpacity key={collection.id} style={[styles.collectionCard, !isLivePokemonArchive && styles.collectionCardDisabled]} onPress={() => openCollection(collection.id as CollectionId)}>
           <View style={[styles.collectionAccent, { backgroundColor: collection.accent }]} />
-          <View style={{ flex: 1 }}>
-            <View style={styles.collectionTopRow}>
-              <Text style={styles.collectionTitle}>{collection.title}</Text>
-              <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLivePokemonArchive ? collection.pill : 'PREVIEW'}</Text></View>
+          <View style={styles.collectionMainRow}>
+            <View style={{ flex: 1 }}>
+              <View style={styles.collectionTopRow}>
+                <Text style={styles.collectionTitle}>{collection.title}</Text>
+                <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLivePokemonArchive ? collection.pill : 'PREVIEW'}</Text></View>
+              </View>
+              <Text style={styles.collectionSubtitle}>{collection.subtitle}</Text>
+              <Text style={styles.collectionMeta}>{isLivePokemonArchive ? `${collection.total} carte archiviate` : 'Struttura pronta, database non collegato qui'}</Text>
             </View>
-            <Text style={styles.collectionSubtitle}>{collection.subtitle}</Text>
-            <Text style={styles.collectionMeta}>{isLivePokemonArchive ? `${collection.total} carte archiviate` : 'Struttura pronta, database non collegato qui'}</Text>
+            {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
+              <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
+            ) : null}
           </View>
         </TouchableOpacity>
         );
@@ -290,6 +295,8 @@ const styles = StyleSheet.create({
   collectionsTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
   collectionsSubtitle: { color: '#94A3B8', fontSize: 13, marginTop: 5, lineHeight: 18 },
   collectionCard: { backgroundColor: '#0F172A', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1E293B', flexDirection: 'row', gap: 12, alignItems: 'stretch' },
+  collectionMainRow: { flex: 1, flexDirection: 'row', gap: 12, alignItems: 'flex-start' },
+  collectionSealedImage: { width: 68, height: 104, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827' },
   collectionCardDisabled: { opacity: 0.68 },
   collectionAccent: { width: 6, borderRadius: 999 },
   collectionTopRow: { flexDirection: 'row', justifyContent: 'space-between', gap: 8, alignItems: 'center' },
