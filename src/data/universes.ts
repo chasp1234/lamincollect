@@ -49,6 +49,13 @@ export const universes = [
     color: '#94A3B8',
   },
   {
+    id: 'marvel',
+    title: 'Marvel',
+    subtitle: 'Hero cards, sticker, promo e movie tie-ins',
+    emoji: '🦸',
+    color: '#EF4444',
+  },
+  {
     id: 'mixed',
     title: 'Promo strane',
     subtitle: 'Yogurt, pizza, edicola, campagne folli',

@@ -8,7 +8,7 @@ import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-adva
 
 type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
-type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'spongebob-core' | 'gormiti-core' | 'mixed-weird';
+type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'spongebob-core' | 'gormiti-core' | 'marvel-core' | 'mixed-weird';
 type SortMode = 'num-asc' | 'num-desc' | 'name-asc' | 'name-desc';
 
 const defaultUniverseId: UniverseId = 'pokemon';
@@ -28,6 +28,7 @@ const universeLogos: Partial<Record<UniverseId, any>> = {
   'one-piece': require('./assets/onepiece-logo.png'),
   spongebob: require('./assets/spongebob-logo.png'),
   gormiti: require('./assets/gormiti-logo.png'),
+  marvel: require('./assets/marvel-logo.png'),
   mixed: require('./assets/mixed-logo.png'),
 };
 
@@ -364,10 +365,10 @@ const styles = StyleSheet.create({
   rankMeta: { color: '#94A3B8', fontSize: 12, flex: 1, textAlign: 'right' },
   sectionTitle: { color: '#F8FAFC', fontSize: 18, fontWeight: '900' },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
-  universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 18, padding: 10, borderWidth: 1, borderColor: '#1E293B', minHeight: 108 },
-  universeBadge: { width: 44, height: 44, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
+  universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 16, padding: 8, borderWidth: 1, borderColor: '#1E293B', minHeight: 56 },
+  universeBadge: { width: 36, height: 36, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   universeBadgeLogo: { width: '100%', backgroundColor: 'transparent' },
-  universeLogoImage: { width: '100%', height: 28 },
+  universeLogoImage: { width: '100%', height: 22 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },

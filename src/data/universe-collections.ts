@@ -86,6 +86,16 @@ export const universeCollections = {
       pill: 'TRIBE',
     },
   ],
+  marvel: [
+    {
+      id: 'marvel-core',
+      title: 'Marvel core sets',
+      subtitle: 'Superhero cards, promo e speciali',
+      total: 30,
+      accent: '#EF4444',
+      pill: 'HERO',
+    },
+  ],
   mixed: [
     {
       id: 'mixed-weird',
