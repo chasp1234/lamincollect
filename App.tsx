@@ -180,7 +180,10 @@ export default function App() {
             <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
-            <Text style={[styles.gridSwitchText, sortPanelOpen && styles.gridSwitchTextActive]}>⛃</Text>
+            <View style={styles.funnelIconWrap}>
+              <View style={[styles.funnelIconTop, sortPanelOpen && styles.funnelIconActive]} />
+              <View style={[styles.funnelIconStem, sortPanelOpen && styles.funnelIconActive]} />
+            </View>
           </TouchableOpacity>
         </View>
 
@@ -315,15 +318,19 @@ const styles = StyleSheet.create({
   collectionSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   collectionMeta: { color: '#64748B', fontSize: 12, marginTop: 8 },
   listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
-  listHeroTopRow: { flexDirection: 'row', gap: 12, alignItems: 'flex-start' },
-  listHeroSealedImage: { width: 72, height: 112, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
+  listHeroTopRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
+  listHeroSealedImage: { width: 92, height: 136, borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
   listTitle: { color: '#F8FAFC', fontSize: 24, fontWeight: '900', letterSpacing: 0.8, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
-  filterBtn: { marginLeft: 'auto' },
+  filterBtn: { marginLeft: 'auto', width: 42, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 0 },
+  funnelIconWrap: { width: 16, alignItems: 'center', justifyContent: 'center', gap: 2 },
+  funnelIconTop: { width: 16, height: 0, borderLeftWidth: 6, borderRightWidth: 6, borderBottomWidth: 8, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderBottomColor: '#CBD5E1' },
+  funnelIconStem: { width: 4, height: 6, borderRadius: 2, backgroundColor: '#CBD5E1' },
+  funnelIconActive: { borderBottomColor: '#F8FAFC', backgroundColor: '#F8FAFC' },
   gridSwitchBtnActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   gridSwitchText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
   gridSwitchTextActive: { color: '#F8FAFC' },
