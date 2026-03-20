@@ -1,5 +1,5 @@
-import React, { useMemo, useState } from 'react';
-import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import React, { useEffect, useMemo, useState } from 'react';
+import { Image, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
@@ -30,6 +30,18 @@ export default function App() {
   const [sortPanelOpen, setSortPanelOpen] = useState(false);
   const [showCardNames, setShowCardNames] = useState(true);
   const { width: viewportWidth } = useWindowDimensions();
+
+  useEffect(() => {
+    if (Platform.OS !== 'web') return;
+    const id = 'lamincollect-logo-font';
+    if (document.getElementById(id)) return;
+
+    const link = document.createElement('link');
+    link.id = id;
+    link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap';
+    document.head.appendChild(link);
+  }, []);
 
   const activeUniverse = useMemo(
     () => universes.find((universe) => universe.id === selectedUniverse) ?? universes[0],
@@ -315,7 +327,7 @@ const styles = StyleSheet.create({
   headerBandPokemonTheme: { backgroundColor: '#B91C1C', borderBottomColor: '#450A0A' },
   header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 10, alignItems: 'center' },
   headerPokemonTheme: { },
-  headerTitle: { color: '#FFDE59', fontSize: 34, fontWeight: '900', fontFamily: 'Comic Sans MS' as any, letterSpacing: 0.8, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
+  headerTitle: { color: '#FFDE59', fontSize: 34, fontWeight: '900', fontFamily: 'Baloo 2, Arial Rounded MT Bold, sans-serif' as any, letterSpacing: 0.6, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
