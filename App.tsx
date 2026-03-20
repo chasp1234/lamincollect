@@ -6,13 +6,19 @@ import { universeCollections } from './src/data/universe-collections';
 import { cardToning } from './src/data/card-toning';
 import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-advanced.json';
 
-type Screen = 'home' | 'collections' | 'cards' | 'card';
+type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
 type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'mixed-weird';
 type SortMode = 'num-asc' | 'num-desc' | 'name-asc' | 'name-desc';
 
 const defaultUniverseId: UniverseId = 'pokemon';
 const defaultCollectionId: CollectionId = 'pokemon-vertical';
+const pokemonVerticalPack = {
+  image: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
+  name: 'Pokémon Vertical Lamincards Advanced — Booster Pack Sealed',
+  releaseDate: '2004 (Italia, Edibas Collections)',
+  info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
+};
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
@@ -167,11 +173,13 @@ export default function App() {
             <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
           </View>
 
-          <Image
-            source={{ uri: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg' }}
-            style={styles.listHeroSealedImageTall}
-            resizeMode="contain"
-          />
+          <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
+            <Image
+              source={{ uri: pokemonVerticalPack.image }}
+              style={styles.listHeroSealedImageTall}
+              resizeMode="contain"
+            />
+          </TouchableOpacity>
         </View>
 
         <View style={styles.gridSwitchRow}>
@@ -227,6 +235,24 @@ export default function App() {
     );
   };
 
+  const renderPack = () => (
+    <ScrollView contentContainerStyle={styles.content}>
+      <TouchableOpacity style={styles.backButton} onPress={() => setScreen('cards')}>
+        <Text style={styles.backButtonText}>← Torna alla collezione</Text>
+      </TouchableOpacity>
+
+      <Text style={styles.sectionTitle}>Pack espansione</Text>
+      <View style={styles.packInfoCard}>
+        <Image source={{ uri: pokemonVerticalPack.image }} style={styles.packInfoImage} resizeMode="contain" />
+        <View style={styles.packInfoBody}>
+          <Text style={styles.packInfoTitle}>{pokemonVerticalPack.name}</Text>
+          <Text style={styles.packInfoDate}>Release: {pokemonVerticalPack.releaseDate}</Text>
+          <Text style={styles.packInfoText}>{pokemonVerticalPack.info}</Text>
+        </View>
+      </View>
+    </ScrollView>
+  );
+
   const renderCard = () => {
     const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
     const detailFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
@@ -275,6 +301,7 @@ export default function App() {
       {screen === 'home' && renderHome()}
       {screen === 'collections' && renderCollections()}
       {screen === 'cards' && renderCards()}
+      {screen === 'pack' && renderPack()}
       {screen === 'card' && renderCard()}
     </SafeAreaView>
   );
@@ -351,6 +378,12 @@ const styles = StyleSheet.create({
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
   cardTileNumber: { color: '#60A5FA', fontSize: 9, fontWeight: '900', marginTop: 5 },
   cardTileName: { color: '#F8FAFC', fontSize: 10, fontWeight: '700', marginTop: 3 },
+  packInfoCard: { backgroundColor: '#0F172A', borderRadius: 20, borderWidth: 1, borderColor: '#1E293B', padding: 12, gap: 12 },
+  packInfoImage: { width: '100%', height: 260, borderRadius: 12, backgroundColor: '#111827' },
+  packInfoBody: { gap: 8 },
+  packInfoTitle: { color: '#F8FAFC', fontSize: 18, fontWeight: '900' },
+  packInfoDate: { color: '#60A5FA', fontSize: 13, fontWeight: '700' },
+  packInfoText: { color: '#CBD5E1', fontSize: 13, lineHeight: 19 },
   cardShell: { gap: 14 },
   cardDualImages: { flexDirection: 'row', gap: 10 },
   cardFaceBlock: { flex: 1, gap: 8, position: 'relative' },
