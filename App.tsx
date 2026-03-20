@@ -143,15 +143,15 @@ export default function App() {
 
       <View style={styles.cardsGrid}>
         {pokemonVerticalAdvanced.cards.map((card) => {
+          const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
+          const tileFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+          const tileOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, gridMode === 3 ? styles.cardTileThree : styles.cardTileFive]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
-              <Image source={{ uri: card.image }} style={styles.cardTileImage} resizeMode="cover" />
+              <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
+               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
               <View style={styles.cardTileBackBadge}><Text style={styles.cardTileBackBadgeText}>FRONT</Text></View>
-            </View>
-            <View style={styles.cardTileImageWrap}>
-              <Image source={{ uri: card.back }} style={styles.cardTileImage} resizeMode="cover" />
-              <View style={styles.cardTileBackBadge}><Text style={styles.cardTileBackBadgeText}>BACK</Text></View>
             </View>
             <Text style={styles.cardTileNumber}>#{card.number}</Text>
             <Text style={styles.cardTileName}>{card.name}</Text>
