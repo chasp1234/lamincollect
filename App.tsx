@@ -156,7 +156,7 @@ export default function App() {
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(uid)}>
             <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }]}>
               {logo ? (
-                <Image source={logo} style={styles.universeLogoImage} resizeMode="contain" />
+                <Image source={logo} style={[styles.universeLogoImage, uid === 'marvel' && styles.universeLogoImageMarvel]} resizeMode="contain" />
               ) : (
                 <Text style={styles.universeEmoji}>{universe.emoji}</Text>
               )}
@@ -182,7 +182,7 @@ export default function App() {
 
       <View style={styles.collectionsHero}>
         {activeUniverseLogo ? (
-          <Image source={activeUniverseLogo} style={styles.collectionsHeroLogo} resizeMode="contain" />
+          <Image source={activeUniverseLogo} style={[styles.collectionsHeroLogo, selectedUniverse === 'marvel' && styles.collectionsHeroLogoMarvel]} resizeMode="contain" />
         ) : (
           <>
             <View style={[styles.collectionsBadge, { backgroundColor: activeUniverse.color }]}> 
@@ -445,8 +445,8 @@ const styles = StyleSheet.create({
   searchSubBand: { backgroundColor: '#0B1220', borderBottomWidth: 1, borderBottomColor: '#1E293B', paddingHorizontal: 12, paddingVertical: 8, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', zIndex: 40 },
   homeIconBtn: { width: 34, height: 34, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
   homeIconWrap: { width: 18, height: 18, alignItems: 'center', justifyContent: 'center' },
-  homeRoof: { width: 0, height: 0, borderLeftWidth: 6, borderRightWidth: 6, borderBottomWidth: 7, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderBottomColor: '#E2E8F0', marginBottom: 0 },
-  homeBody: { width: 12, height: 8, backgroundColor: '#E2E8F0', borderRadius: 2, marginTop: -1 },
+  homeRoof: { width: 0, height: 0, borderLeftWidth: 8, borderRightWidth: 8, borderBottomWidth: 7, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderBottomColor: '#E2E8F0', marginBottom: -1 },
+  homeBody: { width: 12, height: 8, backgroundColor: '#E2E8F0', borderRadius: 2, marginTop: 0 },
   searchWrap: { width: '78%', maxWidth: 380, minWidth: 180, position: 'relative' },
   searchRowRight: { flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'center', gap: 6 },
   searchIconBtn: { width: 34, height: 34, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
@@ -473,6 +473,7 @@ const styles = StyleSheet.create({
   universeBadge: { width: 48, height: 48, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   universeBadgeLogo: { width: '100%', backgroundColor: 'transparent' },
   universeLogoImage: { width: '100%', height: 34 },
+  universeLogoImageMarvel: { height: 42 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
@@ -480,6 +481,7 @@ const styles = StyleSheet.create({
   backButtonText: { color: '#E2E8F0', fontSize: 12, fontWeight: '800' },
   collectionsHero: { flexDirection: 'row', gap: 12, backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B', alignItems: 'center' },
   collectionsHeroLogo: { width: '100%', height: 46 },
+  collectionsHeroLogoMarvel: { height: 60 },
   collectionsBadge: { width: 58, height: 58, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   collectionsEmoji: { fontSize: 28 },
   collectionsTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
