@@ -219,7 +219,7 @@ export default function App() {
         {sortedCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
-          const tileOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(255, 255, 255, ${Math.abs(tone.overlay)})` };
+          const tileOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidth }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
@@ -256,7 +256,7 @@ export default function App() {
   const renderCard = () => {
     const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
     const detailFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
-    const detailOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(255, 255, 255, ${Math.abs(tone.overlay)})` };
+    const detailOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
     return (
     <ScrollView contentContainerStyle={styles.content}>
       <TouchableOpacity style={styles.backButton} onPress={() => setScreen('cards')}>
