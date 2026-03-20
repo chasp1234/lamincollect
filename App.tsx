@@ -176,7 +176,7 @@ export default function App() {
           <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
             <Image
               source={{ uri: pokemonVerticalPack.image }}
-              style={[styles.listHeroSealedImageTall as any, styles.packVividFilter as any]}
+              style={styles.listHeroSealedImageTall}
               resizeMode="contain"
             />
           </TouchableOpacity>
@@ -218,8 +218,8 @@ export default function App() {
       <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}> 
         {sortedCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
-          const tileFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
-          const tileOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
+          const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+          const tileOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidth }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
@@ -243,7 +243,7 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Pack espansione</Text>
       <View style={styles.packInfoCard}>
-        <Image source={{ uri: pokemonVerticalPack.image }} style={[styles.packInfoImage as any, styles.packVividFilter as any]} resizeMode="contain" />
+        <Image source={{ uri: pokemonVerticalPack.image }} style={styles.packInfoImage} resizeMode="contain" />
         <View style={styles.packInfoBody}>
           <Text style={styles.packInfoTitle}>{pokemonVerticalPack.name}</Text>
           <Text style={styles.packInfoDate}>Release: {pokemonVerticalPack.releaseDate}</Text>
@@ -255,8 +255,8 @@ export default function App() {
 
   const renderCard = () => {
     const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
-    const detailFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
-    const detailOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
+    const detailFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
+    const detailOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
     return (
     <ScrollView contentContainerStyle={styles.content}>
       <TouchableOpacity style={styles.backButton} onPress={() => setScreen('cards')}>
@@ -350,7 +350,6 @@ const styles = StyleSheet.create({
   listHeroMainRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
   listHeroTextCol: { flex: 1, minHeight: 124 },
   listHeroSealedImageTall: { width: 94, height: 124, alignSelf: 'flex-start', borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
-  packVividFilter: { filter: 'saturate(1.2) contrast(1.12) brightness(1.05)' } as any,
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
   listTitle: { color: '#F8FAFC', fontSize: 19, fontWeight: '900', letterSpacing: 0.4, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
