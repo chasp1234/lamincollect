@@ -15,10 +15,11 @@ const defaultUniverseId: UniverseId = 'pokemon';
 const defaultCollectionId: CollectionId = 'pokemon-vertical';
 const pokemonVerticalPack = {
   image: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
-  name: 'Pokémon Vertical Lamincards Advanced — Booster Pack Sealed',
+  name: 'Pokémon Vertical Lamincards Advanced - Booster Pack Sealed',
   releaseDate: '2004 (Italia, Edibas Collections)',
   info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
 };
+const pokemonLogoPng = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/512px-International_Pok%C3%A9mon_logo.svg.png';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
@@ -102,15 +103,26 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
       <View style={styles.grid}>
-        {universes.map((universe) => (
+        {universes.map((universe) => {
+          const isPokemon = universe.id === 'pokemon';
+          return (
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(universe.id as UniverseId)}>
-            <View style={[styles.universeBadge, { backgroundColor: universe.color }]}>
-              <Text style={styles.universeEmoji}>{universe.emoji}</Text>
+            <View style={[styles.universeBadge, { backgroundColor: isPokemon ? '#B91C1C' : universe.color }]}> 
+              {isPokemon ? (
+                <Image source={{ uri: pokemonLogoPng }} style={styles.pokemonLogo} resizeMode="contain" />
+              ) : (
+                <Text style={styles.universeEmoji}>{universe.emoji}</Text>
+              )}
             </View>
-            <Text style={styles.universeName}>{universe.title}</Text>
-            <Text style={styles.universeInfo}>{universe.subtitle}</Text>
+            {!isPokemon ? (
+              <>
+                <Text style={styles.universeName}>{universe.title}</Text>
+                <Text style={styles.universeInfo}>{universe.subtitle}</Text>
+              </>
+            ) : null}
           </TouchableOpacity>
-        ))}
+          );
+        })}
       </View>
     </ScrollView>
   );
@@ -227,7 +239,7 @@ export default function App() {
         )}
       </View>
 
-      <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}> 
+      <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}>
         {sortedCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
@@ -341,6 +353,7 @@ const styles = StyleSheet.create({
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 22, padding: 14, borderWidth: 1, borderColor: '#1E293B', minHeight: 144 },
   universeBadge: { width: 52, height: 52, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+  pokemonLogo: { width: 44, height: 22 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
