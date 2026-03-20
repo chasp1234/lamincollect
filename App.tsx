@@ -44,6 +44,8 @@ export default function App() {
   const [showCardNames, setShowCardNames] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
+  const [universeSearchOpen, setUniverseSearchOpen] = useState(false);
+  const [universeSearchQuery, setUniverseSearchQuery] = useState('');
   const { width: viewportWidth } = useWindowDimensions();
 
   useEffect(() => {
@@ -117,6 +119,12 @@ export default function App() {
     );
   }, [sortedCards, searchNormalized]);
 
+  const filteredUniverses = useMemo(() => {
+    const q = universeSearchQuery.trim().toLowerCase();
+    if (!q) return universes;
+    return universes.filter((u) => `${u.title} ${u.subtitle}`.toLowerCase().includes(q));
+  }, [universeSearchQuery]);
+
   const searchCardSuggestions = useMemo(() => {
     if (!searchNormalized || searchNormalized.length < 2) return [];
     return activeSet.cards
@@ -168,9 +176,29 @@ export default function App() {
         <Text style={styles.rankMeta}>Prima collezione reale: Pokémon Vertical Lamincards Advanced.</Text>
       </View>
 
-      <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
+      <View style={styles.sectionHeaderRow}>
+        <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
+        <TouchableOpacity style={styles.sectionSearchBtn} onPress={() => setUniverseSearchOpen((v) => !v)}>
+          <View style={styles.searchIconWrap}>
+            <View style={styles.searchLensCircle} />
+            <View style={styles.searchLensHole} />
+            <View style={styles.searchLensHandle} />
+          </View>
+        </TouchableOpacity>
+      </View>
+
+      {universeSearchOpen ? (
+        <TextInput
+          value={universeSearchQuery}
+          onChangeText={setUniverseSearchQuery}
+          placeholder="Cerca cartone"
+          placeholderTextColor="#94A3B8"
+          style={styles.universeSearchInput}
+        />
+      ) : null}
+
       <View style={styles.grid}>
-        {universes.map((universe) => {
+        {filteredUniverses.map((universe) => {
           const uid = universe.id as UniverseId;
           const logo = universeLogos[uid];
           return (
@@ -491,6 +519,9 @@ const styles = StyleSheet.create({
   rankMain: { color: '#F8FAFC', fontSize: 20, fontWeight: '900', marginTop: 4 },
   rankMeta: { color: '#94A3B8', fontSize: 12, flex: 1, textAlign: 'right' },
   sectionTitle: { color: '#F8FAFC', fontSize: 18, fontWeight: '900' },
+  sectionHeaderRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  sectionSearchBtn: { width: 34, height: 34, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
+  universeSearchInput: { backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700', marginTop: -4 },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 16, padding: 8, borderWidth: 1, borderColor: '#1E293B', minHeight: 56 },
   universeBadge: { width: 48, height: 48, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
