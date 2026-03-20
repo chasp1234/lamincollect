@@ -166,7 +166,7 @@ export default function App() {
             <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
-            <Text style={[styles.gridSwitchText, sortPanelOpen && styles.gridSwitchTextActive]}>⏷ Filtro</Text>
+            <Text style={[styles.gridSwitchText, sortPanelOpen && styles.gridSwitchTextActive]}>⛃</Text>
           </TouchableOpacity>
         </View>
 
