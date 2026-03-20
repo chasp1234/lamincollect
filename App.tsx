@@ -61,6 +61,7 @@ export default function App() {
   );
 
   const activeCollections = universeCollections[selectedUniverse] ?? [];
+  const activeUniverseLogo = universeLogos[selectedUniverse];
   const isPokemonTheme = selectedUniverse === 'pokemon' && screen !== 'home';
 
   const activeCard = useMemo(
@@ -119,7 +120,7 @@ export default function App() {
           const logo = universeLogos[uid];
           return (
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(uid)}>
-            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }]}> 
+            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }]}>
               {logo ? (
                 <Image source={logo} style={styles.universeLogoImage} resizeMode="contain" />
               ) : (
@@ -146,13 +147,19 @@ export default function App() {
       </TouchableOpacity>
 
       <View style={styles.collectionsHero}>
-        <View style={[styles.collectionsBadge, { backgroundColor: activeUniverse.color }]}>
-          <Text style={styles.collectionsEmoji}>{activeUniverse.emoji}</Text>
-        </View>
-        <View style={{ flex: 1 }}>
-          <Text style={styles.collectionsTitle}>{activeUniverse.title}</Text>
-          <Text style={styles.collectionsSubtitle}>{activeUniverse.subtitle}</Text>
-        </View>
+        {activeUniverseLogo ? (
+          <Image source={activeUniverseLogo} style={styles.collectionsHeroLogo} resizeMode="contain" />
+        ) : (
+          <>
+            <View style={[styles.collectionsBadge, { backgroundColor: activeUniverse.color }]}> 
+              <Text style={styles.collectionsEmoji}>{activeUniverse.emoji}</Text>
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.collectionsTitle}>{activeUniverse.title}</Text>
+              <Text style={styles.collectionsSubtitle}>{activeUniverse.subtitle}</Text>
+            </View>
+          </>
+        )}
       </View>
 
       <Text style={styles.sectionTitle}>Collezioni</Text>
@@ -375,6 +382,7 @@ const styles = StyleSheet.create({
   backButton: { alignSelf: 'flex-start', backgroundColor: '#111827', borderRadius: 999, paddingHorizontal: 14, paddingVertical: 9, borderWidth: 1, borderColor: '#1F2937' },
   backButtonText: { color: '#E2E8F0', fontSize: 12, fontWeight: '800' },
   collectionsHero: { flexDirection: 'row', gap: 12, backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B', alignItems: 'center' },
+  collectionsHeroLogo: { width: '100%', height: 46 },
   collectionsBadge: { width: 58, height: 58, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   collectionsEmoji: { fontSize: 28 },
   collectionsTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
