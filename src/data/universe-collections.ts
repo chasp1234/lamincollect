@@ -66,6 +66,26 @@ export const universeCollections = {
       pill: 'SEA',
     },
   ],
+  spongebob: [
+    {
+      id: 'spongebob-core',
+      title: 'Bikini Bottom sets',
+      subtitle: 'Card, sticker e promo TV',
+      total: 26,
+      accent: '#FACC15',
+      pill: 'BOB',
+    },
+  ],
+  gormiti: [
+    {
+      id: 'gormiti-core',
+      title: 'Tribe core sets',
+      subtitle: 'Serie base, promo e allegati',
+      total: 24,
+      accent: '#94A3B8',
+      pill: 'TRIBE',
+    },
+  ],
   mixed: [
     {
       id: 'mixed-weird',

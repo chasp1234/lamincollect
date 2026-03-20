@@ -35,6 +35,20 @@ export const universes = [
     color: '#06B6D4',
   },
   {
+    id: 'spongebob',
+    title: 'SpongeBob',
+    subtitle: 'Card, sticker, promo e collezioni TV',
+    emoji: '🧽',
+    color: '#FACC15',
+  },
+  {
+    id: 'gormiti',
+    title: 'Gormiti',
+    subtitle: 'Serie, promo, allegati e special pack',
+    emoji: '🗿',
+    color: '#94A3B8',
+  },
+  {
     id: 'mixed',
     title: 'Promo strane',
     subtitle: 'Yogurt, pizza, edicola, campagne folli',

@@ -8,7 +8,7 @@ import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-adva
 
 type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
-type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'mixed-weird';
+type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'spongebob-core' | 'gormiti-core' | 'mixed-weird';
 type SortMode = 'num-asc' | 'num-desc' | 'name-asc' | 'name-desc';
 
 const defaultUniverseId: UniverseId = 'pokemon';
@@ -26,6 +26,8 @@ const universeLogos: Partial<Record<UniverseId, any>> = {
   'yu-gi-oh': require('./assets/yugioh-logo.png'),
   naruto: require('./assets/naruto-logo.png'),
   'one-piece': require('./assets/onepiece-logo.png'),
+  spongebob: require('./assets/spongebob-logo.png'),
+  gormiti: require('./assets/gormiti-logo.png'),
   mixed: require('./assets/mixed-logo.png'),
 };
 
