@@ -9,6 +9,7 @@ import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-adva
 type Screen = 'home' | 'collections' | 'cards' | 'card';
 type UniverseId = keyof typeof universeCollections;
 type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'mixed-weird';
+type SortMode = 'num-asc' | 'num-desc' | 'name-asc' | 'name-desc';
 
 const defaultUniverseId: UniverseId = 'pokemon';
 const defaultCollectionId: CollectionId = 'pokemon-vertical';
@@ -19,6 +20,8 @@ export default function App() {
   const [selectedCollection, setSelectedCollection] = useState<CollectionId>(defaultCollectionId);
   const [selectedCardId, setSelectedCardId] = useState<string>(pokemonVerticalAdvanced.cards[0].id);
   const [gridMode, setGridMode] = useState<3 | 5>(5);
+  const [sortMode, setSortMode] = useState<SortMode>('num-asc');
+  const [sortPanelOpen, setSortPanelOpen] = useState(false);
   const { width: viewportWidth } = useWindowDimensions();
 
   const activeUniverse = useMemo(
@@ -32,6 +35,21 @@ export default function App() {
     () => pokemonVerticalAdvanced.cards.find((card) => card.id === selectedCardId) ?? pokemonVerticalAdvanced.cards[0],
     [selectedCardId],
   );
+
+  const sortedCards = useMemo(() => {
+    const cards = [...pokemonVerticalAdvanced.cards];
+    switch (sortMode) {
+      case 'num-desc':
+        return cards.sort((a, b) => Number(b.number) - Number(a.number));
+      case 'name-asc':
+        return cards.sort((a, b) => a.name.localeCompare(b.name, 'it', { sensitivity: 'base' }));
+      case 'name-desc':
+        return cards.sort((a, b) => b.name.localeCompare(a.name, 'it', { sensitivity: 'base' }));
+      case 'num-asc':
+      default:
+        return cards.sort((a, b) => Number(a.number) - Number(b.number));
+    }
+  }, [sortMode]);
 
   const openUniverse = (universeId: UniverseId) => {
     setSelectedUniverse(universeId);
@@ -147,11 +165,31 @@ export default function App() {
           <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 5 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(5)}>
             <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
           </TouchableOpacity>
+          <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
+            <Text style={[styles.gridSwitchText, sortPanelOpen && styles.gridSwitchTextActive]}>⏷ Filtro</Text>
+          </TouchableOpacity>
         </View>
+
+        {sortPanelOpen && (
+          <View style={styles.sortPanel}>
+            <TouchableOpacity style={[styles.sortOption, sortMode === 'num-asc' && styles.sortOptionActive]} onPress={() => setSortMode('num-asc')}>
+              <Text style={[styles.sortOptionText, sortMode === 'num-asc' && styles.sortOptionTextActive]}>Numero crescente</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={[styles.sortOption, sortMode === 'num-desc' && styles.sortOptionActive]} onPress={() => setSortMode('num-desc')}>
+              <Text style={[styles.sortOptionText, sortMode === 'num-desc' && styles.sortOptionTextActive]}>Numero decrescente</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={[styles.sortOption, sortMode === 'name-asc' && styles.sortOptionActive]} onPress={() => setSortMode('name-asc')}>
+              <Text style={[styles.sortOptionText, sortMode === 'name-asc' && styles.sortOptionTextActive]}>Alfabeto A→Z</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={[styles.sortOption, sortMode === 'name-desc' && styles.sortOptionActive]} onPress={() => setSortMode('name-desc')}>
+              <Text style={[styles.sortOptionText, sortMode === 'name-desc' && styles.sortOptionTextActive]}>Alfabeto Z→A</Text>
+            </TouchableOpacity>
+          </View>
+        )}
       </View>
 
       <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}> 
-        {pokemonVerticalAdvanced.cards.map((card) => {
+        {sortedCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `hue-rotate(${tone.hueRotate}deg) saturate(${tone.saturation}) contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
           const tileOverlay = { backgroundColor: tone.overlay >= 0 ? `rgba(15, 23, 42, ${tone.overlay})` : `rgba(96, 165, 250, ${Math.abs(tone.overlay)})` };
@@ -266,11 +304,17 @@ const styles = StyleSheet.create({
   listTitle: { color: '#F8FAFC', fontSize: 24, fontWeight: '900', letterSpacing: 0.8, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
-  gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12 },
+  gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
+  filterBtn: { marginLeft: 'auto' },
   gridSwitchBtnActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   gridSwitchText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
   gridSwitchTextActive: { color: '#F8FAFC' },
+  sortPanel: { marginTop: 10, backgroundColor: '#0B1220', borderWidth: 1, borderColor: '#1E293B', borderRadius: 14, padding: 8, gap: 6 },
+  sortOption: { borderRadius: 10, paddingHorizontal: 10, paddingVertical: 9, backgroundColor: '#0F172A', borderWidth: 1, borderColor: '#1F2937' },
+  sortOptionActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
+  sortOptionText: { color: '#CBD5E1', fontSize: 12, fontWeight: '700' },
+  sortOptionTextActive: { color: '#F8FAFC' },
   cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, justifyContent: 'flex-start', alignSelf: 'center', width: '100%' },
   cardTile: { backgroundColor: '#0F172A', borderRadius: 14, padding: 5, borderWidth: 1, borderColor: '#1E293B' },
   cardTileImageWrap: { position: 'relative' },
