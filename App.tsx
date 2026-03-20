@@ -160,11 +160,10 @@ export default function App() {
 
       <View style={styles.listHero}>
         <View style={styles.listHeroTopRow}>
-          <View style={{ flex: 1 }}>
+          <View style={styles.listHeroTextCol}>
             <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
             <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
-            <Text style={styles.listSubtitle}>{pokemonVerticalAdvanced.notes}</Text>
-            <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+            <Text style={styles.listSubtitle} numberOfLines={3}>{pokemonVerticalAdvanced.notes}</Text>
           </View>
           <Image
             source={{ uri: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg' }}
@@ -181,9 +180,8 @@ export default function App() {
           </TouchableOpacity>
           <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
             <View style={styles.funnelIconWrap}>
-              <View style={[styles.funnelLineTop, sortPanelOpen && styles.funnelLineActive]} />
-              <View style={[styles.funnelLineMid, sortPanelOpen && styles.funnelLineActive]} />
-              <View style={[styles.funnelLineBottom, sortPanelOpen && styles.funnelLineActive]} />
+              <View style={[styles.funnelCone, sortPanelOpen && styles.funnelConeActive]} />
+              <View style={[styles.funnelStem, sortPanelOpen && styles.funnelStemActive]} />
             </View>
           </TouchableOpacity>
         </View>
@@ -320,7 +318,8 @@ const styles = StyleSheet.create({
   collectionMeta: { color: '#64748B', fontSize: 12, marginTop: 8 },
   listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
   listHeroTopRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
-  listHeroSealedImage: { width: 92, height: 136, borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
+  listHeroTextCol: { flex: 1, minHeight: 124 },
+  listHeroSealedImage: { width: 88, height: 124, borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
   listTitle: { color: '#F8FAFC', fontSize: 24, fontWeight: '900', letterSpacing: 0.8, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
@@ -329,10 +328,10 @@ const styles = StyleSheet.create({
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
   filterBtn: { marginLeft: 'auto', width: 42, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 0 },
   funnelIconWrap: { width: 16, alignItems: 'center', justifyContent: 'center', gap: 2 },
-  funnelLineTop: { width: 14, height: 2, borderRadius: 99, backgroundColor: '#CBD5E1' },
-  funnelLineMid: { width: 9, height: 2, borderRadius: 99, backgroundColor: '#CBD5E1' },
-  funnelLineBottom: { width: 5, height: 2, borderRadius: 99, backgroundColor: '#CBD5E1' },
-  funnelLineActive: { backgroundColor: '#F8FAFC' },
+  funnelCone: { width: 0, height: 0, borderLeftWidth: 7, borderRightWidth: 7, borderTopWidth: 9, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderTopColor: '#CBD5E1' },
+  funnelStem: { width: 4, height: 5, borderRadius: 99, backgroundColor: '#CBD5E1' },
+  funnelConeActive: { borderTopColor: '#F8FAFC' },
+  funnelStemActive: { backgroundColor: '#F8FAFC' },
   gridSwitchBtnActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   gridSwitchText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
   gridSwitchTextActive: { color: '#F8FAFC' },
