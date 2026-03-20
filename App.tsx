@@ -159,49 +159,52 @@ export default function App() {
       </TouchableOpacity>
 
       <View style={styles.listHero}>
-        <View style={styles.listHeroTopRow}>
+        <View style={styles.listHeroMainRow}>
           <View style={styles.listHeroTextCol}>
             <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
-            <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
+            <Text style={styles.listTitle} numberOfLines={2}>{pokemonVerticalAdvanced.title}</Text>
             <Text style={styles.listSubtitle} numberOfLines={3}>{pokemonVerticalAdvanced.notes}</Text>
+            <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+
+            <View style={styles.gridSwitchRow}>
+              <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 3 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(3)}>
+                <Text style={[styles.gridSwitchText, gridMode === 3 && styles.gridSwitchTextActive]}>3 colonne</Text>
+              </TouchableOpacity>
+              <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 5 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(5)}>
+                <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
+              </TouchableOpacity>
+              <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
+                <View style={styles.funnelIconWrap}>
+                  <View style={[styles.funnelCone, sortPanelOpen && styles.funnelConeActive]} />
+                  <View style={[styles.funnelStem, sortPanelOpen && styles.funnelStemActive]} />
+                </View>
+              </TouchableOpacity>
+            </View>
+
+            {sortPanelOpen && (
+              <View style={styles.sortPanel}>
+                <TouchableOpacity style={[styles.sortOption, sortMode === 'num-asc' && styles.sortOptionActive]} onPress={() => setSortMode('num-asc')}>
+                  <Text style={[styles.sortOptionText, sortMode === 'num-asc' && styles.sortOptionTextActive]}>Numero crescente</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={[styles.sortOption, sortMode === 'num-desc' && styles.sortOptionActive]} onPress={() => setSortMode('num-desc')}>
+                  <Text style={[styles.sortOptionText, sortMode === 'num-desc' && styles.sortOptionTextActive]}>Numero decrescente</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={[styles.sortOption, sortMode === 'name-asc' && styles.sortOptionActive]} onPress={() => setSortMode('name-asc')}>
+                  <Text style={[styles.sortOptionText, sortMode === 'name-asc' && styles.sortOptionTextActive]}>Alfabeto A→Z</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={[styles.sortOption, sortMode === 'name-desc' && styles.sortOptionActive]} onPress={() => setSortMode('name-desc')}>
+                  <Text style={[styles.sortOptionText, sortMode === 'name-desc' && styles.sortOptionTextActive]}>Alfabeto Z→A</Text>
+                </TouchableOpacity>
+              </View>
+            )}
           </View>
+
           <Image
             source={{ uri: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg' }}
-            style={styles.listHeroSealedImage}
+            style={styles.listHeroSealedImageTall}
             resizeMode="cover"
           />
         </View>
-        <View style={styles.gridSwitchRow}>
-          <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 3 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(3)}>
-            <Text style={[styles.gridSwitchText, gridMode === 3 && styles.gridSwitchTextActive]}>3 colonne</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 5 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(5)}>
-            <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
-            <View style={styles.funnelIconWrap}>
-              <View style={[styles.funnelCone, sortPanelOpen && styles.funnelConeActive]} />
-              <View style={[styles.funnelStem, sortPanelOpen && styles.funnelStemActive]} />
-            </View>
-          </TouchableOpacity>
-        </View>
-
-        {sortPanelOpen && (
-          <View style={styles.sortPanel}>
-            <TouchableOpacity style={[styles.sortOption, sortMode === 'num-asc' && styles.sortOptionActive]} onPress={() => setSortMode('num-asc')}>
-              <Text style={[styles.sortOptionText, sortMode === 'num-asc' && styles.sortOptionTextActive]}>Numero crescente</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={[styles.sortOption, sortMode === 'num-desc' && styles.sortOptionActive]} onPress={() => setSortMode('num-desc')}>
-              <Text style={[styles.sortOptionText, sortMode === 'num-desc' && styles.sortOptionTextActive]}>Numero decrescente</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={[styles.sortOption, sortMode === 'name-asc' && styles.sortOptionActive]} onPress={() => setSortMode('name-asc')}>
-              <Text style={[styles.sortOptionText, sortMode === 'name-asc' && styles.sortOptionTextActive]}>Alfabeto A→Z</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={[styles.sortOption, sortMode === 'name-desc' && styles.sortOptionActive]} onPress={() => setSortMode('name-desc')}>
-              <Text style={[styles.sortOptionText, sortMode === 'name-desc' && styles.sortOptionTextActive]}>Alfabeto Z→A</Text>
-            </TouchableOpacity>
-          </View>
-        )}
       </View>
 
       <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}> 
@@ -317,11 +320,11 @@ const styles = StyleSheet.create({
   collectionSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   collectionMeta: { color: '#64748B', fontSize: 12, marginTop: 8 },
   listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
-  listHeroTopRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
-  listHeroTextCol: { flex: 1, minHeight: 124 },
-  listHeroSealedImage: { width: 88, height: 124, borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
+  listHeroMainRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
+  listHeroTextCol: { flex: 1, minHeight: 180 },
+  listHeroSealedImageTall: { width: 94, alignSelf: 'stretch', borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
-  listTitle: { color: '#F8FAFC', fontSize: 24, fontWeight: '900', letterSpacing: 0.8, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
+  listTitle: { color: '#F8FAFC', fontSize: 19, fontWeight: '900', letterSpacing: 0.4, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
