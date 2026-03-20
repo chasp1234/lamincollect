@@ -302,9 +302,10 @@ export default function App() {
   return (
     <SafeAreaView style={[styles.safe, isPokemonTheme && styles.safePokemonTheme]}>
       <StatusBar barStyle="light-content" />
-      <View style={[styles.header, isPokemonTheme && styles.headerPokemonTheme]}>
-        <Text style={styles.headerTitle}>LaminCollect</Text>
-        <Text style={[styles.headerSub, isPokemonTheme && styles.headerSubPokemonTheme]}>Archivio minimale, leggibile, cattivo il giusto</Text>
+      <View style={[styles.headerBand, isPokemonTheme && styles.headerBandPokemonTheme]}>
+        <View style={[styles.header, isPokemonTheme && styles.headerPokemonTheme]}>
+          <Text style={styles.headerTitle}>LaminCollect</Text>
+        </View>
       </View>
       {screen === 'home' && renderHome()}
       {screen === 'collections' && renderCollections()}
@@ -318,11 +319,11 @@ export default function App() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: '#06080D' },
   safePokemonTheme: { backgroundColor: '#110708' },
-  header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 8 },
-  headerPokemonTheme: { borderBottomWidth: 1, borderBottomColor: '#3F1A1D' },
-  headerTitle: { color: '#F8FAFC', fontSize: 28, fontWeight: '900' },
-  headerSub: { color: '#94A3B8', fontSize: 12, marginTop: 3 },
-  headerSubPokemonTheme: { color: '#FCA5A5' },
+  headerBand: { backgroundColor: '#1D4ED8', borderBottomWidth: 2, borderBottomColor: '#0B1220' },
+  headerBandPokemonTheme: { backgroundColor: '#B91C1C', borderBottomColor: '#450A0A' },
+  header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 10, alignItems: 'center' },
+  headerPokemonTheme: { },
+  headerTitle: { color: '#FFDE59', fontSize: 32, fontWeight: '900', letterSpacing: 0.6, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.6, height: 1.6 }, textShadowRadius: 0.8 },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
