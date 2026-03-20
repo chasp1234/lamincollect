@@ -339,7 +339,7 @@ const styles = StyleSheet.create({
   headerBandPokemonTheme: { backgroundColor: '#B91C1C', borderBottomColor: '#450A0A' },
   header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 10, alignItems: 'center' },
   headerPokemonTheme: { },
-  headerTitle: { color: '#FFDE59', fontSize: 34, fontWeight: '900', fontFamily: 'Bungee' as any, letterSpacing: 0.8, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
+  headerTitle: { color: '#F1EDE2', fontSize: 34, fontWeight: '900', fontFamily: 'Bungee' as any, letterSpacing: 0.8, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
