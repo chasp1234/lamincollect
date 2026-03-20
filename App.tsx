@@ -199,7 +199,6 @@ export default function App() {
               <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
-            <Text style={styles.cardTileNumber}>#{card.number}</Text>
             <Text style={styles.cardTileName}>{card.name}</Text>
           </TouchableOpacity>
           );
