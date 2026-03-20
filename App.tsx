@@ -159,10 +159,19 @@ export default function App() {
       </TouchableOpacity>
 
       <View style={styles.listHero}>
-        <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
-        <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
-        <Text style={styles.listSubtitle}>{pokemonVerticalAdvanced.notes}</Text>
-        <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+        <View style={styles.listHeroTopRow}>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
+            <Text style={styles.listTitle}>{pokemonVerticalAdvanced.title}</Text>
+            <Text style={styles.listSubtitle}>{pokemonVerticalAdvanced.notes}</Text>
+            <Text style={styles.listMeta}>Fonte: Bulbapedia · Carte inserite: {pokemonVerticalAdvanced.total}</Text>
+          </View>
+          <Image
+            source={{ uri: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg' }}
+            style={styles.listHeroSealedImage}
+            resizeMode="cover"
+          />
+        </View>
         <View style={styles.gridSwitchRow}>
           <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 3 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(3)}>
             <Text style={[styles.gridSwitchText, gridMode === 3 && styles.gridSwitchTextActive]}>3 colonne</Text>
@@ -306,6 +315,8 @@ const styles = StyleSheet.create({
   collectionSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   collectionMeta: { color: '#64748B', fontSize: 12, marginTop: 8 },
   listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
+  listHeroTopRow: { flexDirection: 'row', gap: 12, alignItems: 'flex-start' },
+  listHeroSealedImage: { width: 72, height: 112, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
   listTitle: { color: '#F8FAFC', fontSize: 24, fontWeight: '900', letterSpacing: 0.8, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
