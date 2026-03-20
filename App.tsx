@@ -380,7 +380,10 @@ export default function App() {
       </View>
       <View style={styles.searchSubBand}>
         <TouchableOpacity style={styles.homeIconBtn} onPress={() => setScreen('home')}>
-          <Text style={styles.homeIconText}>🏠</Text>
+          <View style={styles.homeIconWrap}>
+            <View style={styles.homeRoof} />
+            <View style={styles.homeBody} />
+          </View>
         </TouchableOpacity>
 
         <View style={styles.searchWrap}>
@@ -403,7 +406,10 @@ export default function App() {
                 setSearchOpen((v) => !v);
               }}
             >
-              <Text style={styles.searchIconText}>🔍</Text>
+              <View style={styles.searchIconWrap}>
+                <View style={styles.searchLensCircle} />
+                <View style={styles.searchLensHandle} />
+              </View>
             </TouchableOpacity>
           </View>
 
@@ -437,11 +443,15 @@ const styles = StyleSheet.create({
   headerTitle: { color: '#F1EDE2', fontSize: 34, fontWeight: '900', fontFamily: 'Bungee' as any, letterSpacing: 0.8, textTransform: 'uppercase', textAlign: 'center', textShadowColor: '#1E3A8A', textShadowOffset: { width: 1.8, height: 1.8 }, textShadowRadius: 0.8 },
   searchSubBand: { backgroundColor: '#0B1220', borderBottomWidth: 1, borderBottomColor: '#1E293B', paddingHorizontal: 12, paddingVertical: 8, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', zIndex: 40 },
   homeIconBtn: { width: 34, height: 34, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
-  homeIconText: { fontSize: 16 },
+  homeIconWrap: { width: 16, height: 16, alignItems: 'center', justifyContent: 'flex-end' },
+  homeRoof: { width: 0, height: 0, borderLeftWidth: 7, borderRightWidth: 7, borderBottomWidth: 7, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderBottomColor: '#E2E8F0' },
+  homeBody: { width: 10, height: 7, backgroundColor: '#E2E8F0', marginTop: 1, borderRadius: 1 },
   searchWrap: { width: '78%', maxWidth: 380, minWidth: 180, position: 'relative' },
   searchRowRight: { flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'center', gap: 6 },
   searchIconBtn: { width: 34, height: 34, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
-  searchIconText: { fontSize: 14 },
+  searchIconWrap: { width: 14, height: 14, position: 'relative' },
+  searchLensCircle: { width: 10, height: 10, borderRadius: 99, borderWidth: 2, borderColor: '#E2E8F0' },
+  searchLensHandle: { position: 'absolute', width: 6, height: 2, backgroundColor: '#E2E8F0', right: -1, bottom: 0, transform: [{ rotate: '45deg' }] as any, borderRadius: 2 },
   searchInput: { flex: 1, backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700' },
   searchDropdown: { position: 'absolute', top: 40, left: 0, right: 0, backgroundColor: '#0F172A', borderWidth: 1, borderColor: '#334155', borderRadius: 12, overflow: 'hidden', zIndex: 50 },
   searchDropdownItem: { paddingHorizontal: 10, paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: '#1E293B' },
