@@ -176,7 +176,7 @@ export default function App() {
           <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
             <Image
               source={{ uri: pokemonVerticalPack.image }}
-              style={styles.listHeroSealedImageTall}
+              style={[styles.listHeroSealedImageTall as any, styles.packVividFilter as any]}
               resizeMode="contain"
             />
           </TouchableOpacity>
@@ -243,7 +243,7 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Pack espansione</Text>
       <View style={styles.packInfoCard}>
-        <Image source={{ uri: pokemonVerticalPack.image }} style={styles.packInfoImage} resizeMode="contain" />
+        <Image source={{ uri: pokemonVerticalPack.image }} style={[styles.packInfoImage as any, styles.packVividFilter as any]} resizeMode="contain" />
         <View style={styles.packInfoBody}>
           <Text style={styles.packInfoTitle}>{pokemonVerticalPack.name}</Text>
           <Text style={styles.packInfoDate}>Release: {pokemonVerticalPack.releaseDate}</Text>
@@ -350,6 +350,7 @@ const styles = StyleSheet.create({
   listHeroMainRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
   listHeroTextCol: { flex: 1, minHeight: 124 },
   listHeroSealedImageTall: { width: 94, height: 124, alignSelf: 'flex-start', borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
+  packVividFilter: { filter: 'saturate(1.2) contrast(1.12) brightness(1.05)' } as any,
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
   listTitle: { color: '#F8FAFC', fontSize: 19, fontWeight: '900', letterSpacing: 0.4, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
