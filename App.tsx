@@ -154,11 +154,10 @@ export default function App() {
 
   const renderCards = () => {
     const columns = gridMode;
-    const gridGap = gridMode === 5 ? 3 : 5;
     const horizontalPadding = 20;
     const maxGridWidth = 980;
     const availableWidth = Math.min(Math.max(viewportWidth - horizontalPadding, 280), maxGridWidth);
-    const tileWidthPercent = columns === 5 ? '19.2%' : '32.4%';
+    const tileWidthPercent = columns === 5 ? '20%' : '33.3333%';
 
     return (
     <ScrollView contentContainerStyle={styles.content}>
@@ -224,13 +223,13 @@ export default function App() {
         )}
       </View>
 
-      <View style={[styles.cardsGrid, { maxWidth: availableWidth, gap: gridGap }]}> 
+      <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}> 
         {sortedCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
           const tileOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
           return (
-          <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidthPercent }]} onPress={() => openCard(card.id)}>
+          <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidthPercent, paddingHorizontal: gridMode === 5 ? 1 : 2, marginBottom: gridMode === 5 ? 3 : 5 }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
               <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
@@ -386,7 +385,7 @@ const styles = StyleSheet.create({
   sortOptionActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   sortOptionText: { color: '#CBD5E1', fontSize: 12, fontWeight: '700' },
   sortOptionTextActive: { color: '#F8FAFC' },
-  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', alignSelf: 'center', width: '100%' },
+  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', alignSelf: 'center', width: '100%' },
   cardTile: { backgroundColor: '#0F172A', borderRadius: 10, padding: 3, borderWidth: 1, borderColor: '#1E293B', boxSizing: 'border-box' as any },
   cardTileImageWrap: { position: 'relative' },
   cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
