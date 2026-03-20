@@ -154,8 +154,8 @@ export default function App() {
 
   const renderCards = () => {
     const columns = gridMode;
-    const gridGap = 8;
-    const horizontalPadding = 32; // content has 16 left + 16 right
+    const gridGap = gridMode === 5 ? 3 : 5;
+    const horizontalPadding = gridMode === 5 ? 20 : 24;
     const maxGridWidth = 980;
     const availableWidth = Math.min(Math.max(viewportWidth - horizontalPadding, 280), maxGridWidth);
     const tileWidth = (availableWidth - gridGap * (columns - 1)) / columns;
@@ -224,7 +224,7 @@ export default function App() {
         )}
       </View>
 
-      <View style={[styles.cardsGrid, { maxWidth: availableWidth }]}> 
+      <View style={[styles.cardsGrid, { maxWidth: availableWidth, gap: gridGap }]}> 
         {sortedCards.map((card) => {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
@@ -386,8 +386,8 @@ const styles = StyleSheet.create({
   sortOptionActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   sortOptionText: { color: '#CBD5E1', fontSize: 12, fontWeight: '700' },
   sortOptionTextActive: { color: '#F8FAFC' },
-  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, justifyContent: 'flex-start', alignSelf: 'center', width: '100%' },
-  cardTile: { backgroundColor: '#0F172A', borderRadius: 14, padding: 5, borderWidth: 1, borderColor: '#1E293B' },
+  cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', alignSelf: 'center', width: '100%' },
+  cardTile: { backgroundColor: '#0F172A', borderRadius: 10, padding: 3, borderWidth: 1, borderColor: '#1E293B' },
   cardTileImageWrap: { position: 'relative' },
   cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
   cardImageToneOverlay: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: 'rgba(96, 165, 250, 0.045)' },
