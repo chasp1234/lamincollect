@@ -19,7 +19,7 @@ const pokemonVerticalPack = {
   releaseDate: '2004 (Italia, Edibas Collections)',
   info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
 };
-const pokemonLogoPng = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/512px-International_Pok%C3%A9mon_logo.svg.png';
+const pokemonLogoPng = require('./assets/pokemon-logo.png');
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
@@ -107,9 +107,9 @@ export default function App() {
           const isPokemon = universe.id === 'pokemon';
           return (
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(universe.id as UniverseId)}>
-            <View style={[styles.universeBadge, { backgroundColor: isPokemon ? '#B91C1C' : universe.color }]}> 
+            <View style={[styles.universeBadge, isPokemon ? styles.universeBadgePokemon : { backgroundColor: universe.color }]}> 
               {isPokemon ? (
-                <Image source={{ uri: pokemonLogoPng }} style={styles.pokemonLogo} resizeMode="contain" />
+                <Image source={pokemonLogoPng} style={styles.pokemonLogo} resizeMode="contain" />
               ) : (
                 <Text style={styles.universeEmoji}>{universe.emoji}</Text>
               )}
@@ -353,7 +353,8 @@ const styles = StyleSheet.create({
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 22, padding: 14, borderWidth: 1, borderColor: '#1E293B', minHeight: 144 },
   universeBadge: { width: 52, height: 52, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-  pokemonLogo: { width: 44, height: 22 },
+  universeBadgePokemon: { width: '100%', backgroundColor: 'transparent' },
+  pokemonLogo: { width: '100%', height: 34 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
