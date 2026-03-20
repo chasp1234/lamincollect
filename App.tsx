@@ -28,6 +28,7 @@ export default function App() {
   const [gridMode, setGridMode] = useState<3 | 5>(5);
   const [sortMode, setSortMode] = useState<SortMode>('num-asc');
   const [sortPanelOpen, setSortPanelOpen] = useState(false);
+  const [showCardNames, setShowCardNames] = useState(true);
   const { width: viewportWidth } = useWindowDimensions();
 
   const activeUniverse = useMemo(
@@ -189,6 +190,13 @@ export default function App() {
           <TouchableOpacity style={[styles.gridSwitchBtn, gridMode === 5 && styles.gridSwitchBtnActive]} onPress={() => setGridMode(5)}>
             <Text style={[styles.gridSwitchText, gridMode === 5 && styles.gridSwitchTextActive]}>5 colonne</Text>
           </TouchableOpacity>
+          <TouchableOpacity style={styles.namesToggle} onPress={() => setShowCardNames((v) => !v)} activeOpacity={0.85}>
+            <View style={[styles.checkboxBase, showCardNames && styles.checkboxChecked]}>
+              {showCardNames ? <Text style={styles.checkboxTick}>✓</Text> : null}
+            </View>
+            <Text style={styles.namesToggleText}>Nomi</Text>
+          </TouchableOpacity>
+
           <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
             <View style={styles.funnelIconWrap}>
               <View style={[styles.funnelTopBar, sortPanelOpen && styles.funnelActive]} />
@@ -226,7 +234,7 @@ export default function App() {
               <Image source={{ uri: card.image }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
-            <Text style={styles.cardTileName} numberOfLines={2}>{card.name}</Text>
+            {showCardNames ? <Text style={styles.cardTileName} numberOfLines={2}>{card.name}</Text> : null}
           </TouchableOpacity>
           );
         })}
@@ -356,7 +364,12 @@ const styles = StyleSheet.create({
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
-  filterBtn: { marginLeft: 'auto', width: 42, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 0 },
+  namesToggle: { flexDirection: 'row', alignItems: 'center', gap: 6, marginLeft: 'auto', paddingHorizontal: 4 },
+  namesToggleText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
+  checkboxBase: { width: 16, height: 16, borderRadius: 4, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A' },
+  checkboxChecked: { borderColor: '#60A5FA', backgroundColor: '#172554' },
+  checkboxTick: { color: '#F8FAFC', fontSize: 11, fontWeight: '900', lineHeight: 11 },
+  filterBtn: { width: 42, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 0 },
   funnelIconWrap: { width: 16, alignItems: 'center', justifyContent: 'center', gap: 0 },
   funnelTopBar: { width: 14, height: 2, borderRadius: 99, backgroundColor: '#CBD5E1', marginBottom: 1 },
   funnelIconBody: { width: 14, height: 11, backgroundColor: '#CBD5E1', clipPath: 'polygon(0% 0%, 100% 0%, 64% 56%, 64% 100%, 38% 100%, 38% 56%)' as any },
