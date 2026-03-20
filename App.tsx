@@ -37,6 +37,7 @@ export default function App() {
   );
 
   const activeCollections = universeCollections[selectedUniverse] ?? [];
+  const isPokemonTheme = selectedUniverse === 'pokemon' && screen !== 'home';
 
   const activeCard = useMemo(
     () => pokemonVerticalAdvanced.cards.find((card) => card.id === selectedCardId) ?? pokemonVerticalAdvanced.cards[0],
@@ -300,11 +301,11 @@ export default function App() {
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={[styles.safe, isPokemonTheme && styles.safePokemonTheme]}>
       <StatusBar barStyle="light-content" />
-      <View style={styles.header}>
+      <View style={[styles.header, isPokemonTheme && styles.headerPokemonTheme]}>
         <Text style={styles.headerTitle}>LaminCollect</Text>
-        <Text style={styles.headerSub}>Archivio minimale, leggibile, cattivo il giusto</Text>
+        <Text style={[styles.headerSub, isPokemonTheme && styles.headerSubPokemonTheme]}>Archivio minimale, leggibile, cattivo il giusto</Text>
       </View>
       {screen === 'home' && renderHome()}
       {screen === 'collections' && renderCollections()}
@@ -317,9 +318,12 @@ export default function App() {
 
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: '#06080D' },
+  safePokemonTheme: { backgroundColor: '#110708' },
   header: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 8 },
+  headerPokemonTheme: { borderBottomWidth: 1, borderBottomColor: '#3F1A1D' },
   headerTitle: { color: '#F8FAFC', fontSize: 28, fontWeight: '900' },
   headerSub: { color: '#94A3B8', fontSize: 12, marginTop: 3 },
+  headerSubPokemonTheme: { color: '#FCA5A5' },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
