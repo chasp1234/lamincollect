@@ -175,8 +175,8 @@ export default function App() {
               </TouchableOpacity>
               <TouchableOpacity style={[styles.gridSwitchBtn, styles.filterBtn, sortPanelOpen && styles.gridSwitchBtnActive]} onPress={() => setSortPanelOpen((prev) => !prev)}>
                 <View style={styles.funnelIconWrap}>
-                  <View style={[styles.funnelCone, sortPanelOpen && styles.funnelConeActive]} />
-                  <View style={[styles.funnelStem, sortPanelOpen && styles.funnelStemActive]} />
+                  <View style={[styles.funnelTopBar, sortPanelOpen && styles.funnelActive]} />
+                  <View style={[styles.funnelIconBody, sortPanelOpen && styles.funnelActive]} />
                 </View>
               </TouchableOpacity>
             </View>
@@ -330,11 +330,10 @@ const styles = StyleSheet.create({
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
   filterBtn: { marginLeft: 'auto', width: 42, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 0 },
-  funnelIconWrap: { width: 16, alignItems: 'center', justifyContent: 'center', gap: 2 },
-  funnelCone: { width: 0, height: 0, borderLeftWidth: 7, borderRightWidth: 7, borderTopWidth: 9, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderTopColor: '#CBD5E1' },
-  funnelStem: { width: 4, height: 5, borderRadius: 99, backgroundColor: '#CBD5E1' },
-  funnelConeActive: { borderTopColor: '#F8FAFC' },
-  funnelStemActive: { backgroundColor: '#F8FAFC' },
+  funnelIconWrap: { width: 16, alignItems: 'center', justifyContent: 'center', gap: 0 },
+  funnelTopBar: { width: 14, height: 2, borderRadius: 99, backgroundColor: '#CBD5E1', marginBottom: 1 },
+  funnelIconBody: { width: 14, height: 11, backgroundColor: '#CBD5E1', clipPath: 'polygon(0% 0%, 100% 0%, 64% 56%, 64% 100%, 38% 100%, 38% 56%)' as any },
+  funnelActive: { backgroundColor: '#F8FAFC' },
   gridSwitchBtnActive: { backgroundColor: '#172554', borderColor: '#60A5FA' },
   gridSwitchText: { color: '#CBD5E1', fontSize: 11, fontWeight: '800' },
   gridSwitchTextActive: { color: '#F8FAFC' },
