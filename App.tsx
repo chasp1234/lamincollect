@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { Image, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
@@ -49,18 +49,6 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
   const { width: viewportWidth } = useWindowDimensions();
-
-  useEffect(() => {
-    if (Platform.OS !== 'web') return;
-    const id = 'lamincollect-logo-font';
-    if (document.getElementById(id)) return;
-
-    const link = document.createElement('link');
-    link.id = id;
-    link.rel = 'stylesheet';
-    link.href = 'https://fonts.googleapis.com/css2?family=Bungee&display=swap';
-    document.head.appendChild(link);
-  }, []);
 
   const activeUniverse = useMemo(
     () => universes.find((universe) => universe.id === selectedUniverse) ?? universes[0],
@@ -137,7 +125,7 @@ export default function App() {
 
 
   const searchCardSuggestions = useMemo(() => {
-    if (!searchNormalized || searchNormalized.length < 3) return [];
+    if (!searchOpen || !searchNormalized || searchNormalized.length < 3) return [];
     return activeSet.cards
       .filter((card) => card.name.toLowerCase().includes(searchNormalized))
       .sort((a, b) => {
@@ -152,7 +140,7 @@ export default function App() {
   }, [searchNormalized, activeSet]);
 
   const searchCollectionSuggestions = useMemo(() => {
-    if (!searchNormalized || searchNormalized.length < 3) return [];
+    if (!searchOpen || !searchNormalized || searchNormalized.length < 3) return [];
     return Object.entries(universeCollections)
       .flatMap(([universeId, cols]) => cols.map((c) => ({ ...c, universeId: universeId as UniverseId })))
       .filter((c) => `${c.title} ${c.subtitle}`.toLowerCase().includes(searchNormalized))
