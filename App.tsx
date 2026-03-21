@@ -13,6 +13,7 @@ const defaultUniverseId: UniverseId = 'pokemon';
 const defaultCollectionId: CollectionId = 'pokemon-vertical';
 const pokemonVerticalPack = {
   image: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
+  back: 'https://archives.bulbagarden.net/media/upload/9/90/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_back.jpg',
   name: 'Pokémon Vertical Lamincards Advanced - Booster Pack Sealed',
   releaseDate: '2004 (Italia, Edibas Collections)',
   info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
@@ -403,7 +404,16 @@ export default function App() {
 
       <Text style={styles.sectionTitle}>Pack espansione</Text>
       <View style={styles.packInfoCard}>
-        <Image source={{ uri: pokemonVerticalPack.image }} style={styles.packInfoImage} resizeMode="contain" />
+        <View style={styles.cardDualImages}>
+          <View style={styles.cardFaceBlock}>
+            <Text style={styles.cardFaceLabel}>FRONTE</Text>
+            <Image source={{ uri: pokemonVerticalPack.image }} style={styles.packInfoImage} resizeMode="contain" />
+          </View>
+          <View style={styles.cardFaceBlock}>
+            <Text style={styles.cardFaceLabel}>RETRO</Text>
+            <Image source={{ uri: pokemonVerticalPack.back }} style={styles.packInfoImage} resizeMode="contain" />
+          </View>
+        </View>
         <View style={styles.packInfoBody}>
           <Text style={styles.packInfoTitle}>{pokemonVerticalPack.name}</Text>
           <Text style={styles.packInfoDate}>Release: {pokemonVerticalPack.releaseDate}</Text>
