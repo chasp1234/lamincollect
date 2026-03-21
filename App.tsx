@@ -30,6 +30,10 @@ const universeLogos: Partial<Record<UniverseId, any>> = {
   mixed: require('./assets/mixed-logo.png'),
 };
 
+const collectionInfo: Partial<Record<CollectionId, { year: string; author: string }>> = {
+  'pokemon-vertical': { year: '2004', author: 'Edibas Collections' },
+};
+
 export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
   const [selectedUniverse, setSelectedUniverse] = useState<UniverseId>(defaultUniverseId);
@@ -273,6 +277,7 @@ export default function App() {
         const isLiveArchive =
           (selectedUniverse === 'pokemon' && collection.id === 'pokemon-vertical') ||
           (selectedUniverse === 'dragon-ball' && collection.id === 'dragon-ball-core');
+        const info = collectionInfo[collection.id as CollectionId] ?? { year: 'N/D', author: 'N/D' };
         return (
         <TouchableOpacity key={collection.id} style={[styles.collectionCard, !isLiveArchive && styles.collectionCardDisabled]} onPress={() => openCollection(collection.id as CollectionId)}>
           <View style={[styles.collectionAccent, { backgroundColor: collection.accent }]} />
@@ -282,8 +287,9 @@ export default function App() {
                 <Text style={styles.collectionTitle}>{collection.title}</Text>
                 <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLiveArchive ? collection.pill : 'PREVIEW'}</Text></View>
               </View>
-              <Text style={styles.collectionSubtitle}>{collection.subtitle}</Text>
-              <Text style={styles.collectionMeta}>{isLiveArchive ? `${collection.total} carte archiviate` : 'Struttura pronta, database non collegato qui'}</Text>
+              <Text style={styles.collectionSubtitle}>Anno di uscita: {info.year}</Text>
+              <Text style={styles.collectionSubtitle}>Autore: {info.author}</Text>
+              <Text style={styles.collectionMeta}>Nr. Carte collezione: {collection.total}</Text>
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
               <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
