@@ -3,9 +3,6 @@ import { Image, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text,
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
-import { cardToning } from './src/data/card-toning';
-import pokemonVerticalAdvanced from './src/data/pokemon-vertical-lamincards-advanced.json';
-import dbzEdibasLamincards from './src/data/dbz-edibas-lamincards.json';
 
 type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
@@ -37,15 +34,13 @@ export default function App() {
   const [screen, setScreen] = useState<Screen>('home');
   const [selectedUniverse, setSelectedUniverse] = useState<UniverseId>(defaultUniverseId);
   const [selectedCollection, setSelectedCollection] = useState<CollectionId>(defaultCollectionId);
-  const [selectedCardId, setSelectedCardId] = useState<string>(pokemonVerticalAdvanced.cards[0].id);
+  const [selectedCardId, setSelectedCardId] = useState<string>('');
   const [gridMode, setGridMode] = useState<3 | 5>(5);
   const [sortMode, setSortMode] = useState<SortMode>('num-asc');
   const [sortPanelOpen, setSortPanelOpen] = useState(false);
   const [showCardNames, setShowCardNames] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
-  const [universeSearchOpen, setUniverseSearchOpen] = useState(false);
-  const [universeSearchQuery, setUniverseSearchQuery] = useState('');
   const { width: viewportWidth } = useWindowDimensions();
 
   useEffect(() => {
@@ -70,12 +65,25 @@ export default function App() {
   const isPokemonTheme = selectedUniverse === 'pokemon' && screen !== 'home';
 
   const activeSet = useMemo(() => {
-    if (selectedUniverse === 'dragon-ball' && selectedCollection === 'dragon-ball-core') return dbzEdibasLamincards;
-    return pokemonVerticalAdvanced;
-  }, [selectedUniverse, selectedCollection]);
+    const needsSet = screen === 'cards' || screen === 'card' || searchOpen;
+    if (!needsSet) {
+      return { title: '', source: '', total: 0, notes: '', cards: [] as any[] };
+    }
+    if (selectedUniverse === 'dragon-ball' && selectedCollection === 'dragon-ball-core') {
+      return require('./src/data/dbz-edibas-lamincards.json');
+    }
+    return require('./src/data/pokemon-vertical-lamincards-advanced.json');
+  }, [selectedUniverse, selectedCollection, screen, searchOpen]);
+
+  const cardToning = useMemo(() => {
+    if (screen === 'cards' || screen === 'card') {
+      return require('./src/data/card-toning').cardToning as Record<string, { brightness: number; saturation: number; contrast: number; overlay: number; hueRotate: number }>;
+    }
+    return {} as Record<string, { brightness: number; saturation: number; contrast: number; overlay: number; hueRotate: number }>;
+  }, [screen]);
 
   const activeCard = useMemo(
-    () => activeSet.cards.find((card) => card.id === selectedCardId) ?? activeSet.cards[0],
+    () => activeSet.cards.find((card: any) => card.id === selectedCardId) ?? activeSet.cards[0] ?? { id: '', number: '', name: '', image: '', back: '', subject: '' },
     [selectedCardId, activeSet],
   );
 
@@ -119,11 +127,7 @@ export default function App() {
     );
   }, [sortedCards, searchNormalized]);
 
-  const filteredUniverses = useMemo(() => {
-    const q = universeSearchQuery.trim().toLowerCase();
-    if (!q) return universes;
-    return universes.filter((u) => `${u.title} ${u.subtitle}`.toLowerCase().includes(q));
-  }, [universeSearchQuery]);
+
 
   const searchCardSuggestions = useMemo(() => {
     if (!searchNormalized || searchNormalized.length < 3) return [];
@@ -164,12 +168,14 @@ export default function App() {
   const openCollection = (collectionId: CollectionId) => {
     setSelectedCollection(collectionId);
     if (selectedUniverse === 'pokemon' && collectionId === 'pokemon-vertical') {
-      setSelectedCardId(pokemonVerticalAdvanced.cards[0].id);
+      const pokemonSet = require('./src/data/pokemon-vertical-lamincards-advanced.json');
+      setSelectedCardId(pokemonSet.cards[0].id);
       setScreen('cards');
       return;
     }
     if (selectedUniverse === 'dragon-ball' && collectionId === 'dragon-ball-core') {
-      setSelectedCardId(dbzEdibasLamincards.cards[0].id);
+      const dbzSet = require('./src/data/dbz-edibas-lamincards.json');
+      setSelectedCardId(dbzSet.cards[0].id);
       setScreen('cards');
       return;
     }
@@ -212,29 +218,10 @@ export default function App() {
         <Text style={styles.rankMeta}>Prima collezione reale: Pokémon Vertical Lamincards Advanced.</Text>
       </View>
 
-      <View style={styles.sectionHeaderRow}>
-        <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
-        <TouchableOpacity style={styles.sectionSearchBtn} onPress={() => setUniverseSearchOpen((v) => !v)}>
-          <View style={styles.searchIconWrap}>
-            <View style={styles.searchLensCircle} />
-            <View style={styles.searchLensHole} />
-            <View style={styles.searchLensHandle} />
-          </View>
-        </TouchableOpacity>
-      </View>
-
-      {universeSearchOpen ? (
-        <TextInput
-          value={universeSearchQuery}
-          onChangeText={setUniverseSearchQuery}
-          placeholder="Cerca cartone"
-          placeholderTextColor="#94A3B8"
-          style={styles.universeSearchInput}
-        />
-      ) : null}
+      <Text style={styles.sectionTitle}>Cartoni / Universi</Text>
 
       <View style={styles.grid}>
-        {filteredUniverses.map((universe) => {
+        {universes.map((universe) => {
           const uid = universe.id as UniverseId;
           const logo = universeLogos[uid];
           return (
