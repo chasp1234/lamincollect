@@ -289,7 +289,7 @@ export default function App() {
               </View>
               <Text style={styles.collectionSubtitle}>Anno di uscita: {info.year}</Text>
               <Text style={styles.collectionSubtitle}>Autore: {info.author}</Text>
-              <Text style={styles.collectionMeta}>Nr. Carte inserite in archivio: {collection.total}</Text>
+              <Text style={styles.collectionMeta}>Set completo: nr° Carte {collection.total}</Text>
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
               <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
@@ -322,7 +322,7 @@ export default function App() {
             <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
             <Text style={styles.listTitle} numberOfLines={2}>{activeSet.title}</Text>
             <Text style={styles.listSubtitle} numberOfLines={3}>{activeSet.notes}</Text>
-            <Text style={styles.listMeta}>Fonte: {activeSet.source} · Nr. Carte inserite in archivio: {activeSet.total}</Text>
+            <Text style={styles.listMeta}>Fonte: {activeSet.source} · Set completo: nr° Carte {activeSet.total}</Text>
           </View>
 
           <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
