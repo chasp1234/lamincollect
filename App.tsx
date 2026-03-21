@@ -126,17 +126,33 @@ export default function App() {
   }, [universeSearchQuery]);
 
   const searchCardSuggestions = useMemo(() => {
-    if (!searchNormalized || searchNormalized.length < 2) return [];
+    if (!searchNormalized || searchNormalized.length < 3) return [];
     return activeSet.cards
       .filter((card) => card.name.toLowerCase().includes(searchNormalized))
+      .sort((a, b) => {
+        const aName = a.name.toLowerCase();
+        const bName = b.name.toLowerCase();
+        const aStarts = aName.startsWith(searchNormalized) ? 1 : 0;
+        const bStarts = bName.startsWith(searchNormalized) ? 1 : 0;
+        if (aStarts !== bStarts) return bStarts - aStarts;
+        return aName.localeCompare(bName, 'it', { sensitivity: 'base' });
+      })
       .slice(0, 6);
   }, [searchNormalized, activeSet]);
 
   const searchCollectionSuggestions = useMemo(() => {
-    if (!searchNormalized || searchNormalized.length < 2) return [];
+    if (!searchNormalized || searchNormalized.length < 3) return [];
     return Object.entries(universeCollections)
       .flatMap(([universeId, cols]) => cols.map((c) => ({ ...c, universeId: universeId as UniverseId })))
       .filter((c) => `${c.title} ${c.subtitle}`.toLowerCase().includes(searchNormalized))
+      .sort((a, b) => {
+        const aTitle = a.title.toLowerCase();
+        const bTitle = b.title.toLowerCase();
+        const aStarts = aTitle.startsWith(searchNormalized) ? 1 : 0;
+        const bStarts = bTitle.startsWith(searchNormalized) ? 1 : 0;
+        if (aStarts !== bStarts) return bStarts - aStarts;
+        return aTitle.localeCompare(bTitle, 'it', { sensitivity: 'base' });
+      })
       .slice(0, 4);
   }, [searchNormalized]);
 
