@@ -14,6 +14,7 @@ const defaultCollectionId: CollectionId = 'pokemon-vertical';
 const pokemonVerticalPack = {
   image: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
   back: 'https://archives.bulbagarden.net/media/upload/9/90/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_back.jpg',
+  album: 'https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Advanced_Vertical_Lamincards_-_album_front.jpeg',
   name: 'Pokémon Vertical Lamincards Advanced - Booster Pack Sealed',
   releaseDate: '2004 (Italia, Edibas Collections)',
   info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
@@ -326,13 +327,16 @@ export default function App() {
             <Text style={styles.listMeta}>Fonte: {activeSet.source} · Set completo: nr° Carte {activeSet.total}</Text>
           </View>
 
-          <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
+          <View style={styles.packEntryCol}>
             <Image
               source={{ uri: pokemonVerticalPack.image }}
               style={styles.listHeroSealedImageTall}
               resizeMode="contain"
             />
-          </TouchableOpacity>
+            <TouchableOpacity style={styles.packInfoBtn} onPress={() => setScreen('pack')} activeOpacity={0.85}>
+              <Text style={styles.packInfoBtnText}>i</Text>
+            </TouchableOpacity>
+          </View>
         </View>
 
         <View style={styles.gridSwitchRow}>
@@ -413,6 +417,10 @@ export default function App() {
             <Text style={styles.cardFaceLabel}>RETRO</Text>
             <Image source={{ uri: pokemonVerticalPack.back }} style={styles.packInfoImage} resizeMode="contain" />
           </View>
+        </View>
+        <View style={styles.cardFaceBlock}>
+          <Text style={styles.cardFaceLabel}>ALBUM</Text>
+          <Image source={{ uri: pokemonVerticalPack.album }} style={styles.packInfoImage} resizeMode="contain" />
         </View>
         <View style={styles.packInfoBody}>
           <Text style={styles.packInfoTitle}>{pokemonVerticalPack.name}</Text>
@@ -616,7 +624,10 @@ const styles = StyleSheet.create({
   listHero: { backgroundColor: '#111827', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1F2937' },
   listHeroMainRow: { flexDirection: 'row', gap: 12, alignItems: 'stretch' },
   listHeroTextCol: { flex: 1, minHeight: 124 },
+  packEntryCol: { alignItems: 'center', gap: 6 },
   listHeroSealedImageTall: { width: 94, height: 124, alignSelf: 'flex-start', borderRadius: 12, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0F172A' },
+  packInfoBtn: { width: 28, height: 28, borderRadius: 6, borderWidth: 1, borderColor: '#475569', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
+  packInfoBtnText: { color: '#F8FAFC', fontSize: 17, fontWeight: '900' },
   listEyebrow: { color: '#F59E0B', fontSize: 11, fontWeight: '900', letterSpacing: 1.6, marginBottom: 6 },
   listTitle: { color: '#F8FAFC', fontSize: 19, fontWeight: '900', letterSpacing: 0.4, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
