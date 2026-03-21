@@ -469,6 +469,7 @@ export default function App() {
             <View style={styles.searchDropdown}>
               {searchCardSuggestions.map((card) => (
                 <TouchableOpacity key={card.id} style={styles.searchDropdownItem} onPress={() => openSearchCard(card.id)}>
+                  <Image source={{ uri: card.image }} style={styles.searchDropdownThumb} resizeMode="cover" />
                   <Text style={styles.searchDropdownText}>{card.name}</Text>
                 </TouchableOpacity>
               ))}
@@ -507,8 +508,9 @@ const styles = StyleSheet.create({
   searchLensHandle: { position: 'absolute', width: 7, height: 3, backgroundColor: '#E2E8F0', right: -1, bottom: 0, transform: [{ rotate: '45deg' }] as any, borderRadius: 2 },
   searchInput: { flex: 1, backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700' },
   searchDropdown: { position: 'absolute', top: 40, left: 0, right: 0, backgroundColor: '#0F172A', borderWidth: 1, borderColor: '#334155', borderRadius: 12, overflow: 'hidden', zIndex: 50 },
-  searchDropdownItem: { paddingHorizontal: 10, paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: '#1E293B' },
-  searchDropdownText: { color: '#E2E8F0', fontSize: 12, fontWeight: '700' },
+  searchDropdownItem: { paddingHorizontal: 10, paddingVertical: 7, borderBottomWidth: 1, borderBottomColor: '#1E293B', flexDirection: 'row', alignItems: 'center', gap: 8 },
+  searchDropdownThumb: { width: 20, height: 28, borderRadius: 4, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0B1220' },
+  searchDropdownText: { color: '#E2E8F0', fontSize: 12, fontWeight: '700', flex: 1 },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
