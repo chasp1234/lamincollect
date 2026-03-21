@@ -550,6 +550,7 @@ const styles = StyleSheet.create({
   searchDropdownItem: { paddingHorizontal: 10, paddingVertical: 7, borderBottomWidth: 1, borderBottomColor: '#1E293B', flexDirection: 'row', alignItems: 'center', gap: 8 },
   searchDropdownThumb: { width: 20, height: 28, borderRadius: 4, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0B1220' },
   searchDropdownText: { color: '#E2E8F0', fontSize: 12, fontWeight: '700', flex: 1 },
+  searchDropdownMeta: { color: '#94A3B8', fontSize: 10, fontWeight: '700', marginTop: 1 },
   content: { padding: 16, paddingBottom: 80, gap: 14 },
   heroCard: { backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B' },
   heroEyebrow: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1.4 },
