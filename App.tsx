@@ -322,7 +322,7 @@ export default function App() {
             <Text style={styles.listEyebrow}>ARCHIVE SET // EDIBAS 2004</Text>
             <Text style={styles.listTitle} numberOfLines={2}>{activeSet.title}</Text>
             <Text style={styles.listSubtitle} numberOfLines={3}>{activeSet.notes}</Text>
-            <Text style={styles.listMeta}>Fonte: {activeSet.source} · Carte inserite: {activeSet.total}</Text>
+            <Text style={styles.listMeta}>Fonte: {activeSet.source} · Nr. Carte inserite in archivio: {activeSet.total}</Text>
           </View>
 
           <TouchableOpacity onPress={() => setScreen('pack')} activeOpacity={0.85}>
