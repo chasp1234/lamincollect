@@ -129,8 +129,16 @@ export default function App() {
     if (!searchNormalized || searchNormalized.length < 2) return [];
     return activeSet.cards
       .filter((card) => card.name.toLowerCase().includes(searchNormalized))
-      .slice(0, 8);
+      .slice(0, 6);
   }, [searchNormalized, activeSet]);
+
+  const searchCollectionSuggestions = useMemo(() => {
+    if (!searchNormalized || searchNormalized.length < 2) return [];
+    return Object.entries(universeCollections)
+      .flatMap(([universeId, cols]) => cols.map((c) => ({ ...c, universeId: universeId as UniverseId })))
+      .filter((c) => `${c.title} ${c.subtitle}`.toLowerCase().includes(searchNormalized))
+      .slice(0, 4);
+  }, [searchNormalized]);
 
   const openUniverse = (universeId: UniverseId) => {
     setSelectedUniverse(universeId);
@@ -162,6 +170,18 @@ export default function App() {
     setSelectedCollection('pokemon-vertical');
     setSelectedCardId(cardId);
     setScreen('card');
+    setSearchQuery('');
+    setSearchOpen(false);
+  };
+
+  const openSearchCollection = (universeId: UniverseId, collectionId: CollectionId) => {
+    setSelectedUniverse(universeId);
+    setSelectedCollection(collectionId);
+    if (universeId === 'pokemon' && collectionId === 'pokemon-vertical') {
+      setScreen('cards');
+    } else {
+      setScreen('collections');
+    }
     setSearchQuery('');
     setSearchOpen(false);
   };
@@ -353,6 +373,7 @@ export default function App() {
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidthPercent, paddingHorizontal: gridMode === 5 ? 1 : 2, marginBottom: gridMode === 5 ? 3 : 5 }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
+              <View style={styles.cardTileSkeleton} />
               <Image source={{ uri: resolveAssetUri((card as any).thumb || card.image) }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
@@ -398,11 +419,13 @@ export default function App() {
         <View style={styles.cardDualImages}>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>FRONTE</Text>
+            <View style={styles.cardHalfSkeleton} />
             <Image source={{ uri: resolveAssetUri(activeCard.image) }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
             <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>RETRO</Text>
+            <View style={styles.cardHalfSkeleton} />
             <Image source={{ uri: resolveAssetUri(activeCard.back) }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
             <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
@@ -465,12 +488,28 @@ export default function App() {
             </TouchableOpacity>
           </View>
 
-          {searchOpen && searchCardSuggestions.length > 0 ? (
+          {searchOpen && (searchCardSuggestions.length > 0 || searchCollectionSuggestions.length > 0) ? (
             <View style={styles.searchDropdown}>
+              {searchCollectionSuggestions.map((collection) => (
+                <TouchableOpacity
+                  key={`${collection.universeId}:${collection.id}`}
+                  style={styles.searchDropdownItem}
+                  onPress={() => openSearchCollection(collection.universeId, collection.id as CollectionId)}
+                >
+                  <Image source={universeLogos[collection.universeId] || pokemonLogoPng} style={styles.searchDropdownThumb} resizeMode="contain" />
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.searchDropdownText}>{collection.title}</Text>
+                    <Text style={styles.searchDropdownMeta}>Espansione</Text>
+                  </View>
+                </TouchableOpacity>
+              ))}
               {searchCardSuggestions.map((card) => (
                 <TouchableOpacity key={card.id} style={styles.searchDropdownItem} onPress={() => openSearchCard(card.id)}>
                   <Image source={{ uri: card.image }} style={styles.searchDropdownThumb} resizeMode="cover" />
-                  <Text style={styles.searchDropdownText}>{card.name}</Text>
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.searchDropdownText}>{card.name}</Text>
+                    <Text style={styles.searchDropdownMeta}>Carta</Text>
+                  </View>
                 </TouchableOpacity>
               ))}
             </View>
@@ -587,7 +626,8 @@ const styles = StyleSheet.create({
   cardsGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', alignSelf: 'center', width: '100%' },
   cardTile: { backgroundColor: '#0F172A', borderRadius: 10, padding: 3, borderWidth: 1, borderColor: '#1E293B', boxSizing: 'border-box' as any },
   cardTileImageWrap: { position: 'relative' },
-  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: '#1E293B' },
+  cardTileSkeleton: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: '#172033' },
+  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: 'transparent' },
   cardImageToneOverlay: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: 'rgba(96, 165, 250, 0.045)' },
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
@@ -603,7 +643,8 @@ const styles = StyleSheet.create({
   cardDualImages: { flexDirection: 'row', gap: 10 },
   cardFaceBlock: { flex: 1, gap: 8, position: 'relative' },
   cardFaceLabel: { color: '#60A5FA', fontSize: 11, fontWeight: '900', letterSpacing: 1, textAlign: 'center' },
-  cardHalfImage: { flex: 1, height: 360, borderRadius: 20, backgroundColor: '#1E293B' },
+  cardHalfSkeleton: { position: 'absolute', inset: 0, borderRadius: 20, backgroundColor: '#172033' },
+  cardHalfImage: { flex: 1, height: 360, borderRadius: 20, backgroundColor: 'transparent' },
   cardImageToneOverlayLarge: { position: 'absolute', inset: 0, borderRadius: 20, backgroundColor: 'rgba(96, 165, 250, 0.04)' },
   cardInfoBox: { backgroundColor: '#0F172A', borderRadius: 24, padding: 16, borderWidth: 1, borderColor: '#1E293B', gap: 10 },
   cardTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
