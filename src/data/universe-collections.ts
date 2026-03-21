@@ -88,14 +88,73 @@ export const universeCollections = {
     },
   ],
   marvel: [
-    {
-      id: 'marvel-core',
-      title: 'Marvel core sets',
-      subtitle: 'Superhero cards, promo e speciali',
-      total: 30,
-      accent: '#EF4444',
-      pill: 'HERO',
-    },
+    { id: 'marvel-core', title: 'Marvel core sets', subtitle: 'Superhero cards, promo e speciali', total: 30, accent: '#EF4444', pill: 'HERO' },
+  ],
+  'saint-seiya': [
+    { id: 'saint-seiya-core', title: 'Saint Seiya core set', subtitle: 'Cavalieri classici e promo', total: 24, accent: '#F59E0B', pill: 'COSMO' },
+  ],
+  'hunter-x-hunter': [
+    { id: 'hunterxhunter-core', title: 'Hunter x Hunter core set', subtitle: 'Anime cards e special', total: 24, accent: '#22C55E', pill: 'HUNTER' },
+  ],
+  beyblade: [
+    { id: 'beyblade-core', title: 'Beyblade core set', subtitle: 'Burst/X e promo', total: 24, accent: '#3B82F6', pill: 'BLADE' },
+  ],
+  hamtaro: [
+    { id: 'hamtaro-core', title: 'Hamtaro core set', subtitle: 'Kids cards e sticker', total: 24, accent: '#FBBF24', pill: 'HAM' },
+  ],
+  digimon: [
+    { id: 'digimon-core', title: 'Digimon core set', subtitle: 'Digital monster cards', total: 24, accent: '#2563EB', pill: 'DIGI' },
+  ],
+  'detective-conan': [
+    { id: 'detective-conan-core', title: 'Detective Conan core set', subtitle: 'Case files e special', total: 24, accent: '#0EA5E9', pill: 'CASE' },
+  ],
+  'inazuma-eleven': [
+    { id: 'inazuma-eleven-core', title: 'Inazuma Eleven core set', subtitle: 'Anime calcio cards', total: 24, accent: '#14B8A6', pill: 'GOAL' },
+  ],
+  'blue-dragon': [
+    { id: 'blue-dragon-core', title: 'Blue Dragon core set', subtitle: 'Anime tie-in cards', total: 24, accent: '#1D4ED8', pill: 'BLUE' },
+  ],
+  'ben-10': [
+    { id: 'ben10-core', title: 'Ben 10 core set', subtitle: 'Alien force cards', total: 24, accent: '#22C55E', pill: 'OMNI' },
+  ],
+  tmnt: [
+    { id: 'tmnt-core', title: 'TMNT core set', subtitle: 'Turtles cards e promo', total: 24, accent: '#16A34A', pill: 'TMNT' },
+  ],
+  winx: [
+    { id: 'winx-core', title: 'Winx core set', subtitle: 'Fairy cards e sticker', total: 24, accent: '#EC4899', pill: 'WINX' },
+  ],
+  spiderman: [
+    { id: 'spiderman-core', title: 'Spider-Man core set', subtitle: 'Web hero cards', total: 24, accent: '#DC2626', pill: 'WEB' },
+  ],
+  'harry-potter': [
+    { id: 'harry-potter-core', title: 'Harry Potter core set', subtitle: 'Wizard cards e album', total: 24, accent: '#7C3AED', pill: 'HP' },
+  ],
+  'serie-a': [
+    { id: 'serie-a-core', title: 'Serie A core set', subtitle: 'Calcio italiano cards', total: 24, accent: '#2563EB', pill: 'A' },
+  ],
+  'formula-1': [
+    { id: 'formula1-core', title: 'Formula 1 core set', subtitle: 'Racing cards e promo', total: 24, accent: '#EF4444', pill: 'F1' },
+  ],
+  wwe: [
+    { id: 'wwe-core', title: 'WWE core set', subtitle: 'Wrestling cards', total: 24, accent: '#111827', pill: 'WWE' },
+  ],
+  zuegg: [
+    { id: 'zuegg-core', title: 'Zuegg promo set', subtitle: 'Succo promo cards', total: 24, accent: '#F97316', pill: 'ZUEGG' },
+  ],
+  yoga: [
+    { id: 'yoga-core', title: 'Yoga promo set', subtitle: 'Succo promo cards', total: 24, accent: '#F59E0B', pill: 'YOGA' },
+  ],
+  santal: [
+    { id: 'santal-core', title: 'Santal promo set', subtitle: 'Succo promo cards', total: 24, accent: '#FB923C', pill: 'SANTAL' },
+  ],
+  sterilgarda: [
+    { id: 'sterilgarda-core', title: 'Sterilgarda promo set', subtitle: 'Beverage promo cards', total: 24, accent: '#38BDF8', pill: 'STERIL' },
+  ],
+  parmalat: [
+    { id: 'parmalat-core', title: 'Parmalat promo set', subtitle: 'Dairy promo cards', total: 24, accent: '#3B82F6', pill: 'PARM' },
+  ],
+  'italian-brainrot': [
+    { id: 'italian-brainrot-core', title: 'Italian Brainrot set', subtitle: 'Meme cards e viral', total: 24, accent: '#8B5CF6', pill: 'BRAIN' },
   ],
   mixed: [
     {

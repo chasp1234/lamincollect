@@ -6,7 +6,7 @@ import { universeCollections } from './src/data/universe-collections';
 
 type Screen = 'home' | 'collections' | 'cards' | 'card' | 'pack';
 type UniverseId = keyof typeof universeCollections;
-type CollectionId = 'pokemon-vertical' | 'pokemon-advanced' | 'pokemon-promo' | 'dragon-ball-core' | 'yugioh-core' | 'naruto-core' | 'onepiece-core' | 'spongebob-core' | 'gormiti-core' | 'marvel-core' | 'mixed-weird';
+type CollectionId = string;
 type SortMode = 'num-asc' | 'num-desc' | 'name-asc' | 'name-desc';
 
 const defaultUniverseId: UniverseId = 'pokemon';
@@ -30,6 +30,28 @@ const universeLogos: Partial<Record<UniverseId, any>> = {
   spongebob: require('./assets/spongebob-logo.png'),
   gormiti: require('./assets/gormiti-logo.png'),
   marvel: require('./assets/marvel-logo.png'),
+  'saint-seiya': require('./assets/saint-seiya-logo.png'),
+  'hunter-x-hunter': require('./assets/hunterxhunter-logo.png'),
+  beyblade: require('./assets/beyblade-logo.png'),
+  hamtaro: require('./assets/hamtaro-logo.png'),
+  digimon: require('./assets/digimon-logo.png'),
+  'detective-conan': require('./assets/detective-conan-logo.png'),
+  'inazuma-eleven': require('./assets/inazuma-eleven-logo.png'),
+  'blue-dragon': require('./assets/blue-dragon-logo.png'),
+  'ben-10': require('./assets/ben10-logo.png'),
+  tmnt: require('./assets/tmnt-logo.png'),
+  winx: require('./assets/winx-logo.png'),
+  spiderman: require('./assets/spiderman-logo.png'),
+  'harry-potter': require('./assets/harry-potter-logo.png'),
+  'serie-a': require('./assets/serie-a-logo.png'),
+  'formula-1': require('./assets/formula1-logo.png'),
+  wwe: require('./assets/wwe-logo.png'),
+  zuegg: require('./assets/zuegg-logo.png'),
+  yoga: require('./assets/yoga-logo.png'),
+  santal: require('./assets/santal-logo.png'),
+  sterilgarda: require('./assets/sterilgarda-logo.png'),
+  parmalat: require('./assets/parmalat-logo.png'),
+  'italian-brainrot': require('./assets/italian-brainrot-logo.png'),
   mixed: require('./assets/mixed-logo.png'),
 };
 
