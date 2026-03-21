@@ -289,7 +289,7 @@ export default function App() {
               </View>
               <Text style={styles.collectionSubtitle}>Anno di uscita: {info.year}</Text>
               <Text style={styles.collectionSubtitle}>Autore: {info.author}</Text>
-              <Text style={styles.collectionMeta}>Nr. Carte collezione: {collection.total}</Text>
+              <Text style={styles.collectionMeta}>Nr. Carte inserite in archivio: {collection.total}</Text>
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
               <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
