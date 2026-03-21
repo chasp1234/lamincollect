@@ -48,6 +48,7 @@ export default function App() {
   const [showCardNames, setShowCardNames] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
+  const [loadedImages, setLoadedImages] = useState<Record<string, boolean>>({});
   const { width: viewportWidth } = useWindowDimensions();
 
   const activeUniverse = useMemo(
@@ -89,6 +90,10 @@ export default function App() {
       return `${window.location.origin}${uri}`;
     }
     return uri;
+  };
+
+  const markImageLoaded = (key: string) => {
+    setLoadedImages((prev) => (prev[key] ? prev : { ...prev, [key]: true }));
   };
 
   const sortedCards = useMemo(() => {
@@ -373,11 +378,12 @@ export default function App() {
           const tone = cardToning[card.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
           const tileFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
           const tileOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
+          const tileLoaded = !!loadedImages[`grid-${card.id}`];
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidthPercent, paddingHorizontal: gridMode === 5 ? 1 : 2, marginBottom: gridMode === 5 ? 3 : 5 }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
-              <View style={styles.cardTileSkeleton} />
-              <Image source={{ uri: resolveAssetUri((card as any).thumb || card.image) }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
+              {!tileLoaded ? <View style={styles.cardTileSkeleton} /> : null}
+              <Image source={{ uri: resolveAssetUri((card as any).thumb || card.image) }} onLoadEnd={() => markImageLoaded(`grid-${card.id}`)} style={[styles.cardTileImage as any, tileFilter, tileLoaded ? styles.imageVisible : styles.imageHidden]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
             {showCardNames ? <Text style={styles.cardTileName} numberOfLines={1} ellipsizeMode="tail">{card.name}</Text> : null}
@@ -424,6 +430,8 @@ export default function App() {
     const tone = cardToning[activeCard.number] || { brightness: 1, saturation: 1, contrast: 1, overlay: 0, hueRotate: 0 };
     const detailFilter = { filter: `contrast(${tone.contrast}) brightness(${tone.brightness})` } as any;
     const detailOverlay = { backgroundColor: 'rgba(0,0,0,0)' };
+    const frontLoaded = !!loadedImages[`detail-front-${activeCard.id}`];
+    const backLoaded = !!loadedImages[`detail-back-${activeCard.id}`];
     return (
     <ScrollView contentContainerStyle={styles.content}>
       <TouchableOpacity style={styles.backButton} onPress={() => setScreen('cards')}>
@@ -435,14 +443,14 @@ export default function App() {
         <View style={styles.cardDualImages}>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>FRONTE</Text>
-            <View style={styles.cardHalfSkeleton} />
-            <Image source={{ uri: resolveAssetUri(activeCard.image) }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
+            {!frontLoaded ? <View style={styles.cardHalfSkeleton} /> : null}
+            <Image source={{ uri: resolveAssetUri(activeCard.image) }} onLoadEnd={() => markImageLoaded(`detail-front-${activeCard.id}`)} style={[styles.cardHalfImage as any, detailFilter, frontLoaded ? styles.imageVisible : styles.imageHidden]} resizeMode="contain" />
             <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
           <View style={styles.cardFaceBlock}>
             <Text style={styles.cardFaceLabel}>RETRO</Text>
-            <View style={styles.cardHalfSkeleton} />
-            <Image source={{ uri: resolveAssetUri(activeCard.back) }} style={[styles.cardHalfImage as any, detailFilter]} resizeMode="contain" />
+            {!backLoaded ? <View style={styles.cardHalfSkeleton} /> : null}
+            <Image source={{ uri: resolveAssetUri(activeCard.back) }} onLoadEnd={() => markImageLoaded(`detail-back-${activeCard.id}`)} style={[styles.cardHalfImage as any, detailFilter, backLoaded ? styles.imageVisible : styles.imageHidden]} resizeMode="contain" />
             <View style={[styles.cardImageToneOverlayLarge, detailOverlay]} pointerEvents="none" />
           </View>
         </View>
@@ -645,7 +653,9 @@ const styles = StyleSheet.create({
   cardTile: { backgroundColor: '#0F172A', borderRadius: 10, padding: 3, borderWidth: 1, borderColor: '#1E293B', boxSizing: 'border-box' as any },
   cardTileImageWrap: { position: 'relative' },
   cardTileSkeleton: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: '#172033' },
-  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: 'transparent' },
+  cardTileImage: { width: '100%', aspectRatio: 0.72, borderRadius: 10, backgroundColor: 'transparent', transitionDuration: '180ms' as any },
+  imageHidden: { opacity: 0.02 },
+  imageVisible: { opacity: 1 },
   cardImageToneOverlay: { position: 'absolute', inset: 0, borderRadius: 10, backgroundColor: 'rgba(96, 165, 250, 0.045)' },
   cardTileBackBadge: { position: 'absolute', top: 6, right: 6, backgroundColor: 'rgba(15, 23, 42, 0.88)', borderRadius: 999, paddingHorizontal: 6, paddingVertical: 3, borderWidth: 1, borderColor: '#334155' },
   cardTileBackBadgeText: { color: '#E2E8F0', fontSize: 8, fontWeight: '900' },
