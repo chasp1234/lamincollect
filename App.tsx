@@ -11,10 +11,11 @@ type SortMode = 'num-asc' | 'num-desc' | 'name-asc' | 'name-desc';
 
 const defaultUniverseId: UniverseId = 'pokemon';
 const defaultCollectionId: CollectionId = 'pokemon-vertical';
+const pokemonAlbumFront = require('./assets/pokemon-album-front.jpeg');
+
 const pokemonVerticalPack = {
   image: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
   back: 'https://archives.bulbagarden.net/media/upload/9/90/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_back.jpg',
-  album: 'https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Advanced_Vertical_Lamincards_-_album_front.jpeg',
   name: 'Pokémon Vertical Lamincards Advanced - Booster Pack Sealed',
   releaseDate: '2004 (Italia, Edibas Collections)',
   info: 'Bustina sealed ufficiale della serie Vertical Lamincards Advanced. Set da 150 carte con focus Gen III; distribuzione italiana Edibas.',
@@ -420,7 +421,7 @@ export default function App() {
         </View>
         <View style={styles.cardFaceBlock}>
           <Text style={styles.cardFaceLabel}>ALBUM</Text>
-          <Image source={{ uri: pokemonVerticalPack.album }} style={styles.packInfoImage} resizeMode="contain" />
+          <Image source={pokemonAlbumFront} style={styles.packInfoImage} resizeMode="contain" />
         </View>
         <View style={styles.packInfoBody}>
           <Text style={styles.packInfoTitle}>{pokemonVerticalPack.name}</Text>
