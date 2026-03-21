@@ -564,9 +564,7 @@ const styles = StyleSheet.create({
   rankMain: { color: '#F8FAFC', fontSize: 20, fontWeight: '900', marginTop: 4 },
   rankMeta: { color: '#94A3B8', fontSize: 12, flex: 1, textAlign: 'right' },
   sectionTitle: { color: '#F8FAFC', fontSize: 18, fontWeight: '900' },
-  sectionHeaderRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  sectionSearchBtn: { width: 34, height: 34, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827', alignItems: 'center', justifyContent: 'center' },
-  universeSearchInput: { backgroundColor: '#111827', color: '#F8FAFC', borderWidth: 1, borderColor: '#334155', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 8, fontSize: 12, fontWeight: '700', marginTop: -4 },
+
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   universeTile: { width: '48%', backgroundColor: '#0F172A', borderRadius: 16, padding: 8, borderWidth: 1, borderColor: '#1E293B', minHeight: 56 },
   universeBadge: { width: 48, height: 48, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
