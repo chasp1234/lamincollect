@@ -9,1460 +9,1622 @@
     {
       "id": "dbz-edibas-1",
       "number": "1",
-      "name": "Eo Se 2",
+      "name": "Lamincard 1",
       "image": "/dbz-edibas/front/1.jpg",
-      "subject": "Eo Se 2",
+      "subject": "Lamincard 1",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6456/lamincard-1"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6456/lamincard-1",
+      "thumb": "/dbz-edibas/thumbs/1.jpg"
     },
     {
       "id": "dbz-edibas-2",
       "number": "2",
-      "name": "17 Ie",
+      "name": "Lamincard 2",
       "image": "/dbz-edibas/front/2.jpg",
-      "subject": "17 Ie",
+      "subject": "Lamincard 2",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6457/lamincard-2"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6457/lamincard-2",
+      "thumb": "/dbz-edibas/thumbs/2.jpg"
     },
     {
       "id": "dbz-edibas-3",
       "number": "3",
-      "name": "Ape",
+      "name": "Lamincard 3",
       "image": "/dbz-edibas/front/3.jpg",
-      "subject": "Ape",
+      "subject": "Lamincard 3",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6458/lamincard-3"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6458/lamincard-3",
+      "thumb": "/dbz-edibas/thumbs/3.jpg"
     },
     {
       "id": "dbz-edibas-4",
       "number": "4",
-      "name": "Zn  A",
+      "name": "Lamincard 4",
       "image": "/dbz-edibas/front/4.jpg",
-      "subject": "Zn  A",
+      "subject": "Lamincard 4",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6459/lamincard-4"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6459/lamincard-4",
+      "thumb": "/dbz-edibas/thumbs/4.jpg"
     },
     {
       "id": "dbz-edibas-5",
       "number": "5",
-      "name": "De - Ng",
+      "name": "Lamincard 5",
       "image": "/dbz-edibas/front/5.jpg",
-      "subject": "De - Ng",
+      "subject": "Lamincard 5",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6460/lamincard-5"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6460/lamincard-5",
+      "thumb": "/dbz-edibas/thumbs/5.jpg"
     },
     {
       "id": "dbz-edibas-6",
       "number": "6",
-      "name": "Poe",
+      "name": "Lamincard 6",
       "image": "/dbz-edibas/front/6.jpg",
-      "subject": "Poe",
+      "subject": "Lamincard 6",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6461/lamincard-6"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6461/lamincard-6",
+      "thumb": "/dbz-edibas/thumbs/6.jpg"
     },
     {
       "id": "dbz-edibas-7",
       "number": "7",
-      "name": "Qc Yy",
+      "name": "Lamincard 7",
       "image": "/dbz-edibas/front/7.jpg",
-      "subject": "Qc Yy",
+      "subject": "Lamincard 7",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6462/lamincard-7"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6462/lamincard-7",
+      "thumb": "/dbz-edibas/thumbs/7.jpg"
     },
     {
       "id": "dbz-edibas-8",
       "number": "8",
-      "name": "Ie C6 Ih",
+      "name": "Lamincard 8",
       "image": "/dbz-edibas/front/8.jpg",
-      "subject": "Ie C6 Ih",
+      "subject": "Lamincard 8",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6463/lamincard-8"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6463/lamincard-8",
+      "thumb": "/dbz-edibas/thumbs/8.jpg"
     },
     {
       "id": "dbz-edibas-9",
       "number": "9",
-      "name": "Gohan",
+      "name": "Lamincard 9",
       "image": "/dbz-edibas/front/9.jpg",
-      "subject": "Gohan",
+      "subject": "Lamincard 9",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6464/lamincard-9"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6464/lamincard-9",
+      "thumb": "/dbz-edibas/thumbs/9.jpg"
     },
     {
       "id": "dbz-edibas-10",
       "number": "10",
-      "name": "Rr Ly",
+      "name": "Lamincard 10",
       "image": "/dbz-edibas/front/10.jpg",
-      "subject": "Rr Ly",
+      "subject": "Lamincard 10",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6465/lamincard-10"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6465/lamincard-10",
+      "thumb": "/dbz-edibas/thumbs/10.jpg"
     },
     {
       "id": "dbz-edibas-11",
       "number": "11",
-      "name": "Auih Vel 7 P",
+      "name": "Lamincard 11",
       "image": "/dbz-edibas/front/11.jpg",
-      "subject": "Auih Vel 7 P",
+      "subject": "Lamincard 11",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6466/lamincard-11"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6466/lamincard-11",
+      "thumb": "/dbz-edibas/thumbs/11.jpg"
     },
     {
       "id": "dbz-edibas-12",
       "number": "12",
-      "name": "Aed 7",
+      "name": "Lamincard 12",
       "image": "/dbz-edibas/front/12.jpg",
-      "subject": "Aed 7",
+      "subject": "Lamincard 12",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6467/lamincard-12"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6467/lamincard-12",
+      "thumb": "/dbz-edibas/thumbs/12.jpg"
     },
     {
       "id": "dbz-edibas-13",
       "number": "13",
-      "name": "Goku",
+      "name": "Lamincard 13",
       "image": "/dbz-edibas/front/13.jpg",
-      "subject": "Goku",
+      "subject": "Lamincard 13",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6468/lamincard-13"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6468/lamincard-13",
+      "thumb": "/dbz-edibas/thumbs/13.jpg"
     },
     {
       "id": "dbz-edibas-14",
       "number": "14",
-      "name": "A Ab O4 5",
+      "name": "Lamincard 14",
       "image": "/dbz-edibas/front/14.jpg",
-      "subject": "A Ab O4 5",
+      "subject": "Lamincard 14",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6469/lamincard-14"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6469/lamincard-14",
+      "thumb": "/dbz-edibas/thumbs/14.jpg"
     },
     {
       "id": "dbz-edibas-15",
       "number": "15",
-      "name": "Rt D 4",
+      "name": "Lamincard 15",
       "image": "/dbz-edibas/front/15.jpg",
-      "subject": "Rt D 4",
+      "subject": "Lamincard 15",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6470/lamincard-15"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6470/lamincard-15",
+      "thumb": "/dbz-edibas/thumbs/15.jpg"
     },
     {
       "id": "dbz-edibas-16",
       "number": "16",
-      "name": "Rl Vws Ae Op",
+      "name": "Lamincard 16",
       "image": "/dbz-edibas/front/16.jpg",
-      "subject": "Rl Vws Ae Op",
+      "subject": "Lamincard 16",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6471/lamincard-16"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6471/lamincard-16",
+      "thumb": "/dbz-edibas/thumbs/16.jpg"
     },
     {
       "id": "dbz-edibas-17",
       "number": "17",
-      "name": "Grey Ee",
+      "name": "Lamincard 17",
       "image": "/dbz-edibas/front/17.jpg",
-      "subject": "Grey Ee",
+      "subject": "Lamincard 17",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6472/lamincard-17"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6472/lamincard-17",
+      "thumb": "/dbz-edibas/thumbs/17.jpg"
     },
     {
       "id": "dbz-edibas-18",
       "number": "18",
-      "name": "Ae Z",
+      "name": "Lamincard 18",
       "image": "/dbz-edibas/front/18.jpg",
-      "subject": "Ae Z",
+      "subject": "Lamincard 18",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6473/lamincard-18"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6473/lamincard-18",
+      "thumb": "/dbz-edibas/thumbs/18.jpg"
     },
     {
       "id": "dbz-edibas-19",
       "number": "19",
-      "name": "4 Yy",
+      "name": "Lamincard 19",
       "image": "/dbz-edibas/front/19.jpg",
-      "subject": "4 Yy",
+      "subject": "Lamincard 19",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6474/lamincard-19"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6474/lamincard-19",
+      "thumb": "/dbz-edibas/thumbs/19.jpg"
     },
     {
       "id": "dbz-edibas-20",
       "number": "20",
-      "name": "Ey Cs Yp R",
+      "name": "Lamincard 20",
       "image": "/dbz-edibas/front/20.jpg",
-      "subject": "Ey Cs Yp R",
+      "subject": "Lamincard 20",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6475/lamincard-20"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6475/lamincard-20",
+      "thumb": "/dbz-edibas/thumbs/20.jpg"
     },
     {
       "id": "dbz-edibas-21",
       "number": "21",
-      "name": "Rang",
+      "name": "Lamincard 21",
       "image": "/dbz-edibas/front/21.jpg",
-      "subject": "Rang",
+      "subject": "Lamincard 21",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6476/lamincard-21"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6476/lamincard-21",
+      "thumb": "/dbz-edibas/thumbs/21.jpg"
     },
     {
       "id": "dbz-edibas-22",
       "number": "22",
-      "name": "Shi",
+      "name": "Lamincard 22",
       "image": "/dbz-edibas/front/22.jpg",
-      "subject": "Shi",
+      "subject": "Lamincard 22",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6477/lamincard-22"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6477/lamincard-22",
+      "thumb": "/dbz-edibas/thumbs/22.jpg"
     },
     {
       "id": "dbz-edibas-23",
       "number": "23",
-      "name": "Yo I",
+      "name": "Lamincard 23",
       "image": "/dbz-edibas/front/23.jpg",
-      "subject": "Yo I",
+      "subject": "Lamincard 23",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6478/lamincard-23"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6478/lamincard-23",
+      "thumb": "/dbz-edibas/thumbs/23.jpg"
     },
     {
       "id": "dbz-edibas-24",
       "number": "24",
-      "name": "Cy Ww",
+      "name": "Lamincard 24",
       "image": "/dbz-edibas/front/24.jpg",
-      "subject": "Cy Ww",
+      "subject": "Lamincard 24",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6479/lamincard-24"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6479/lamincard-24",
+      "thumb": "/dbz-edibas/thumbs/24.jpg"
     },
     {
       "id": "dbz-edibas-25",
       "number": "25",
-      "name": "Va A",
+      "name": "Lamincard 25",
       "image": "/dbz-edibas/front/25.jpg",
-      "subject": "Va A",
+      "subject": "Lamincard 25",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6480/lamincard-25"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6480/lamincard-25",
+      "thumb": "/dbz-edibas/thumbs/25.jpg"
     },
     {
       "id": "dbz-edibas-26",
       "number": "26",
-      "name": "A Ee",
+      "name": "Lamincard 26",
       "image": "/dbz-edibas/front/26.jpg",
-      "subject": "A Ee",
+      "subject": "Lamincard 26",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6481/lamincard-26"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6481/lamincard-26",
+      "thumb": "/dbz-edibas/thumbs/26.jpg"
     },
     {
       "id": "dbz-edibas-27",
       "number": "27",
-      "name": "I Aa A",
+      "name": "Lamincard 27",
       "image": "/dbz-edibas/front/27.jpg",
-      "subject": "I Aa A",
+      "subject": "Lamincard 27",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6482/lamincard-27"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6482/lamincard-27",
+      "thumb": "/dbz-edibas/thumbs/27.jpg"
     },
     {
       "id": "dbz-edibas-28",
       "number": "28",
-      "name": "Won",
+      "name": "Lamincard 28",
       "image": "/dbz-edibas/front/28.jpg",
-      "subject": "Won",
+      "subject": "Lamincard 28",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6483/lamincard-28"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6483/lamincard-28",
+      "thumb": "/dbz-edibas/thumbs/28.jpg"
     },
     {
       "id": "dbz-edibas-29",
       "number": "29",
-      "name": "Yzn",
+      "name": "Lamincard 29",
       "image": "/dbz-edibas/front/29.jpg",
-      "subject": "Yzn",
+      "subject": "Lamincard 29",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6484/lamincard-29"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6484/lamincard-29",
+      "thumb": "/dbz-edibas/thumbs/29.jpg"
     },
     {
       "id": "dbz-edibas-30",
       "number": "30",
-      "name": "Ae Dy An",
+      "name": "Lamincard 30",
       "image": "/dbz-edibas/front/30.jpg",
-      "subject": "Ae Dy An",
+      "subject": "Lamincard 30",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6485/lamincard-30"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6485/lamincard-30",
+      "thumb": "/dbz-edibas/thumbs/30.jpg"
     },
     {
       "id": "dbz-edibas-31",
       "number": "31",
-      "name": "Afi",
+      "name": "Lamincard 31",
       "image": "/dbz-edibas/front/31.jpg",
-      "subject": "Afi",
+      "subject": "Lamincard 31",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6486/lamincard-31"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6486/lamincard-31",
+      "thumb": "/dbz-edibas/thumbs/31.jpg"
     },
     {
       "id": "dbz-edibas-32",
       "number": "32",
-      "name": "7 A A",
+      "name": "Lamincard 32",
       "image": "/dbz-edibas/front/32.jpg",
-      "subject": "7 A A",
+      "subject": "Lamincard 32",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6487/lamincard-32"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6487/lamincard-32",
+      "thumb": "/dbz-edibas/thumbs/32.jpg"
     },
     {
       "id": "dbz-edibas-33",
       "number": "33",
-      "name": "A Fm",
+      "name": "Lamincard 33",
       "image": "/dbz-edibas/front/33.jpg",
-      "subject": "A Fm",
+      "subject": "Lamincard 33",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6488/lamincard-33"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6488/lamincard-33",
+      "thumb": "/dbz-edibas/thumbs/33.jpg"
     },
     {
       "id": "dbz-edibas-34",
       "number": "34",
-      "name": "Norof",
+      "name": "Lamincard 34",
       "image": "/dbz-edibas/front/34.jpg",
-      "subject": "Norof",
+      "subject": "Lamincard 34",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6489/lamincard-34"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6489/lamincard-34",
+      "thumb": "/dbz-edibas/thumbs/34.jpg"
     },
     {
       "id": "dbz-edibas-35",
       "number": "35",
-      "name": "Ten Shin Han",
+      "name": "Lamincard 35",
       "image": "/dbz-edibas/front/35.jpg",
-      "subject": "Ten Shin Han",
+      "subject": "Lamincard 35",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6490/lamincard-35"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6490/lamincard-35",
+      "thumb": "/dbz-edibas/thumbs/35.jpg"
     },
     {
       "id": "dbz-edibas-36",
       "number": "36",
-      "name": "Aul",
+      "name": "Lamincard 36",
       "image": "/dbz-edibas/front/36.jpg",
-      "subject": "Aul",
+      "subject": "Lamincard 36",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6491/lamincard-36"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6491/lamincard-36",
+      "thumb": "/dbz-edibas/thumbs/36.jpg"
     },
     {
       "id": "dbz-edibas-37",
       "number": "37",
-      "name": "Pree I As",
+      "name": "Lamincard 37",
       "image": "/dbz-edibas/front/37.jpg",
-      "subject": "Pree I As",
+      "subject": "Lamincard 37",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6492/lamincard-37"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6492/lamincard-37",
+      "thumb": "/dbz-edibas/thumbs/37.jpg"
     },
     {
       "id": "dbz-edibas-38",
       "number": "38",
-      "name": "Ea SS",
+      "name": "Lamincard 38",
       "image": "/dbz-edibas/front/38.jpg",
-      "subject": "Ea SS",
+      "subject": "Lamincard 38",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6493/lamincard-38"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6493/lamincard-38",
+      "thumb": "/dbz-edibas/thumbs/38.jpg"
     },
     {
       "id": "dbz-edibas-39",
       "number": "39",
-      "name": "Sns",
+      "name": "Lamincard 39",
       "image": "/dbz-edibas/front/39.jpg",
-      "subject": "Sns",
+      "subject": "Lamincard 39",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6494/lamincard-39"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6494/lamincard-39",
+      "thumb": "/dbz-edibas/thumbs/39.jpg"
     },
     {
       "id": "dbz-edibas-40",
       "number": "40",
-      "name": "Op Vea",
+      "name": "Lamincard 40",
       "image": "/dbz-edibas/front/40.jpg",
-      "subject": "Op Vea",
+      "subject": "Lamincard 40",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6495/lamincard-40"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6495/lamincard-40",
+      "thumb": "/dbz-edibas/thumbs/40.jpg"
     },
     {
       "id": "dbz-edibas-41",
       "number": "41",
-      "name": "2 A Oe",
+      "name": "Lamincard 41",
       "image": "/dbz-edibas/front/41.jpg",
-      "subject": "2 A Oe",
+      "subject": "Lamincard 41",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6496/lamincard-41"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6496/lamincard-41",
+      "thumb": "/dbz-edibas/thumbs/41.jpg"
     },
     {
       "id": "dbz-edibas-42",
       "number": "42",
-      "name": "Den",
+      "name": "Lamincard 42",
       "image": "/dbz-edibas/front/42.jpg",
-      "subject": "Den",
+      "subject": "Lamincard 42",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6497/lamincard-42"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6497/lamincard-42",
+      "thumb": "/dbz-edibas/thumbs/42.jpg"
     },
     {
       "id": "dbz-edibas-43",
       "number": "43",
-      "name": "Aya",
+      "name": "Lamincard 43",
       "image": "/dbz-edibas/front/43.jpg",
-      "subject": "Aya",
+      "subject": "Lamincard 43",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6498/lamincard-43"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6498/lamincard-43",
+      "thumb": "/dbz-edibas/thumbs/43.jpg"
     },
     {
       "id": "dbz-edibas-44",
       "number": "44",
-      "name": "Wee",
+      "name": "Lamincard 44",
       "image": "/dbz-edibas/front/44.jpg",
-      "subject": "Wee",
+      "subject": "Lamincard 44",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6499/lamincard-44"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6499/lamincard-44",
+      "thumb": "/dbz-edibas/thumbs/44.jpg"
     },
     {
       "id": "dbz-edibas-45",
       "number": "45",
-      "name": "Al Wi",
+      "name": "Lamincard 45",
       "image": "/dbz-edibas/front/45.jpg",
-      "subject": "Al Wi",
+      "subject": "Lamincard 45",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6500/lamincard-45"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6500/lamincard-45",
+      "thumb": "/dbz-edibas/thumbs/45.jpg"
     },
     {
       "id": "dbz-edibas-46",
       "number": "46",
-      "name": "Me  Fi Ps",
+      "name": "Lamincard 46",
       "image": "/dbz-edibas/front/46.jpg",
-      "subject": "Me  Fi Ps",
+      "subject": "Lamincard 46",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6501/lamincard-46"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6501/lamincard-46",
+      "thumb": "/dbz-edibas/thumbs/46.jpg"
     },
     {
       "id": "dbz-edibas-47",
       "number": "47",
-      "name": "Polunga",
+      "name": "Lamincard 47",
       "image": "/dbz-edibas/front/47.jpg",
-      "subject": "Polunga",
+      "subject": "Lamincard 47",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6502/lamincard-47"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6502/lamincard-47",
+      "thumb": "/dbz-edibas/thumbs/47.jpg"
     },
     {
       "id": "dbz-edibas-48",
       "number": "48",
-      "name": "My  Ae",
+      "name": "Lamincard 48",
       "image": "/dbz-edibas/front/48.jpg",
-      "subject": "My  Ae",
+      "subject": "Lamincard 48",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6503/lamincard-48"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6503/lamincard-48",
+      "thumb": "/dbz-edibas/thumbs/48.jpg"
     },
     {
       "id": "dbz-edibas-49",
       "number": "49",
-      "name": "Eae Yer",
+      "name": "Lamincard 49",
       "image": "/dbz-edibas/front/49.jpg",
-      "subject": "Eae Yer",
+      "subject": "Lamincard 49",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6504/lamincard-49"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6504/lamincard-49",
+      "thumb": "/dbz-edibas/thumbs/49.jpg"
     },
     {
       "id": "dbz-edibas-50",
       "number": "50",
-      "name": "Al P",
+      "name": "Lamincard 50",
       "image": "/dbz-edibas/front/50.jpg",
-      "subject": "Al P",
+      "subject": "Lamincard 50",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6505/lamincard-50"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6505/lamincard-50",
+      "thumb": "/dbz-edibas/thumbs/50.jpg"
     },
     {
       "id": "dbz-edibas-51",
       "number": "51",
-      "name": "Q Ga Y A",
+      "name": "Lamincard 51",
       "image": "/dbz-edibas/front/51.jpg",
-      "subject": "Q Ga Y A",
+      "subject": "Lamincard 51",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6506/lamincard-51"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6506/lamincard-51",
+      "thumb": "/dbz-edibas/thumbs/51.jpg"
     },
     {
       "id": "dbz-edibas-52",
       "number": "52",
-      "name": "Lid",
+      "name": "Lamincard 52",
       "image": "/dbz-edibas/front/52.jpg",
-      "subject": "Lid",
+      "subject": "Lamincard 52",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6507/lamincard-52"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6507/lamincard-52",
+      "thumb": "/dbz-edibas/thumbs/52.jpg"
     },
     {
       "id": "dbz-edibas-53",
       "number": "53",
-      "name": "Zz Mes  Px",
+      "name": "Lamincard 53",
       "image": "/dbz-edibas/front/53.jpg",
-      "subject": "Zz Mes  Px",
+      "subject": "Lamincard 53",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6508/lamincard-53"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6508/lamincard-53",
+      "thumb": "/dbz-edibas/thumbs/53.jpg"
     },
     {
       "id": "dbz-edibas-54",
       "number": "54",
-      "name": "Y J N",
+      "name": "Lamincard 54",
       "image": "/dbz-edibas/front/54.jpg",
-      "subject": "Y J N",
+      "subject": "Lamincard 54",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6509/lamincard-54"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6509/lamincard-54",
+      "thumb": "/dbz-edibas/thumbs/54.jpg"
     },
     {
       "id": "dbz-edibas-55",
       "number": "55",
-      "name": "Bis",
+      "name": "Lamincard 55",
       "image": "/dbz-edibas/front/55.jpg",
-      "subject": "Bis",
+      "subject": "Lamincard 55",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6510/lamincard-55"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6510/lamincard-55",
+      "thumb": "/dbz-edibas/thumbs/55.jpg"
     },
     {
       "id": "dbz-edibas-56",
       "number": "56",
-      "name": "I Ae In",
+      "name": "Lamincard 56",
       "image": "/dbz-edibas/front/56.jpg",
-      "subject": "I Ae In",
+      "subject": "Lamincard 56",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6511/lamincard-56"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6511/lamincard-56",
+      "thumb": "/dbz-edibas/thumbs/56.jpg"
     },
     {
       "id": "dbz-edibas-57",
       "number": "57",
-      "name": "Guldo",
+      "name": "Lamincard 57",
       "image": "/dbz-edibas/front/57.jpg",
-      "subject": "Guldo",
+      "subject": "Lamincard 57",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6512/lamincard-57"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6512/lamincard-57",
+      "thumb": "/dbz-edibas/thumbs/57.jpg"
     },
     {
       "id": "dbz-edibas-58",
       "number": "58",
-      "name": "I G",
+      "name": "Lamincard 58",
       "image": "/dbz-edibas/front/58.jpg",
-      "subject": "I G",
+      "subject": "Lamincard 58",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6513/lamincard-58"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6513/lamincard-58",
+      "thumb": "/dbz-edibas/thumbs/58.jpg"
     },
     {
       "id": "dbz-edibas-59",
       "number": "59",
-      "name": "Eizg",
+      "name": "Lamincard 59",
       "image": "/dbz-edibas/front/59.jpg",
-      "subject": "Eizg",
+      "subject": "Lamincard 59",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6514/lamincard-59"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6514/lamincard-59",
+      "thumb": "/dbz-edibas/thumbs/59.jpg"
     },
     {
       "id": "dbz-edibas-60",
       "number": "60",
-      "name": "Radite",
+      "name": "Lamincard 60",
       "image": "/dbz-edibas/front/60.jpg",
-      "subject": "Radite",
+      "subject": "Lamincard 60",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6515/lamincard-60"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6515/lamincard-60",
+      "thumb": "/dbz-edibas/thumbs/60.jpg"
     },
     {
       "id": "dbz-edibas-61",
       "number": "61",
-      "name": "Ee 2 Cn 4",
+      "name": "Lamincard 61",
       "image": "/dbz-edibas/front/61.jpg",
-      "subject": "Ee 2 Cn 4",
+      "subject": "Lamincard 61",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6516/lamincard-61"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6516/lamincard-61",
+      "thumb": "/dbz-edibas/thumbs/61.jpg"
     },
     {
       "id": "dbz-edibas-62",
       "number": "62",
-      "name": "- Nee",
+      "name": "Lamincard 62",
       "image": "/dbz-edibas/front/62.jpg",
-      "subject": "- Nee",
+      "subject": "Lamincard 62",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6517/lamincard-62"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6517/lamincard-62",
+      "thumb": "/dbz-edibas/thumbs/62.jpg"
     },
     {
       "id": "dbz-edibas-63",
       "number": "63",
-      "name": "Ae Ree",
+      "name": "Lamincard 63",
       "image": "/dbz-edibas/front/63.jpg",
-      "subject": "Ae Ree",
+      "subject": "Lamincard 63",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6518/lamincard-63"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6518/lamincard-63",
+      "thumb": "/dbz-edibas/thumbs/63.jpg"
     },
     {
       "id": "dbz-edibas-64",
       "number": "64",
-      "name": "Ying",
+      "name": "Lamincard 64",
       "image": "/dbz-edibas/front/64.jpg",
-      "subject": "Ying",
+      "subject": "Lamincard 64",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6519/lamincard-64"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6519/lamincard-64",
+      "thumb": "/dbz-edibas/thumbs/64.jpg"
     },
     {
       "id": "dbz-edibas-65",
       "number": "65",
-      "name": "An 2 A",
+      "name": "Lamincard 65",
       "image": "/dbz-edibas/front/65.jpg",
-      "subject": "An 2 A",
+      "subject": "Lamincard 65",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6520/lamincard-65"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6520/lamincard-65",
+      "thumb": "/dbz-edibas/thumbs/65.jpg"
     },
     {
       "id": "dbz-edibas-66",
       "number": "66",
-      "name": "Si A",
+      "name": "Lamincard 66",
       "image": "/dbz-edibas/front/66.jpg",
-      "subject": "Si A",
+      "subject": "Lamincard 66",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6521/lamincard-66"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6521/lamincard-66",
+      "thumb": "/dbz-edibas/thumbs/66.jpg"
     },
     {
       "id": "dbz-edibas-67",
       "number": "67",
-      "name": "Id SSe Er",
+      "name": "Lamincard 67",
       "image": "/dbz-edibas/front/67.jpg",
-      "subject": "Id SSe Er",
+      "subject": "Lamincard 67",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6522/lamincard-67"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6522/lamincard-67",
+      "thumb": "/dbz-edibas/thumbs/67.jpg"
     },
     {
       "id": "dbz-edibas-68",
       "number": "68",
-      "name": "Bs C",
+      "name": "Lamincard 68",
       "image": "/dbz-edibas/front/68.jpg",
-      "subject": "Bs C",
+      "subject": "Lamincard 68",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6523/lamincard-68"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6523/lamincard-68",
+      "thumb": "/dbz-edibas/thumbs/68.jpg"
     },
     {
       "id": "dbz-edibas-69",
       "number": "69",
-      "name": "Anat",
+      "name": "Lamincard 69",
       "image": "/dbz-edibas/front/69.jpg",
-      "subject": "Anat",
+      "subject": "Lamincard 69",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6524/lamincard-69"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6524/lamincard-69",
+      "thumb": "/dbz-edibas/thumbs/69.jpg"
     },
     {
       "id": "dbz-edibas-70",
       "number": "70",
-      "name": "Es P",
+      "name": "Lamincard 70",
       "image": "/dbz-edibas/front/70.jpg",
-      "subject": "Es P",
+      "subject": "Lamincard 70",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6525/lamincard-70"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6525/lamincard-70",
+      "thumb": "/dbz-edibas/thumbs/70.jpg"
     },
     {
       "id": "dbz-edibas-71",
       "number": "71",
-      "name": "Ae Loess 24 No",
+      "name": "Lamincard 71",
       "image": "/dbz-edibas/front/71.jpg",
-      "subject": "Ae Loess 24 No",
+      "subject": "Lamincard 71",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6526/lamincard-71"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6526/lamincard-71",
+      "thumb": "/dbz-edibas/thumbs/71.jpg"
     },
     {
       "id": "dbz-edibas-72",
       "number": "72",
-      "name": "Ee Es Eo",
+      "name": "Lamincard 72",
       "image": "/dbz-edibas/front/72.jpg",
-      "subject": "Ee Es Eo",
+      "subject": "Lamincard 72",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6527/lamincard-72"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6527/lamincard-72",
+      "thumb": "/dbz-edibas/thumbs/72.jpg"
     },
     {
       "id": "dbz-edibas-73",
       "number": "73",
-      "name": "Ges",
+      "name": "Lamincard 73",
       "image": "/dbz-edibas/front/73.jpg",
-      "subject": "Ges",
+      "subject": "Lamincard 73",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6528/lamincard-73"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6528/lamincard-73",
+      "thumb": "/dbz-edibas/thumbs/73.jpg"
     },
     {
       "id": "dbz-edibas-74",
       "number": "74",
-      "name": "Keilin",
+      "name": "Lamincard 74",
       "image": "/dbz-edibas/front/74.jpg",
-      "subject": "Keilin",
+      "subject": "Lamincard 74",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6529/lamincard-74"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6529/lamincard-74",
+      "thumb": "/dbz-edibas/thumbs/74.jpg"
     },
     {
       "id": "dbz-edibas-75",
       "number": "75",
-      "name": "Eat My  SS",
+      "name": "Lamincard 75",
       "image": "/dbz-edibas/front/75.jpg",
-      "subject": "Eat My  SS",
+      "subject": "Lamincard 75",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6530/lamincard-75"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6530/lamincard-75",
+      "thumb": "/dbz-edibas/thumbs/75.jpg"
     },
     {
       "id": "dbz-edibas-76",
       "number": "76",
-      "name": "Da Mal",
+      "name": "Lamincard 76",
       "image": "/dbz-edibas/front/76.jpg",
-      "subject": "Da Mal",
+      "subject": "Lamincard 76",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6531/lamincard-76"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6531/lamincard-76",
+      "thumb": "/dbz-edibas/thumbs/76.jpg"
     },
     {
       "id": "dbz-edibas-77",
       "number": "77",
-      "name": "Sih",
+      "name": "Lamincard 77",
       "image": "/dbz-edibas/front/77.jpg",
-      "subject": "Sih",
+      "subject": "Lamincard 77",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6532/lamincard-77"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6532/lamincard-77",
+      "thumb": "/dbz-edibas/thumbs/77.jpg"
     },
     {
       "id": "dbz-edibas-78",
       "number": "78",
-      "name": "Ye Ih",
+      "name": "Lamincard 78",
       "image": "/dbz-edibas/front/78.jpg",
-      "subject": "Ye Ih",
+      "subject": "Lamincard 78",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6533/lamincard-78"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6533/lamincard-78",
+      "thumb": "/dbz-edibas/thumbs/78.jpg"
     },
     {
       "id": "dbz-edibas-79",
       "number": "79",
-      "name": "A  Es Se",
+      "name": "Lamincard 79",
       "image": "/dbz-edibas/front/79.jpg",
-      "subject": "A  Es Se",
+      "subject": "Lamincard 79",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6534/lamincard-79"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6534/lamincard-79",
+      "thumb": "/dbz-edibas/thumbs/79.jpg"
     },
     {
       "id": "dbz-edibas-80",
       "number": "80",
-      "name": "Us Ee Oe",
+      "name": "Lamincard 80",
       "image": "/dbz-edibas/front/80.jpg",
-      "subject": "Us Ee Oe",
+      "subject": "Lamincard 80",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6535/lamincard-80"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6535/lamincard-80",
+      "thumb": "/dbz-edibas/thumbs/80.jpg"
     },
     {
       "id": "dbz-edibas-81",
       "number": "81",
-      "name": "J Af",
+      "name": "Lamincard 81",
       "image": "/dbz-edibas/front/81.jpg",
-      "subject": "J Af",
+      "subject": "Lamincard 81",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6536/lamincard-81"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6536/lamincard-81",
+      "thumb": "/dbz-edibas/thumbs/81.jpg"
     },
     {
       "id": "dbz-edibas-82",
       "number": "82",
-      "name": "Dy At 7",
+      "name": "Lamincard 82",
       "image": "/dbz-edibas/front/82.jpg",
-      "subject": "Dy At 7",
+      "subject": "Lamincard 82",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6537/lamincard-82"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6537/lamincard-82",
+      "thumb": "/dbz-edibas/thumbs/82.jpg"
     },
     {
       "id": "dbz-edibas-83",
       "number": "83",
-      "name": "Gih",
+      "name": "Lamincard 83",
       "image": "/dbz-edibas/front/83.jpg",
-      "subject": "Gih",
+      "subject": "Lamincard 83",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6538/lamincard-83"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6538/lamincard-83",
+      "thumb": "/dbz-edibas/thumbs/83.jpg"
     },
     {
       "id": "dbz-edibas-84",
       "number": "84",
-      "name": "Ia A A",
+      "name": "Lamincard 84",
       "image": "/dbz-edibas/front/84.jpg",
-      "subject": "Ia A A",
+      "subject": "Lamincard 84",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6539/lamincard-84"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6539/lamincard-84",
+      "thumb": "/dbz-edibas/thumbs/84.jpg"
     },
     {
       "id": "dbz-edibas-85",
       "number": "85",
-      "name": "E A See",
+      "name": "Lamincard 85",
       "image": "/dbz-edibas/front/85.jpg",
-      "subject": "E A See",
+      "subject": "Lamincard 85",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6540/lamincard-85"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6540/lamincard-85",
+      "thumb": "/dbz-edibas/thumbs/85.jpg"
     },
     {
       "id": "dbz-edibas-86",
       "number": "86",
-      "name": "Ie Ee A",
+      "name": "Lamincard 86",
       "image": "/dbz-edibas/front/86.jpg",
-      "subject": "Ie Ee A",
+      "subject": "Lamincard 86",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6541/lamincard-86"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6541/lamincard-86",
+      "thumb": "/dbz-edibas/thumbs/86.jpg"
     },
     {
       "id": "dbz-edibas-87",
       "number": "87",
-      "name": "Y Ae",
+      "name": "Lamincard 87",
       "image": "/dbz-edibas/front/87.jpg",
-      "subject": "Y Ae",
+      "subject": "Lamincard 87",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6542/lamincard-87"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6542/lamincard-87",
+      "thumb": "/dbz-edibas/thumbs/87.jpg"
     },
     {
       "id": "dbz-edibas-88",
       "number": "88",
-      "name": "Eyics",
+      "name": "Lamincard 88",
       "image": "/dbz-edibas/front/88.jpg",
-      "subject": "Eyics",
+      "subject": "Lamincard 88",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6543/lamincard-88"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6543/lamincard-88",
+      "thumb": "/dbz-edibas/thumbs/88.jpg"
     },
     {
       "id": "dbz-edibas-89",
       "number": "89",
-      "name": "Ae  Om Z",
+      "name": "Lamincard 89",
       "image": "/dbz-edibas/front/89.jpg",
-      "subject": "Ae  Om Z",
+      "subject": "Lamincard 89",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6544/lamincard-89"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6544/lamincard-89",
+      "thumb": "/dbz-edibas/thumbs/89.jpg"
     },
     {
       "id": "dbz-edibas-90",
       "number": "90",
-      "name": "Gregory",
+      "name": "Lamincard 90",
       "image": "/dbz-edibas/front/90.jpg",
-      "subject": "Gregory",
+      "subject": "Lamincard 90",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6545/lamincard-90"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6545/lamincard-90",
+      "thumb": "/dbz-edibas/thumbs/90.jpg"
     },
     {
       "id": "dbz-edibas-91",
       "number": "91",
-      "name": "Ans",
+      "name": "Lamincard 91",
       "image": "/dbz-edibas/front/91.jpg",
-      "subject": "Ans",
+      "subject": "Lamincard 91",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6546/lamincard-91"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6546/lamincard-91",
+      "thumb": "/dbz-edibas/thumbs/91.jpg"
     },
     {
       "id": "dbz-edibas-92",
       "number": "92",
-      "name": "Majin Bu",
+      "name": "Lamincard 92",
       "image": "/dbz-edibas/front/92.jpg",
-      "subject": "Majin Bu",
+      "subject": "Lamincard 92",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6547/lamincard-92"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6547/lamincard-92",
+      "thumb": "/dbz-edibas/thumbs/92.jpg"
     },
     {
       "id": "dbz-edibas-93",
       "number": "93",
-      "name": "Af Ow",
+      "name": "Lamincard 93",
       "image": "/dbz-edibas/front/93.jpg",
-      "subject": "Af Ow",
+      "subject": "Lamincard 93",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6548/lamincard-93"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6548/lamincard-93",
+      "thumb": "/dbz-edibas/thumbs/93.jpg"
     },
     {
       "id": "dbz-edibas-94",
       "number": "94",
-      "name": "Pe Yy Re",
+      "name": "Lamincard 94",
       "image": "/dbz-edibas/front/94.jpg",
-      "subject": "Pe Yy Re",
+      "subject": "Lamincard 94",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6549/lamincard-94"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6549/lamincard-94",
+      "thumb": "/dbz-edibas/thumbs/94.jpg"
     },
     {
       "id": "dbz-edibas-95",
       "number": "95",
-      "name": "Jiro3Sai",
+      "name": "Lamincard 95",
       "image": "/dbz-edibas/front/95.jpg",
-      "subject": "Jiro3Sai",
+      "subject": "Lamincard 95",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6550/lamincard-95"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6550/lamincard-95",
+      "thumb": "/dbz-edibas/thumbs/95.jpg"
     },
     {
       "id": "dbz-edibas-96",
       "number": "96",
-      "name": "Pe  J",
+      "name": "Lamincard 96",
       "image": "/dbz-edibas/front/96.jpg",
-      "subject": "Pe  J",
+      "subject": "Lamincard 96",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6551/lamincard-96"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6551/lamincard-96",
+      "thumb": "/dbz-edibas/thumbs/96.jpg"
     },
     {
       "id": "dbz-edibas-97",
       "number": "97",
-      "name": "K I",
+      "name": "Lamincard 97",
       "image": "/dbz-edibas/front/97.jpg",
-      "subject": "K I",
+      "subject": "Lamincard 97",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6552/lamincard-97"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6552/lamincard-97",
+      "thumb": "/dbz-edibas/thumbs/97.jpg"
     },
     {
       "id": "dbz-edibas-98",
       "number": "98",
-      "name": "A Vea A",
+      "name": "Lamincard 98",
       "image": "/dbz-edibas/front/98.jpg",
-      "subject": "A Vea A",
+      "subject": "Lamincard 98",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6553/lamincard-98"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6553/lamincard-98",
+      "thumb": "/dbz-edibas/thumbs/98.jpg"
     },
     {
       "id": "dbz-edibas-99",
       "number": "99",
-      "name": "Oe M",
+      "name": "Lamincard 99",
       "image": "/dbz-edibas/front/99.jpg",
-      "subject": "Oe M",
+      "subject": "Lamincard 99",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6554/lamincard-99"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6554/lamincard-99",
+      "thumb": "/dbz-edibas/thumbs/99.jpg"
     },
     {
       "id": "dbz-edibas-100",
       "number": "100",
-      "name": "Ecg Ye",
+      "name": "Lamincard 100",
       "image": "/dbz-edibas/front/100.jpg",
-      "subject": "Ecg Ye",
+      "subject": "Lamincard 100",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6555/lamincard-100"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6555/lamincard-100",
+      "thumb": "/dbz-edibas/thumbs/100.jpg"
     },
     {
       "id": "dbz-edibas-101",
       "number": "101",
-      "name": "On  I",
+      "name": "Lamincard 101",
       "image": "/dbz-edibas/front/101.jpg",
-      "subject": "On  I",
+      "subject": "Lamincard 101",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6556/lamincard-101"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6556/lamincard-101",
+      "thumb": "/dbz-edibas/thumbs/101.jpg"
     },
     {
       "id": "dbz-edibas-102",
       "number": "102",
-      "name": "7 Ooo Pes I",
+      "name": "Lamincard 102",
       "image": "/dbz-edibas/front/102.jpg",
-      "subject": "7 Ooo Pes I",
+      "subject": "Lamincard 102",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6557/lamincard-102"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6557/lamincard-102",
+      "thumb": "/dbz-edibas/thumbs/102.jpg"
     },
     {
       "id": "dbz-edibas-103",
       "number": "103",
-      "name": "Thew",
+      "name": "Lamincard 103",
       "image": "/dbz-edibas/front/103.jpg",
-      "subject": "Thew",
+      "subject": "Lamincard 103",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6558/lamincard-103"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6558/lamincard-103",
+      "thumb": "/dbz-edibas/thumbs/103.jpg"
     },
     {
       "id": "dbz-edibas-104",
       "number": "104",
-      "name": "Yt G",
+      "name": "Lamincard 104",
       "image": "/dbz-edibas/front/104.jpg",
-      "subject": "Yt G",
+      "subject": "Lamincard 104",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6559/lamincard-104"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6559/lamincard-104",
+      "thumb": "/dbz-edibas/thumbs/104.jpg"
     },
     {
       "id": "dbz-edibas-105",
       "number": "105",
-      "name": "Vy 4",
+      "name": "Lamincard 105",
       "image": "/dbz-edibas/front/105.jpg",
-      "subject": "Vy 4",
+      "subject": "Lamincard 105",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6560/lamincard-105"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6560/lamincard-105",
+      "thumb": "/dbz-edibas/thumbs/105.jpg"
     },
     {
       "id": "dbz-edibas-106",
       "number": "106",
-      "name": "Com",
+      "name": "Lamincard 106",
       "image": "/dbz-edibas/front/106.jpg",
-      "subject": "Com",
+      "subject": "Lamincard 106",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6561/lamincard-106"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6561/lamincard-106",
+      "thumb": "/dbz-edibas/thumbs/106.jpg"
     },
     {
       "id": "dbz-edibas-107",
       "number": "107",
-      "name": "Fon Y",
+      "name": "Lamincard 107",
       "image": "/dbz-edibas/front/107.jpg",
-      "subject": "Fon Y",
+      "subject": "Lamincard 107",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6562/lamincard-107"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6562/lamincard-107",
+      "thumb": "/dbz-edibas/thumbs/107.jpg"
     },
     {
       "id": "dbz-edibas-108",
       "number": "108",
-      "name": "F Cad Te Ee",
+      "name": "Lamincard 108",
       "image": "/dbz-edibas/front/108.jpg",
-      "subject": "F Cad Te Ee",
+      "subject": "Lamincard 108",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6563/lamincard-108"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6563/lamincard-108",
+      "thumb": "/dbz-edibas/thumbs/108.jpg"
     },
     {
       "id": "dbz-edibas-109",
       "number": "109",
-      "name": "I A",
+      "name": "Lamincard 109",
       "image": "/dbz-edibas/front/109.jpg",
-      "subject": "I A",
+      "subject": "Lamincard 109",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6564/lamincard-109"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6564/lamincard-109",
+      "thumb": "/dbz-edibas/thumbs/109.jpg"
     },
     {
       "id": "dbz-edibas-110",
       "number": "110",
-      "name": "U  6",
+      "name": "Lamincard 110",
       "image": "/dbz-edibas/front/110.jpg",
-      "subject": "U  6",
+      "subject": "Lamincard 110",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6565/lamincard-110"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6565/lamincard-110",
+      "thumb": "/dbz-edibas/thumbs/110.jpg"
     },
     {
       "id": "dbz-edibas-111",
       "number": "111",
-      "name": "Ges",
+      "name": "Lamincard 111",
       "image": "/dbz-edibas/front/111.jpg",
-      "subject": "Ges",
+      "subject": "Lamincard 111",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6566/lamincard-111"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6566/lamincard-111",
+      "thumb": "/dbz-edibas/thumbs/111.jpg"
     },
     {
       "id": "dbz-edibas-112",
       "number": "112",
-      "name": "Ie G   A",
+      "name": "Lamincard 112",
       "image": "/dbz-edibas/front/112.jpg",
-      "subject": "Ie G   A",
+      "subject": "Lamincard 112",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6567/lamincard-112"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6567/lamincard-112",
+      "thumb": "/dbz-edibas/thumbs/112.jpg"
     },
     {
       "id": "dbz-edibas-113",
       "number": "113",
-      "name": "Ely",
+      "name": "Lamincard 113",
       "image": "/dbz-edibas/front/113.jpg",
-      "subject": "Ely",
+      "subject": "Lamincard 113",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6568/lamincard-113"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6568/lamincard-113",
+      "thumb": "/dbz-edibas/thumbs/113.jpg"
     },
     {
       "id": "dbz-edibas-114",
       "number": "114",
-      "name": "Sue",
+      "name": "Lamincard 114",
       "image": "/dbz-edibas/front/114.jpg",
-      "subject": "Sue",
+      "subject": "Lamincard 114",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6569/lamincard-114"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6569/lamincard-114",
+      "thumb": "/dbz-edibas/thumbs/114.jpg"
     },
     {
       "id": "dbz-edibas-115",
       "number": "115",
-      "name": "Aoa",
+      "name": "Lamincard 115",
       "image": "/dbz-edibas/front/115.jpg",
-      "subject": "Aoa",
+      "subject": "Lamincard 115",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6570/lamincard-115"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6570/lamincard-115",
+      "thumb": "/dbz-edibas/thumbs/115.jpg"
     },
     {
       "id": "dbz-edibas-116",
       "number": "116",
-      "name": "4  P Wei 4",
+      "name": "Lamincard 116",
       "image": "/dbz-edibas/front/116.jpg",
-      "subject": "4  P Wei 4",
+      "subject": "Lamincard 116",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6571/lamincard-116"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6571/lamincard-116",
+      "thumb": "/dbz-edibas/thumbs/116.jpg"
     },
     {
       "id": "dbz-edibas-117",
       "number": "117",
-      "name": "2 2 9S",
+      "name": "Lamincard 117",
       "image": "/dbz-edibas/front/117.jpg",
-      "subject": "2 2 9S",
+      "subject": "Lamincard 117",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6572/lamincard-117"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6572/lamincard-117",
+      "thumb": "/dbz-edibas/thumbs/117.jpg"
     },
     {
       "id": "dbz-edibas-118",
       "number": "118",
-      "name": "SS Ong Ee",
+      "name": "Lamincard 118",
       "image": "/dbz-edibas/front/118.jpg",
-      "subject": "SS Ong Ee",
+      "subject": "Lamincard 118",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6573/lamincard-118"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6573/lamincard-118",
+      "thumb": "/dbz-edibas/thumbs/118.jpg"
     },
     {
       "id": "dbz-edibas-119",
       "number": "119",
-      "name": "Sal",
+      "name": "Lamincard 119",
       "image": "/dbz-edibas/front/119.jpg",
-      "subject": "Sal",
+      "subject": "Lamincard 119",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6574/lamincard-119"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6574/lamincard-119",
+      "thumb": "/dbz-edibas/thumbs/119.jpg"
     },
     {
       "id": "dbz-edibas-120",
       "number": "120",
-      "name": "One Eo Pa",
+      "name": "Lamincard 120",
       "image": "/dbz-edibas/front/120.jpg",
-      "subject": "One Eo Pa",
+      "subject": "Lamincard 120",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6575/lamincard-120"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6575/lamincard-120",
+      "thumb": "/dbz-edibas/thumbs/120.jpg"
     },
     {
       "id": "dbz-edibas-121",
       "number": "121",
-      "name": "1 Ke",
+      "name": "Lamincard 121",
       "image": "/dbz-edibas/front/121.jpg",
-      "subject": "1 Ke",
+      "subject": "Lamincard 121",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6576/lamincard-121"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6576/lamincard-121",
+      "thumb": "/dbz-edibas/thumbs/121.jpg"
     },
     {
       "id": "dbz-edibas-122",
       "number": "122",
-      "name": "Men Gb",
+      "name": "Lamincard 122",
       "image": "/dbz-edibas/front/122.jpg",
-      "subject": "Men Gb",
+      "subject": "Lamincard 122",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6577/lamincard-122"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6577/lamincard-122",
+      "thumb": "/dbz-edibas/thumbs/122.jpg"
     },
     {
       "id": "dbz-edibas-123",
       "number": "123",
-      "name": "Or  Aon",
+      "name": "Lamincard 123",
       "image": "/dbz-edibas/front/123.jpg",
-      "subject": "Or  Aon",
+      "subject": "Lamincard 123",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6578/lamincard-123"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6578/lamincard-123",
+      "thumb": "/dbz-edibas/thumbs/123.jpg"
     },
     {
       "id": "dbz-edibas-124",
       "number": "124",
-      "name": "Oy Oe",
+      "name": "Lamincard 124",
       "image": "/dbz-edibas/front/124.jpg",
-      "subject": "Oy Oe",
+      "subject": "Lamincard 124",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6579/lamincard-124"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6579/lamincard-124",
+      "thumb": "/dbz-edibas/thumbs/124.jpg"
     },
     {
       "id": "dbz-edibas-125",
       "number": "125",
-      "name": "Ple Ee",
+      "name": "Lamincard 125",
       "image": "/dbz-edibas/front/125.jpg",
-      "subject": "Ple Ee",
+      "subject": "Lamincard 125",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6580/lamincard-125"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6580/lamincard-125",
+      "thumb": "/dbz-edibas/thumbs/125.jpg"
     },
     {
       "id": "dbz-edibas-126",
       "number": "126",
-      "name": "San Silt 2",
+      "name": "Lamincard 126",
       "image": "/dbz-edibas/front/126.jpg",
-      "subject": "San Silt 2",
+      "subject": "Lamincard 126",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6581/lamincard-126"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6581/lamincard-126",
+      "thumb": "/dbz-edibas/thumbs/126.jpg"
     },
     {
       "id": "dbz-edibas-127",
       "number": "127",
-      "name": "Hs Oe Fp",
+      "name": "Lamincard 127",
       "image": "/dbz-edibas/front/127.jpg",
-      "subject": "Hs Oe Fp",
+      "subject": "Lamincard 127",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6582/lamincard-127"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6582/lamincard-127",
+      "thumb": "/dbz-edibas/thumbs/127.jpg"
     },
     {
       "id": "dbz-edibas-128",
       "number": "128",
-      "name": "Ay  Cm",
+      "name": "Lamincard 128",
       "image": "/dbz-edibas/front/128.jpg",
-      "subject": "Ay  Cm",
+      "subject": "Lamincard 128",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6583/lamincard-128"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6583/lamincard-128",
+      "thumb": "/dbz-edibas/thumbs/128.jpg"
     },
     {
       "id": "dbz-edibas-129",
       "number": "129",
-      "name": "F  Ys A",
+      "name": "Lamincard 129",
       "image": "/dbz-edibas/front/129.jpg",
-      "subject": "F  Ys A",
+      "subject": "Lamincard 129",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6584/lamincard-129"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6584/lamincard-129",
+      "thumb": "/dbz-edibas/thumbs/129.jpg"
     },
     {
       "id": "dbz-edibas-130",
       "number": "130",
-      "name": "I We Ee",
+      "name": "Lamincard 130",
       "image": "/dbz-edibas/front/130.jpg",
-      "subject": "I We Ee",
+      "subject": "Lamincard 130",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6585/lamincard-130"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6585/lamincard-130",
+      "thumb": "/dbz-edibas/thumbs/130.jpg"
     },
     {
       "id": "dbz-edibas-131",
       "number": "131",
-      "name": "5 A Ee",
+      "name": "Lamincard 131",
       "image": "/dbz-edibas/front/131.jpg",
-      "subject": "5 A Ee",
+      "subject": "Lamincard 131",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6586/lamincard-131"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6586/lamincard-131",
+      "thumb": "/dbz-edibas/thumbs/131.jpg"
     },
     {
       "id": "dbz-edibas-132",
       "number": "132",
-      "name": "Cell",
+      "name": "Lamincard 132",
       "image": "/dbz-edibas/front/132.jpg",
-      "subject": "Cell",
+      "subject": "Lamincard 132",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6587/lamincard-132"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6587/lamincard-132",
+      "thumb": "/dbz-edibas/thumbs/132.jpg"
     },
     {
       "id": "dbz-edibas-133",
       "number": "133",
-      "name": "I Heoy Ae",
+      "name": "Lamincard 133",
       "image": "/dbz-edibas/front/133.jpg",
-      "subject": "I Heoy Ae",
+      "subject": "Lamincard 133",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6588/lamincard-133"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6588/lamincard-133",
+      "thumb": "/dbz-edibas/thumbs/133.jpg"
     },
     {
       "id": "dbz-edibas-134",
       "number": "134",
-      "name": "- Jge Wae",
+      "name": "Lamincard 134",
       "image": "/dbz-edibas/front/134.jpg",
-      "subject": "- Jge Wae",
+      "subject": "Lamincard 134",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6589/lamincard-134"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6589/lamincard-134",
+      "thumb": "/dbz-edibas/thumbs/134.jpg"
     },
     {
       "id": "dbz-edibas-135",
       "number": "135",
-      "name": "8 P Ail",
+      "name": "Lamincard 135",
       "image": "/dbz-edibas/front/135.jpg",
-      "subject": "8 P Ail",
+      "subject": "Lamincard 135",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6590/lamincard-135"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6590/lamincard-135",
+      "thumb": "/dbz-edibas/thumbs/135.jpg"
     },
     {
       "id": "dbz-edibas-136",
       "number": "136",
-      "name": "Ee Er Ee Ee",
+      "name": "Lamincard 136",
       "image": "/dbz-edibas/front/136.jpg",
-      "subject": "Ee Er Ee Ee",
+      "subject": "Lamincard 136",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6591/lamincard-136"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6591/lamincard-136",
+      "thumb": "/dbz-edibas/thumbs/136.jpg"
     },
     {
       "id": "dbz-edibas-137",
       "number": "137",
-      "name": "- Q",
+      "name": "Lamincard 137",
       "image": "/dbz-edibas/front/137.jpg",
-      "subject": "- Q",
+      "subject": "Lamincard 137",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6592/lamincard-137"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6592/lamincard-137",
+      "thumb": "/dbz-edibas/thumbs/137.jpg"
     },
     {
       "id": "dbz-edibas-138",
       "number": "138",
-      "name": "A Frew Ly",
+      "name": "Lamincard 138",
       "image": "/dbz-edibas/front/138.jpg",
-      "subject": "A Frew Ly",
+      "subject": "Lamincard 138",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6593/lamincard-138"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6593/lamincard-138",
+      "thumb": "/dbz-edibas/thumbs/138.jpg"
     },
     {
       "id": "dbz-edibas-139",
       "number": "139",
-      "name": "A  A",
+      "name": "Lamincard 139",
       "image": "/dbz-edibas/front/139.jpg",
-      "subject": "A  A",
+      "subject": "Lamincard 139",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6594/lamincard-139"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6594/lamincard-139",
+      "thumb": "/dbz-edibas/thumbs/139.jpg"
     },
     {
       "id": "dbz-edibas-140",
       "number": "140",
-      "name": "Ce Me A",
+      "name": "Lamincard 140",
       "image": "/dbz-edibas/front/140.jpg",
-      "subject": "Ce Me A",
+      "subject": "Lamincard 140",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6595/lamincard-140"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6595/lamincard-140",
+      "thumb": "/dbz-edibas/thumbs/140.jpg"
     },
     {
       "id": "dbz-edibas-141",
       "number": "141",
-      "name": "Fag Afl",
+      "name": "Lamincard 141",
       "image": "/dbz-edibas/front/141.jpg",
-      "subject": "Fag Afl",
+      "subject": "Lamincard 141",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6596/lamincard-141"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6596/lamincard-141",
+      "thumb": "/dbz-edibas/thumbs/141.jpg"
     },
     {
       "id": "dbz-edibas-142",
       "number": "142",
-      "name": "4 E",
+      "name": "Lamincard 142",
       "image": "/dbz-edibas/front/142.jpg",
-      "subject": "4 E",
+      "subject": "Lamincard 142",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6597/lamincard-142"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6597/lamincard-142",
+      "thumb": "/dbz-edibas/thumbs/142.jpg"
     },
     {
       "id": "dbz-edibas-143",
       "number": "143",
-      "name": "Hel",
+      "name": "Lamincard 143",
       "image": "/dbz-edibas/front/143.jpg",
-      "subject": "Hel",
+      "subject": "Lamincard 143",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6598/lamincard-143"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6598/lamincard-143",
+      "thumb": "/dbz-edibas/thumbs/143.jpg"
     },
     {
       "id": "dbz-edibas-144",
       "number": "144",
-      "name": "Y  A",
+      "name": "Lamincard 144",
       "image": "/dbz-edibas/front/144.jpg",
-      "subject": "Y  A",
+      "subject": "Lamincard 144",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6599/lamincard-144"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6599/lamincard-144",
+      "thumb": "/dbz-edibas/thumbs/144.jpg"
     },
     {
       "id": "dbz-edibas-145",
       "number": "145",
-      "name": "Kt Ae Dof",
+      "name": "Lamincard 145",
       "image": "/dbz-edibas/front/145.jpg",
-      "subject": "Kt Ae Dof",
+      "subject": "Lamincard 145",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6600/lamincard-145"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6600/lamincard-145",
+      "thumb": "/dbz-edibas/thumbs/145.jpg"
     },
     {
       "id": "dbz-edibas-146",
       "number": "146",
-      "name": "I G",
+      "name": "Lamincard 146",
       "image": "/dbz-edibas/front/146.jpg",
-      "subject": "I G",
+      "subject": "Lamincard 146",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6601/lamincard-146"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6601/lamincard-146",
+      "thumb": "/dbz-edibas/thumbs/146.jpg"
     },
     {
       "id": "dbz-edibas-147",
       "number": "147",
-      "name": "Oan",
+      "name": "Lamincard 147",
       "image": "/dbz-edibas/front/147.jpg",
-      "subject": "Oan",
+      "subject": "Lamincard 147",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6602/lamincard-147"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6602/lamincard-147",
+      "thumb": "/dbz-edibas/thumbs/147.jpg"
     },
     {
       "id": "dbz-edibas-148",
       "number": "148",
-      "name": "A Ae",
+      "name": "Lamincard 148",
       "image": "/dbz-edibas/front/148.jpg",
-      "subject": "A Ae",
+      "subject": "Lamincard 148",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6603/lamincard-148"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6603/lamincard-148",
+      "thumb": "/dbz-edibas/thumbs/148.jpg"
     },
     {
       "id": "dbz-edibas-149",
       "number": "149",
-      "name": "Nappa",
+      "name": "Lamincard 149",
       "image": "/dbz-edibas/front/149.jpg",
-      "subject": "Nappa",
+      "subject": "Lamincard 149",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6604/lamincard-149"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6604/lamincard-149",
+      "thumb": "/dbz-edibas/thumbs/149.jpg"
     },
     {
       "id": "dbz-edibas-150",
       "number": "150",
-      "name": "Rr Cec",
+      "name": "Lamincard 150",
       "image": "/dbz-edibas/front/150.jpg",
-      "subject": "Rr Cec",
+      "subject": "Lamincard 150",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6605/lamincard-150"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6605/lamincard-150",
+      "thumb": "/dbz-edibas/thumbs/150.jpg"
     },
     {
       "id": "dbz-edibas-151",
       "number": "151",
-      "name": "Wat",
+      "name": "Lamincard 151",
       "image": "/dbz-edibas/front/151.jpg",
-      "subject": "Wat",
+      "subject": "Lamincard 151",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6606/lamincard-151"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6606/lamincard-151",
+      "thumb": "/dbz-edibas/thumbs/151.jpg"
     },
     {
       "id": "dbz-edibas-152",
       "number": "152",
-      "name": "I  Ns",
+      "name": "Lamincard 152",
       "image": "/dbz-edibas/front/152.jpg",
-      "subject": "I  Ns",
+      "subject": "Lamincard 152",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6607/lamincard-152"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6607/lamincard-152",
+      "thumb": "/dbz-edibas/thumbs/152.jpg"
     },
     {
       "id": "dbz-edibas-153",
       "number": "153",
-      "name": "Cece",
+      "name": "Lamincard 153",
       "image": "/dbz-edibas/front/153.jpg",
-      "subject": "Cece",
+      "subject": "Lamincard 153",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6608/lamincard-153"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6608/lamincard-153",
+      "thumb": "/dbz-edibas/thumbs/153.jpg"
     },
     {
       "id": "dbz-edibas-154",
       "number": "154",
-      "name": "Tn Re",
+      "name": "Lamincard 154",
       "image": "/dbz-edibas/front/154.jpg",
-      "subject": "Tn Re",
+      "subject": "Lamincard 154",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6609/lamincard-154"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6609/lamincard-154",
+      "thumb": "/dbz-edibas/thumbs/154.jpg"
     },
     {
       "id": "dbz-edibas-155",
       "number": "155",
-      "name": "Ga Ie",
+      "name": "Lamincard 155",
       "image": "/dbz-edibas/front/155.jpg",
-      "subject": "Ga Ie",
+      "subject": "Lamincard 155",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6610/lamincard-155"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6610/lamincard-155",
+      "thumb": "/dbz-edibas/thumbs/155.jpg"
     },
     {
       "id": "dbz-edibas-156",
       "number": "156",
-      "name": "Ee F -",
+      "name": "Lamincard 156",
       "image": "/dbz-edibas/front/156.jpg",
-      "subject": "Ee F -",
+      "subject": "Lamincard 156",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6611/lamincard-156"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6611/lamincard-156",
+      "thumb": "/dbz-edibas/thumbs/156.jpg"
     },
     {
       "id": "dbz-edibas-157",
       "number": "157",
-      "name": "Wed",
+      "name": "Lamincard 157",
       "image": "/dbz-edibas/front/157.jpg",
-      "subject": "Wed",
+      "subject": "Lamincard 157",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6612/lamincard-157"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6612/lamincard-157",
+      "thumb": "/dbz-edibas/thumbs/157.jpg"
     },
     {
       "id": "dbz-edibas-158",
       "number": "158",
-      "name": "Oa Re O",
+      "name": "Lamincard 158",
       "image": "/dbz-edibas/front/158.jpg",
-      "subject": "Oa Re O",
+      "subject": "Lamincard 158",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6613/lamincard-158"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6613/lamincard-158",
+      "thumb": "/dbz-edibas/thumbs/158.jpg"
     },
     {
       "id": "dbz-edibas-159",
       "number": "159",
-      "name": "Ge T",
+      "name": "Lamincard 159",
       "image": "/dbz-edibas/front/159.jpg",
-      "subject": "Ge T",
+      "subject": "Lamincard 159",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6614/lamincard-159"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6614/lamincard-159",
+      "thumb": "/dbz-edibas/thumbs/159.jpg"
     },
     {
       "id": "dbz-edibas-160",
       "number": "160",
-      "name": "A Fc",
+      "name": "Lamincard 160",
       "image": "/dbz-edibas/front/160.jpg",
-      "subject": "A Fc",
+      "subject": "Lamincard 160",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6615/lamincard-160"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6615/lamincard-160",
+      "thumb": "/dbz-edibas/thumbs/160.jpg"
     },
     {
       "id": "dbz-edibas-161",
       "number": "161",
-      "name": "4 Ia",
+      "name": "Lamincard 161",
       "image": "/dbz-edibas/front/161.jpg",
-      "subject": "4 Ia",
+      "subject": "Lamincard 161",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6616/lamincard-161"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6616/lamincard-161",
+      "thumb": "/dbz-edibas/thumbs/161.jpg"
     },
     {
       "id": "dbz-edibas-162",
       "number": "162",
-      "name": "Pe Zo",
+      "name": "Lamincard 162",
       "image": "/dbz-edibas/front/162.jpg",
-      "subject": "Pe Zo",
+      "subject": "Lamincard 162",
       "back": "",
-      "sourceUrl": "https://dragonball.center/catalogo/objeto/6617/lamincard-162"
+      "sourceUrl": "https://dragonball.center/catalogo/objeto/6617/lamincard-162",
+      "thumb": "/dbz-edibas/thumbs/162.jpg"
     }
   ]
 }

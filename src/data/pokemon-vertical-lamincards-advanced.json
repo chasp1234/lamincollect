@@ -12,7 +12,8 @@
       "name": "Ash, Brock and May",
       "image": "/lamincards/front/1.jpg",
       "subject": "Ash, Brock and May",
-      "back": "/lamincards/back/1.jpg"
+      "back": "/lamincards/back/1.jpg",
+      "thumb": "/lamincards/thumbs/1.jpg"
     },
     {
       "id": "pvla-2",
@@ -20,7 +21,8 @@
       "name": "Ash",
       "image": "/lamincards/front/2.jpg",
       "subject": "Ash",
-      "back": "/lamincards/back/2.jpg"
+      "back": "/lamincards/back/2.jpg",
+      "thumb": "/lamincards/thumbs/2.jpg"
     },
     {
       "id": "pvla-3",
@@ -28,7 +30,8 @@
       "name": "Brock",
       "image": "/lamincards/front/3.jpg",
       "subject": "Brock",
-      "back": "/lamincards/back/3.jpg"
+      "back": "/lamincards/back/3.jpg",
+      "thumb": "/lamincards/thumbs/3.jpg"
     },
     {
       "id": "pvla-4",
@@ -36,7 +39,8 @@
       "name": "Professor Birch",
       "image": "/lamincards/front/4.jpg",
       "subject": "Professor Birch",
-      "back": "/lamincards/back/4.jpg"
+      "back": "/lamincards/back/4.jpg",
+      "thumb": "/lamincards/thumbs/4.jpg"
     },
     {
       "id": "pvla-5",
@@ -44,7 +48,8 @@
       "name": "May",
       "image": "/lamincards/front/5.jpg",
       "subject": "May",
-      "back": "/lamincards/back/5.jpg"
+      "back": "/lamincards/back/5.jpg",
+      "thumb": "/lamincards/thumbs/5.jpg"
     },
     {
       "id": "pvla-6",
@@ -52,7 +57,8 @@
       "name": "Max",
       "image": "/lamincards/front/6.jpg",
       "subject": "Max",
-      "back": "/lamincards/back/6.jpg"
+      "back": "/lamincards/back/6.jpg",
+      "thumb": "/lamincards/thumbs/6.jpg"
     },
     {
       "id": "pvla-7",
@@ -60,7 +66,8 @@
       "name": "Team Magma",
       "image": "/lamincards/front/7.jpg",
       "subject": "Team Magma",
-      "back": "/lamincards/back/7.jpg"
+      "back": "/lamincards/back/7.jpg",
+      "thumb": "/lamincards/thumbs/7.jpg"
     },
     {
       "id": "pvla-8",
@@ -68,7 +75,8 @@
       "name": "Team Rocket",
       "image": "/lamincards/front/8.jpg",
       "subject": "Team Rocket",
-      "back": "/lamincards/back/8.jpg"
+      "back": "/lamincards/back/8.jpg",
+      "thumb": "/lamincards/thumbs/8.jpg"
     },
     {
       "id": "pvla-9",
@@ -76,7 +84,8 @@
       "name": "Team Aqua",
       "image": "/lamincards/front/9.jpg",
       "subject": "Team Aqua",
-      "back": "/lamincards/back/9.jpg"
+      "back": "/lamincards/back/9.jpg",
+      "thumb": "/lamincards/thumbs/9.jpg"
     },
     {
       "id": "pvla-10",
@@ -84,7 +93,8 @@
       "name": "Treecko",
       "image": "/lamincards/front/10.jpg",
       "subject": "Treecko",
-      "back": "/lamincards/back/10.jpg"
+      "back": "/lamincards/back/10.jpg",
+      "thumb": "/lamincards/thumbs/10.jpg"
     },
     {
       "id": "pvla-11",
@@ -92,7 +102,8 @@
       "name": "Grovyle",
       "image": "/lamincards/front/11.jpg",
       "subject": "Grovyle",
-      "back": "/lamincards/back/11.jpg"
+      "back": "/lamincards/back/11.jpg",
+      "thumb": "/lamincards/thumbs/11.jpg"
     },
     {
       "id": "pvla-12",
@@ -100,7 +111,8 @@
       "name": "Sceptile",
       "image": "/lamincards/front/12.jpg",
       "subject": "Sceptile",
-      "back": "/lamincards/back/12.jpg"
+      "back": "/lamincards/back/12.jpg",
+      "thumb": "/lamincards/thumbs/12.jpg"
     },
     {
       "id": "pvla-13",
@@ -108,7 +120,8 @@
       "name": "Torchic",
       "image": "/lamincards/front/13.jpg",
       "subject": "Torchic",
-      "back": "/lamincards/back/13.jpg"
+      "back": "/lamincards/back/13.jpg",
+      "thumb": "/lamincards/thumbs/13.jpg"
     },
     {
       "id": "pvla-14",
@@ -116,7 +129,8 @@
       "name": "Combusken",
       "image": "/lamincards/front/14.jpg",
       "subject": "Combusken",
-      "back": "/lamincards/back/14.jpg"
+      "back": "/lamincards/back/14.jpg",
+      "thumb": "/lamincards/thumbs/14.jpg"
     },
     {
       "id": "pvla-15",
@@ -124,7 +138,8 @@
       "name": "Blaziken",
       "image": "/lamincards/front/15.jpg",
       "subject": "Blaziken",
-      "back": "/lamincards/back/15.jpg"
+      "back": "/lamincards/back/15.jpg",
+      "thumb": "/lamincards/thumbs/15.jpg"
     },
     {
       "id": "pvla-16",
@@ -132,7 +147,8 @@
       "name": "Mudkip",
       "image": "/lamincards/front/16.jpg",
       "subject": "Mudkip",
-      "back": "/lamincards/back/16.jpg"
+      "back": "/lamincards/back/16.jpg",
+      "thumb": "/lamincards/thumbs/16.jpg"
     },
     {
       "id": "pvla-17",
@@ -140,7 +156,8 @@
       "name": "Marshtomp",
       "image": "/lamincards/front/17.jpg",
       "subject": "Marshtomp",
-      "back": "/lamincards/back/17.jpg"
+      "back": "/lamincards/back/17.jpg",
+      "thumb": "/lamincards/thumbs/17.jpg"
     },
     {
       "id": "pvla-18",
@@ -148,7 +165,8 @@
       "name": "Swampert",
       "image": "/lamincards/front/18.jpg",
       "subject": "Swampert",
-      "back": "/lamincards/back/18.jpg"
+      "back": "/lamincards/back/18.jpg",
+      "thumb": "/lamincards/thumbs/18.jpg"
     },
     {
       "id": "pvla-19",
@@ -156,7 +174,8 @@
       "name": "Poochyena",
       "image": "/lamincards/front/19.jpg",
       "subject": "Poochyena",
-      "back": "/lamincards/back/19.jpg"
+      "back": "/lamincards/back/19.jpg",
+      "thumb": "/lamincards/thumbs/19.jpg"
     },
     {
       "id": "pvla-20",
@@ -164,7 +183,8 @@
       "name": "Mightyena",
       "image": "/lamincards/front/20.jpg",
       "subject": "Mightyena",
-      "back": "/lamincards/back/20.jpg"
+      "back": "/lamincards/back/20.jpg",
+      "thumb": "/lamincards/thumbs/20.jpg"
     },
     {
       "id": "pvla-21",
@@ -172,7 +192,8 @@
       "name": "Zigzagoon",
       "image": "/lamincards/front/21.jpg",
       "subject": "Zigzagoon",
-      "back": "/lamincards/back/21.jpg"
+      "back": "/lamincards/back/21.jpg",
+      "thumb": "/lamincards/thumbs/21.jpg"
     },
     {
       "id": "pvla-22",
@@ -180,7 +201,8 @@
       "name": "Linoone",
       "image": "/lamincards/front/22.jpg",
       "subject": "Linoone",
-      "back": "/lamincards/back/22.jpg"
+      "back": "/lamincards/back/22.jpg",
+      "thumb": "/lamincards/thumbs/22.jpg"
     },
     {
       "id": "pvla-23",
@@ -188,7 +210,8 @@
       "name": "Wurmple",
       "image": "/lamincards/front/23.jpg",
       "subject": "Wurmple",
-      "back": "/lamincards/back/23.jpg"
+      "back": "/lamincards/back/23.jpg",
+      "thumb": "/lamincards/thumbs/23.jpg"
     },
     {
       "id": "pvla-24",
@@ -196,7 +219,8 @@
       "name": "Silcoon",
       "image": "/lamincards/front/24.jpg",
       "subject": "Silcoon",
-      "back": "/lamincards/back/24.jpg"
+      "back": "/lamincards/back/24.jpg",
+      "thumb": "/lamincards/thumbs/24.jpg"
     },
     {
       "id": "pvla-25",
@@ -204,7 +228,8 @@
       "name": "Beautifly",
       "image": "/lamincards/front/25.jpg",
       "subject": "Beautifly",
-      "back": "/lamincards/back/25.jpg"
+      "back": "/lamincards/back/25.jpg",
+      "thumb": "/lamincards/thumbs/25.jpg"
     },
     {
       "id": "pvla-26",
@@ -212,7 +237,8 @@
       "name": "Cascoon",
       "image": "/lamincards/front/26.jpg",
       "subject": "Cascoon",
-      "back": "/lamincards/back/26.jpg"
+      "back": "/lamincards/back/26.jpg",
+      "thumb": "/lamincards/thumbs/26.jpg"
     },
     {
       "id": "pvla-27",
@@ -220,7 +246,8 @@
       "name": "Dustox",
       "image": "/lamincards/front/27.jpg",
       "subject": "Dustox",
-      "back": "/lamincards/back/27.jpg"
+      "back": "/lamincards/back/27.jpg",
+      "thumb": "/lamincards/thumbs/27.jpg"
     },
     {
       "id": "pvla-28",
@@ -228,7 +255,8 @@
       "name": "Lotad",
       "image": "/lamincards/front/28.jpg",
       "subject": "Lotad",
-      "back": "/lamincards/back/28.jpg"
+      "back": "/lamincards/back/28.jpg",
+      "thumb": "/lamincards/thumbs/28.jpg"
     },
     {
       "id": "pvla-29",
@@ -236,7 +264,8 @@
       "name": "Lombre",
       "image": "/lamincards/front/29.jpg",
       "subject": "Lombre",
-      "back": "/lamincards/back/29.jpg"
+      "back": "/lamincards/back/29.jpg",
+      "thumb": "/lamincards/thumbs/29.jpg"
     },
     {
       "id": "pvla-30",
@@ -244,7 +273,8 @@
       "name": "Ludicolo",
       "image": "/lamincards/front/30.jpg",
       "subject": "Ludicolo",
-      "back": "/lamincards/back/30.jpg"
+      "back": "/lamincards/back/30.jpg",
+      "thumb": "/lamincards/thumbs/30.jpg"
     },
     {
       "id": "pvla-31",
@@ -252,7 +282,8 @@
       "name": "Seedot",
       "image": "/lamincards/front/31.jpg",
       "subject": "Seedot",
-      "back": "/lamincards/back/31.jpg"
+      "back": "/lamincards/back/31.jpg",
+      "thumb": "/lamincards/thumbs/31.jpg"
     },
     {
       "id": "pvla-32",
@@ -260,7 +291,8 @@
       "name": "Nuzleaf",
       "image": "/lamincards/front/32.jpg",
       "subject": "Nuzleaf",
-      "back": "/lamincards/back/32.jpg"
+      "back": "/lamincards/back/32.jpg",
+      "thumb": "/lamincards/thumbs/32.jpg"
     },
     {
       "id": "pvla-33",
@@ -268,7 +300,8 @@
       "name": "Shiftry",
       "image": "/lamincards/front/33.jpg",
       "subject": "Shiftry",
-      "back": "/lamincards/back/33.jpg"
+      "back": "/lamincards/back/33.jpg",
+      "thumb": "/lamincards/thumbs/33.jpg"
     },
     {
       "id": "pvla-34",
@@ -276,7 +309,8 @@
       "name": "Taillow",
       "image": "/lamincards/front/34.jpg",
       "subject": "Taillow",
-      "back": "/lamincards/back/34.jpg"
+      "back": "/lamincards/back/34.jpg",
+      "thumb": "/lamincards/thumbs/34.jpg"
     },
     {
       "id": "pvla-35",
@@ -284,7 +318,8 @@
       "name": "Swellow",
       "image": "/lamincards/front/35.jpg",
       "subject": "Swellow",
-      "back": "/lamincards/back/35.jpg"
+      "back": "/lamincards/back/35.jpg",
+      "thumb": "/lamincards/thumbs/35.jpg"
     },
     {
       "id": "pvla-36",
@@ -292,7 +327,8 @@
       "name": "Wingull",
       "image": "/lamincards/front/36.jpg",
       "subject": "Wingull",
-      "back": "/lamincards/back/36.jpg"
+      "back": "/lamincards/back/36.jpg",
+      "thumb": "/lamincards/thumbs/36.jpg"
     },
     {
       "id": "pvla-37",
@@ -300,7 +336,8 @@
       "name": "Pelipper",
       "image": "/lamincards/front/37.jpg",
       "subject": "Pelipper",
-      "back": "/lamincards/back/37.jpg"
+      "back": "/lamincards/back/37.jpg",
+      "thumb": "/lamincards/thumbs/37.jpg"
     },
     {
       "id": "pvla-38",
@@ -308,7 +345,8 @@
       "name": "Ralts",
       "image": "/lamincards/front/38.jpg",
       "subject": "Ralts",
-      "back": "/lamincards/back/38.jpg"
+      "back": "/lamincards/back/38.jpg",
+      "thumb": "/lamincards/thumbs/38.jpg"
     },
     {
       "id": "pvla-39",
@@ -316,7 +354,8 @@
       "name": "Kirlia",
       "image": "/lamincards/front/39.jpg",
       "subject": "Kirlia",
-      "back": "/lamincards/back/39.jpg"
+      "back": "/lamincards/back/39.jpg",
+      "thumb": "/lamincards/thumbs/39.jpg"
     },
     {
       "id": "pvla-40",
@@ -324,7 +363,8 @@
       "name": "Gardevoir",
       "image": "/lamincards/front/40.jpg",
       "subject": "Gardevoir",
-      "back": "/lamincards/back/40.jpg"
+      "back": "/lamincards/back/40.jpg",
+      "thumb": "/lamincards/thumbs/40.jpg"
     },
     {
       "id": "pvla-41",
@@ -332,7 +372,8 @@
       "name": "Surskit",
       "image": "/lamincards/front/41.jpg",
       "subject": "Surskit",
-      "back": "/lamincards/back/41.jpg"
+      "back": "/lamincards/back/41.jpg",
+      "thumb": "/lamincards/thumbs/41.jpg"
     },
     {
       "id": "pvla-42",
@@ -340,7 +381,8 @@
       "name": "Masquerain",
       "image": "/lamincards/front/42.jpg",
       "subject": "Masquerain",
-      "back": "/lamincards/back/42.jpg"
+      "back": "/lamincards/back/42.jpg",
+      "thumb": "/lamincards/thumbs/42.jpg"
     },
     {
       "id": "pvla-43",
@@ -348,7 +390,8 @@
       "name": "Shroomish",
       "image": "/lamincards/front/43.jpg",
       "subject": "Shroomish",
-      "back": "/lamincards/back/43.jpg"
+      "back": "/lamincards/back/43.jpg",
+      "thumb": "/lamincards/thumbs/43.jpg"
     },
     {
       "id": "pvla-44",
@@ -356,7 +399,8 @@
       "name": "Breloom",
       "image": "/lamincards/front/44.jpg",
       "subject": "Breloom",
-      "back": "/lamincards/back/44.jpg"
+      "back": "/lamincards/back/44.jpg",
+      "thumb": "/lamincards/thumbs/44.jpg"
     },
     {
       "id": "pvla-45",
@@ -364,7 +408,8 @@
       "name": "Slakoth",
       "image": "/lamincards/front/45.jpg",
       "subject": "Slakoth",
-      "back": "/lamincards/back/45.jpg"
+      "back": "/lamincards/back/45.jpg",
+      "thumb": "/lamincards/thumbs/45.jpg"
     },
     {
       "id": "pvla-46",
@@ -372,7 +417,8 @@
       "name": "Vigoroth",
       "image": "/lamincards/front/46.jpg",
       "subject": "Vigoroth",
-      "back": "/lamincards/back/46.jpg"
+      "back": "/lamincards/back/46.jpg",
+      "thumb": "/lamincards/thumbs/46.jpg"
     },
     {
       "id": "pvla-47",
@@ -380,7 +426,8 @@
       "name": "Slaking",
       "image": "/lamincards/front/47.jpg",
       "subject": "Slaking",
-      "back": "/lamincards/back/47.jpg"
+      "back": "/lamincards/back/47.jpg",
+      "thumb": "/lamincards/thumbs/47.jpg"
     },
     {
       "id": "pvla-48",
@@ -388,7 +435,8 @@
       "name": "Nincada",
       "image": "/lamincards/front/48.jpg",
       "subject": "Nincada",
-      "back": "/lamincards/back/48.jpg"
+      "back": "/lamincards/back/48.jpg",
+      "thumb": "/lamincards/thumbs/48.jpg"
     },
     {
       "id": "pvla-49",
@@ -396,7 +444,8 @@
       "name": "Ninjask",
       "image": "/lamincards/front/49.jpg",
       "subject": "Ninjask",
-      "back": "/lamincards/back/49.jpg"
+      "back": "/lamincards/back/49.jpg",
+      "thumb": "/lamincards/thumbs/49.jpg"
     },
     {
       "id": "pvla-50",
@@ -404,7 +453,8 @@
       "name": "Shedinja",
       "image": "/lamincards/front/50.jpg",
       "subject": "Shedinja",
-      "back": "/lamincards/back/50.jpg"
+      "back": "/lamincards/back/50.jpg",
+      "thumb": "/lamincards/thumbs/50.jpg"
     },
     {
       "id": "pvla-51",
@@ -412,7 +462,8 @@
       "name": "Whismur",
       "image": "/lamincards/front/51.jpg",
       "subject": "Whismur",
-      "back": "/lamincards/back/51.jpg"
+      "back": "/lamincards/back/51.jpg",
+      "thumb": "/lamincards/thumbs/51.jpg"
     },
     {
       "id": "pvla-52",
@@ -420,7 +471,8 @@
       "name": "Loudred",
       "image": "/lamincards/front/52.jpg",
       "subject": "Loudred",
-      "back": "/lamincards/back/52.jpg"
+      "back": "/lamincards/back/52.jpg",
+      "thumb": "/lamincards/thumbs/52.jpg"
     },
     {
       "id": "pvla-53",
@@ -428,7 +480,8 @@
       "name": "Exploud",
       "image": "/lamincards/front/53.jpg",
       "subject": "Exploud",
-      "back": "/lamincards/back/53.jpg"
+      "back": "/lamincards/back/53.jpg",
+      "thumb": "/lamincards/thumbs/53.jpg"
     },
     {
       "id": "pvla-54",
@@ -436,7 +489,8 @@
       "name": "Makuhita",
       "image": "/lamincards/front/54.jpg",
       "subject": "Makuhita",
-      "back": "/lamincards/back/54.jpg"
+      "back": "/lamincards/back/54.jpg",
+      "thumb": "/lamincards/thumbs/54.jpg"
     },
     {
       "id": "pvla-55",
@@ -444,7 +498,8 @@
       "name": "Hariyama",
       "image": "/lamincards/front/55.jpg",
       "subject": "Hariyama",
-      "back": "/lamincards/back/55.jpg"
+      "back": "/lamincards/back/55.jpg",
+      "thumb": "/lamincards/thumbs/55.jpg"
     },
     {
       "id": "pvla-56",
@@ -452,7 +507,8 @@
       "name": "Azurill",
       "image": "/lamincards/front/56.jpg",
       "subject": "Azurill",
-      "back": "/lamincards/back/56.jpg"
+      "back": "/lamincards/back/56.jpg",
+      "thumb": "/lamincards/thumbs/56.jpg"
     },
     {
       "id": "pvla-57",
@@ -460,7 +516,8 @@
       "name": "Marill",
       "image": "/lamincards/front/57.jpg",
       "subject": "Marill",
-      "back": "/lamincards/back/57.jpg"
+      "back": "/lamincards/back/57.jpg",
+      "thumb": "/lamincards/thumbs/57.jpg"
     },
     {
       "id": "pvla-58",
@@ -468,7 +525,8 @@
       "name": "Azumarill",
       "image": "/lamincards/front/58.jpg",
       "subject": "Azumarill",
-      "back": "/lamincards/back/58.jpg"
+      "back": "/lamincards/back/58.jpg",
+      "thumb": "/lamincards/thumbs/58.jpg"
     },
     {
       "id": "pvla-59",
@@ -476,7 +534,8 @@
       "name": "Nosepass",
       "image": "/lamincards/front/59.jpg",
       "subject": "Nosepass",
-      "back": "/lamincards/back/59.jpg"
+      "back": "/lamincards/back/59.jpg",
+      "thumb": "/lamincards/thumbs/59.jpg"
     },
     {
       "id": "pvla-60",
@@ -484,7 +543,8 @@
       "name": "Skitty",
       "image": "/lamincards/front/60.jpg",
       "subject": "Skitty",
-      "back": "/lamincards/back/60.jpg"
+      "back": "/lamincards/back/60.jpg",
+      "thumb": "/lamincards/thumbs/60.jpg"
     },
     {
       "id": "pvla-61",
@@ -492,7 +552,8 @@
       "name": "Delcatty",
       "image": "/lamincards/front/61.jpg",
       "subject": "Delcatty",
-      "back": "/lamincards/back/61.jpg"
+      "back": "/lamincards/back/61.jpg",
+      "thumb": "/lamincards/thumbs/61.jpg"
     },
     {
       "id": "pvla-62",
@@ -500,7 +561,8 @@
       "name": "Sableye",
       "image": "/lamincards/front/62.jpg",
       "subject": "Sableye",
-      "back": "/lamincards/back/62.jpg"
+      "back": "/lamincards/back/62.jpg",
+      "thumb": "/lamincards/thumbs/62.jpg"
     },
     {
       "id": "pvla-63",
@@ -508,7 +570,8 @@
       "name": "Mawile",
       "image": "/lamincards/front/63.jpg",
       "subject": "Mawile",
-      "back": "/lamincards/back/63.jpg"
+      "back": "/lamincards/back/63.jpg",
+      "thumb": "/lamincards/thumbs/63.jpg"
     },
     {
       "id": "pvla-64",
@@ -516,7 +579,8 @@
       "name": "Aron",
       "image": "/lamincards/front/64.jpg",
       "subject": "Aron",
-      "back": "/lamincards/back/64.jpg"
+      "back": "/lamincards/back/64.jpg",
+      "thumb": "/lamincards/thumbs/64.jpg"
     },
     {
       "id": "pvla-65",
@@ -524,7 +588,8 @@
       "name": "Lairon",
       "image": "/lamincards/front/65.jpg",
       "subject": "Lairon",
-      "back": "/lamincards/back/65.jpg"
+      "back": "/lamincards/back/65.jpg",
+      "thumb": "/lamincards/thumbs/65.jpg"
     },
     {
       "id": "pvla-66",
@@ -532,7 +597,8 @@
       "name": "Aggron",
       "image": "/lamincards/front/66.jpg",
       "subject": "Aggron",
-      "back": "/lamincards/back/66.jpg"
+      "back": "/lamincards/back/66.jpg",
+      "thumb": "/lamincards/thumbs/66.jpg"
     },
     {
       "id": "pvla-67",
@@ -540,7 +606,8 @@
       "name": "Meditite",
       "image": "/lamincards/front/67.jpg",
       "subject": "Meditite",
-      "back": "/lamincards/back/67.jpg"
+      "back": "/lamincards/back/67.jpg",
+      "thumb": "/lamincards/thumbs/67.jpg"
     },
     {
       "id": "pvla-68",
@@ -548,7 +615,8 @@
       "name": "Medicham",
       "image": "/lamincards/front/68.jpg",
       "subject": "Medicham",
-      "back": "/lamincards/back/68.jpg"
+      "back": "/lamincards/back/68.jpg",
+      "thumb": "/lamincards/thumbs/68.jpg"
     },
     {
       "id": "pvla-69",
@@ -556,7 +624,8 @@
       "name": "Electrike",
       "image": "/lamincards/front/69.jpg",
       "subject": "Electrike",
-      "back": "/lamincards/back/69.jpg"
+      "back": "/lamincards/back/69.jpg",
+      "thumb": "/lamincards/thumbs/69.jpg"
     },
     {
       "id": "pvla-70",
@@ -564,7 +633,8 @@
       "name": "Manectric",
       "image": "/lamincards/front/70.jpg",
       "subject": "Manectric",
-      "back": "/lamincards/back/70.jpg"
+      "back": "/lamincards/back/70.jpg",
+      "thumb": "/lamincards/thumbs/70.jpg"
     },
     {
       "id": "pvla-71",
@@ -572,7 +642,8 @@
       "name": "Plusle",
       "image": "/lamincards/front/71.jpg",
       "subject": "Plusle",
-      "back": "/lamincards/back/71.jpg"
+      "back": "/lamincards/back/71.jpg",
+      "thumb": "/lamincards/thumbs/71.jpg"
     },
     {
       "id": "pvla-72",
@@ -580,7 +651,8 @@
       "name": "Minun",
       "image": "/lamincards/front/72.jpg",
       "subject": "Minun",
-      "back": "/lamincards/back/72.jpg"
+      "back": "/lamincards/back/72.jpg",
+      "thumb": "/lamincards/thumbs/72.jpg"
     },
     {
       "id": "pvla-73",
@@ -588,7 +660,8 @@
       "name": "Volbeat",
       "image": "/lamincards/front/73.jpg",
       "subject": "Volbeat",
-      "back": "/lamincards/back/73.jpg"
+      "back": "/lamincards/back/73.jpg",
+      "thumb": "/lamincards/thumbs/73.jpg"
     },
     {
       "id": "pvla-74",
@@ -596,7 +669,8 @@
       "name": "Illumise",
       "image": "/lamincards/front/74.jpg",
       "subject": "Illumise",
-      "back": "/lamincards/back/74.jpg"
+      "back": "/lamincards/back/74.jpg",
+      "thumb": "/lamincards/thumbs/74.jpg"
     },
     {
       "id": "pvla-75",
@@ -604,7 +678,8 @@
       "name": "Roselia",
       "image": "/lamincards/front/75.jpg",
       "subject": "Roselia",
-      "back": "/lamincards/back/75.jpg"
+      "back": "/lamincards/back/75.jpg",
+      "thumb": "/lamincards/thumbs/75.jpg"
     },
     {
       "id": "pvla-76",
@@ -612,7 +687,8 @@
       "name": "Gulpin",
       "image": "/lamincards/front/76.jpg",
       "subject": "Gulpin",
-      "back": "/lamincards/back/76.jpg"
+      "back": "/lamincards/back/76.jpg",
+      "thumb": "/lamincards/thumbs/76.jpg"
     },
     {
       "id": "pvla-77",
@@ -620,7 +696,8 @@
       "name": "Swalot",
       "image": "/lamincards/front/77.jpg",
       "subject": "Swalot",
-      "back": "/lamincards/back/77.jpg"
+      "back": "/lamincards/back/77.jpg",
+      "thumb": "/lamincards/thumbs/77.jpg"
     },
     {
       "id": "pvla-78",
@@ -628,7 +705,8 @@
       "name": "Carvanha",
       "image": "/lamincards/front/78.jpg",
       "subject": "Carvanha",
-      "back": "/lamincards/back/78.jpg"
+      "back": "/lamincards/back/78.jpg",
+      "thumb": "/lamincards/thumbs/78.jpg"
     },
     {
       "id": "pvla-79",
@@ -636,7 +714,8 @@
       "name": "Sharpedo",
       "image": "/lamincards/front/79.jpg",
       "subject": "Sharpedo",
-      "back": "/lamincards/back/79.jpg"
+      "back": "/lamincards/back/79.jpg",
+      "thumb": "/lamincards/thumbs/79.jpg"
     },
     {
       "id": "pvla-80",
@@ -644,7 +723,8 @@
       "name": "Wailmer",
       "image": "/lamincards/front/80.jpg",
       "subject": "Wailmer",
-      "back": "/lamincards/back/80.jpg"
+      "back": "/lamincards/back/80.jpg",
+      "thumb": "/lamincards/thumbs/80.jpg"
     },
     {
       "id": "pvla-81",
@@ -652,7 +732,8 @@
       "name": "Wailord",
       "image": "/lamincards/front/81.jpg",
       "subject": "Wailord",
-      "back": "/lamincards/back/81.jpg"
+      "back": "/lamincards/back/81.jpg",
+      "thumb": "/lamincards/thumbs/81.jpg"
     },
     {
       "id": "pvla-82",
@@ -660,7 +741,8 @@
       "name": "Numel",
       "image": "/lamincards/front/82.jpg",
       "subject": "Numel",
-      "back": "/lamincards/back/82.jpg"
+      "back": "/lamincards/back/82.jpg",
+      "thumb": "/lamincards/thumbs/82.jpg"
     },
     {
       "id": "pvla-83",
@@ -668,7 +750,8 @@
       "name": "Camerupt",
       "image": "/lamincards/front/83.jpg",
       "subject": "Camerupt",
-      "back": "/lamincards/back/83.jpg"
+      "back": "/lamincards/back/83.jpg",
+      "thumb": "/lamincards/thumbs/83.jpg"
     },
     {
       "id": "pvla-84",
@@ -676,7 +759,8 @@
       "name": "Magcargo",
       "image": "/lamincards/front/84.jpg",
       "subject": "Magcargo",
-      "back": "/lamincards/back/84.jpg"
+      "back": "/lamincards/back/84.jpg",
+      "thumb": "/lamincards/thumbs/84.jpg"
     },
     {
       "id": "pvla-85",
@@ -684,7 +768,8 @@
       "name": "Torkoal",
       "image": "/lamincards/front/85.jpg",
       "subject": "Torkoal",
-      "back": "/lamincards/back/85.jpg"
+      "back": "/lamincards/back/85.jpg",
+      "thumb": "/lamincards/thumbs/85.jpg"
     },
     {
       "id": "pvla-86",
@@ -692,7 +777,8 @@
       "name": "Spoink",
       "image": "/lamincards/front/86.jpg",
       "subject": "Spoink",
-      "back": "/lamincards/back/86.jpg"
+      "back": "/lamincards/back/86.jpg",
+      "thumb": "/lamincards/thumbs/86.jpg"
     },
     {
       "id": "pvla-87",
@@ -700,7 +786,8 @@
       "name": "Grumpig",
       "image": "/lamincards/front/87.jpg",
       "subject": "Grumpig",
-      "back": "/lamincards/back/87.jpg"
+      "back": "/lamincards/back/87.jpg",
+      "thumb": "/lamincards/thumbs/87.jpg"
     },
     {
       "id": "pvla-88",
@@ -708,7 +795,8 @@
       "name": "Spinda",
       "image": "/lamincards/front/88.jpg",
       "subject": "Spinda",
-      "back": "/lamincards/back/88.jpg"
+      "back": "/lamincards/back/88.jpg",
+      "thumb": "/lamincards/thumbs/88.jpg"
     },
     {
       "id": "pvla-89",
@@ -716,7 +804,8 @@
       "name": "Trapinch",
       "image": "/lamincards/front/89.jpg",
       "subject": "Trapinch",
-      "back": "/lamincards/back/89.jpg"
+      "back": "/lamincards/back/89.jpg",
+      "thumb": "/lamincards/thumbs/89.jpg"
     },
     {
       "id": "pvla-90",
@@ -724,7 +813,8 @@
       "name": "Vibrava",
       "image": "/lamincards/front/90.jpg",
       "subject": "Vibrava",
-      "back": "/lamincards/back/90.jpg"
+      "back": "/lamincards/back/90.jpg",
+      "thumb": "/lamincards/thumbs/90.jpg"
     },
     {
       "id": "pvla-91",
@@ -732,7 +822,8 @@
       "name": "Flygon",
       "image": "/lamincards/front/91.jpg",
       "subject": "Flygon",
-      "back": "/lamincards/back/91.jpg"
+      "back": "/lamincards/back/91.jpg",
+      "thumb": "/lamincards/thumbs/91.jpg"
     },
     {
       "id": "pvla-92",
@@ -740,7 +831,8 @@
       "name": "Cacnea",
       "image": "/lamincards/front/92.jpg",
       "subject": "Cacnea",
-      "back": "/lamincards/back/92.jpg"
+      "back": "/lamincards/back/92.jpg",
+      "thumb": "/lamincards/thumbs/92.jpg"
     },
     {
       "id": "pvla-93",
@@ -748,7 +840,8 @@
       "name": "Cacturne",
       "image": "/lamincards/front/93.jpg",
       "subject": "Cacturne",
-      "back": "/lamincards/back/93.jpg"
+      "back": "/lamincards/back/93.jpg",
+      "thumb": "/lamincards/thumbs/93.jpg"
     },
     {
       "id": "pvla-94",
@@ -756,7 +849,8 @@
       "name": "Swablu",
       "image": "/lamincards/front/94.jpg",
       "subject": "Swablu",
-      "back": "/lamincards/back/94.jpg"
+      "back": "/lamincards/back/94.jpg",
+      "thumb": "/lamincards/thumbs/94.jpg"
     },
     {
       "id": "pvla-95",
@@ -764,7 +858,8 @@
       "name": "Altaria",
       "image": "/lamincards/front/95.jpg",
       "subject": "Altaria",
-      "back": "/lamincards/back/95.jpg"
+      "back": "/lamincards/back/95.jpg",
+      "thumb": "/lamincards/thumbs/95.jpg"
     },
     {
       "id": "pvla-96",
@@ -772,7 +867,8 @@
       "name": "Zangoose",
       "image": "/lamincards/front/96.jpg",
       "subject": "Zangoose",
-      "back": "/lamincards/back/96.jpg"
+      "back": "/lamincards/back/96.jpg",
+      "thumb": "/lamincards/thumbs/96.jpg"
     },
     {
       "id": "pvla-97",
@@ -780,7 +876,8 @@
       "name": "Seviper",
       "image": "/lamincards/front/97.jpg",
       "subject": "Seviper",
-      "back": "/lamincards/back/97.jpg"
+      "back": "/lamincards/back/97.jpg",
+      "thumb": "/lamincards/thumbs/97.jpg"
     },
     {
       "id": "pvla-98",
@@ -788,7 +885,8 @@
       "name": "Lunatone",
       "image": "/lamincards/front/98.jpg",
       "subject": "Lunatone",
-      "back": "/lamincards/back/98.jpg"
+      "back": "/lamincards/back/98.jpg",
+      "thumb": "/lamincards/thumbs/98.jpg"
     },
     {
       "id": "pvla-99",
@@ -796,7 +894,8 @@
       "name": "Solrock",
       "image": "/lamincards/front/99.jpg",
       "subject": "Solrock",
-      "back": "/lamincards/back/99.jpg"
+      "back": "/lamincards/back/99.jpg",
+      "thumb": "/lamincards/thumbs/99.jpg"
     },
     {
       "id": "pvla-100",
@@ -804,7 +903,8 @@
       "name": "Barboach",
       "image": "/lamincards/front/100.jpg",
       "subject": "Barboach",
-      "back": "/lamincards/back/100.jpg"
+      "back": "/lamincards/back/100.jpg",
+      "thumb": "/lamincards/thumbs/100.jpg"
     },
     {
       "id": "pvla-101",
@@ -812,7 +912,8 @@
       "name": "Whiscash",
       "image": "/lamincards/front/101.jpg",
       "subject": "Whiscash",
-      "back": "/lamincards/back/101.jpg"
+      "back": "/lamincards/back/101.jpg",
+      "thumb": "/lamincards/thumbs/101.jpg"
     },
     {
       "id": "pvla-102",
@@ -820,7 +921,8 @@
       "name": "Corphish",
       "image": "/lamincards/front/102.jpg",
       "subject": "Corphish",
-      "back": "/lamincards/back/102.jpg"
+      "back": "/lamincards/back/102.jpg",
+      "thumb": "/lamincards/thumbs/102.jpg"
     },
     {
       "id": "pvla-103",
@@ -828,7 +930,8 @@
       "name": "Crawdaunt",
       "image": "/lamincards/front/103.jpg",
       "subject": "Crawdaunt",
-      "back": "/lamincards/back/103.jpg"
+      "back": "/lamincards/back/103.jpg",
+      "thumb": "/lamincards/thumbs/103.jpg"
     },
     {
       "id": "pvla-104",
@@ -836,7 +939,8 @@
       "name": "Baltoy",
       "image": "/lamincards/front/104.jpg",
       "subject": "Baltoy",
-      "back": "/lamincards/back/104.jpg"
+      "back": "/lamincards/back/104.jpg",
+      "thumb": "/lamincards/thumbs/104.jpg"
     },
     {
       "id": "pvla-105",
@@ -844,7 +948,8 @@
       "name": "Claydol",
       "image": "/lamincards/front/105.jpg",
       "subject": "Claydol",
-      "back": "/lamincards/back/105.jpg"
+      "back": "/lamincards/back/105.jpg",
+      "thumb": "/lamincards/thumbs/105.jpg"
     },
     {
       "id": "pvla-106",
@@ -852,7 +957,8 @@
       "name": "Lileep",
       "image": "/lamincards/front/106.jpg",
       "subject": "Lileep",
-      "back": "/lamincards/back/106.jpg"
+      "back": "/lamincards/back/106.jpg",
+      "thumb": "/lamincards/thumbs/106.jpg"
     },
     {
       "id": "pvla-107",
@@ -860,7 +966,8 @@
       "name": "Cradily",
       "image": "/lamincards/front/107.jpg",
       "subject": "Cradily",
-      "back": "/lamincards/back/107.jpg"
+      "back": "/lamincards/back/107.jpg",
+      "thumb": "/lamincards/thumbs/107.jpg"
     },
     {
       "id": "pvla-108",
@@ -868,7 +975,8 @@
       "name": "Anorith",
       "image": "/lamincards/front/108.jpg",
       "subject": "Anorith",
-      "back": "/lamincards/back/108.jpg"
+      "back": "/lamincards/back/108.jpg",
+      "thumb": "/lamincards/thumbs/108.jpg"
     },
     {
       "id": "pvla-109",
@@ -876,7 +984,8 @@
       "name": "Armaldo",
       "image": "/lamincards/front/109.jpg",
       "subject": "Armaldo",
-      "back": "/lamincards/back/109.jpg"
+      "back": "/lamincards/back/109.jpg",
+      "thumb": "/lamincards/thumbs/109.jpg"
     },
     {
       "id": "pvla-110",
@@ -884,7 +993,8 @@
       "name": "Feebas",
       "image": "/lamincards/front/110.jpg",
       "subject": "Feebas",
-      "back": "/lamincards/back/110.jpg"
+      "back": "/lamincards/back/110.jpg",
+      "thumb": "/lamincards/thumbs/110.jpg"
     },
     {
       "id": "pvla-111",
@@ -892,7 +1002,8 @@
       "name": "Milotic",
       "image": "/lamincards/front/111.jpg",
       "subject": "Milotic",
-      "back": "/lamincards/back/111.jpg"
+      "back": "/lamincards/back/111.jpg",
+      "thumb": "/lamincards/thumbs/111.jpg"
     },
     {
       "id": "pvla-112",
@@ -900,7 +1011,8 @@
       "name": "Castform",
       "image": "/lamincards/front/112.jpg",
       "subject": "Castform",
-      "back": "/lamincards/back/112.jpg"
+      "back": "/lamincards/back/112.jpg",
+      "thumb": "/lamincards/thumbs/112.jpg"
     },
     {
       "id": "pvla-113",
@@ -908,7 +1020,8 @@
       "name": "Kecleon",
       "image": "/lamincards/front/113.jpg",
       "subject": "Kecleon",
-      "back": "/lamincards/back/113.jpg"
+      "back": "/lamincards/back/113.jpg",
+      "thumb": "/lamincards/thumbs/113.jpg"
     },
     {
       "id": "pvla-114",
@@ -916,7 +1029,8 @@
       "name": "Shuppet",
       "image": "/lamincards/front/114.jpg",
       "subject": "Shuppet",
-      "back": "/lamincards/back/114.jpg"
+      "back": "/lamincards/back/114.jpg",
+      "thumb": "/lamincards/thumbs/114.jpg"
     },
     {
       "id": "pvla-115",
@@ -924,7 +1038,8 @@
       "name": "Banette",
       "image": "/lamincards/front/115.jpg",
       "subject": "Banette",
-      "back": "/lamincards/back/115.jpg"
+      "back": "/lamincards/back/115.jpg",
+      "thumb": "/lamincards/thumbs/115.jpg"
     },
     {
       "id": "pvla-116",
@@ -932,7 +1047,8 @@
       "name": "Duskull",
       "image": "/lamincards/front/116.jpg",
       "subject": "Duskull",
-      "back": "/lamincards/back/116.jpg"
+      "back": "/lamincards/back/116.jpg",
+      "thumb": "/lamincards/thumbs/116.jpg"
     },
     {
       "id": "pvla-117",
@@ -940,7 +1056,8 @@
       "name": "Dusclops",
       "image": "/lamincards/front/117.jpg",
       "subject": "Dusclops",
-      "back": "/lamincards/back/117.jpg"
+      "back": "/lamincards/back/117.jpg",
+      "thumb": "/lamincards/thumbs/117.jpg"
     },
     {
       "id": "pvla-118",
@@ -948,7 +1065,8 @@
       "name": "Tropius",
       "image": "/lamincards/front/118.jpg",
       "subject": "Tropius",
-      "back": "/lamincards/back/118.jpg"
+      "back": "/lamincards/back/118.jpg",
+      "thumb": "/lamincards/thumbs/118.jpg"
     },
     {
       "id": "pvla-119",
@@ -956,7 +1074,8 @@
       "name": "Chimecho",
       "image": "/lamincards/front/119.jpg",
       "subject": "Chimecho",
-      "back": "/lamincards/back/119.jpg"
+      "back": "/lamincards/back/119.jpg",
+      "thumb": "/lamincards/thumbs/119.jpg"
     },
     {
       "id": "pvla-120",
@@ -964,7 +1083,8 @@
       "name": "Absol",
       "image": "/lamincards/front/120.jpg",
       "subject": "Absol",
-      "back": "/lamincards/back/120.jpg"
+      "back": "/lamincards/back/120.jpg",
+      "thumb": "/lamincards/thumbs/120.jpg"
     },
     {
       "id": "pvla-121",
@@ -972,7 +1092,8 @@
       "name": "Pichu",
       "image": "/lamincards/front/121.jpg",
       "subject": "Pichu",
-      "back": "/lamincards/back/121.jpg"
+      "back": "/lamincards/back/121.jpg",
+      "thumb": "/lamincards/thumbs/121.jpg"
     },
     {
       "id": "pvla-122",
@@ -980,7 +1101,8 @@
       "name": "Pikachu",
       "image": "/lamincards/front/122.jpg",
       "subject": "Pikachu",
-      "back": "/lamincards/back/122.jpg"
+      "back": "/lamincards/back/122.jpg",
+      "thumb": "/lamincards/thumbs/122.jpg"
     },
     {
       "id": "pvla-123",
@@ -988,7 +1110,8 @@
       "name": "Raichu",
       "image": "/lamincards/front/123.jpg",
       "subject": "Raichu",
-      "back": "/lamincards/back/123.jpg"
+      "back": "/lamincards/back/123.jpg",
+      "thumb": "/lamincards/thumbs/123.jpg"
     },
     {
       "id": "pvla-124",
@@ -996,7 +1119,8 @@
       "name": "Wynaut",
       "image": "/lamincards/front/124.jpg",
       "subject": "Wynaut",
-      "back": "/lamincards/back/124.jpg"
+      "back": "/lamincards/back/124.jpg",
+      "thumb": "/lamincards/thumbs/124.jpg"
     },
     {
       "id": "pvla-125",
@@ -1004,7 +1128,8 @@
       "name": "Snorunt",
       "image": "/lamincards/front/125.jpg",
       "subject": "Snorunt",
-      "back": "/lamincards/back/125.jpg"
+      "back": "/lamincards/back/125.jpg",
+      "thumb": "/lamincards/thumbs/125.jpg"
     },
     {
       "id": "pvla-126",
@@ -1012,7 +1137,8 @@
       "name": "Glalie",
       "image": "/lamincards/front/126.jpg",
       "subject": "Glalie",
-      "back": "/lamincards/back/126.jpg"
+      "back": "/lamincards/back/126.jpg",
+      "thumb": "/lamincards/thumbs/126.jpg"
     },
     {
       "id": "pvla-127",
@@ -1020,7 +1146,8 @@
       "name": "Spheal",
       "image": "/lamincards/front/127.jpg",
       "subject": "Spheal",
-      "back": "/lamincards/back/127.jpg"
+      "back": "/lamincards/back/127.jpg",
+      "thumb": "/lamincards/thumbs/127.jpg"
     },
     {
       "id": "pvla-128",
@@ -1028,7 +1155,8 @@
       "name": "Sealeo",
       "image": "/lamincards/front/128.jpg",
       "subject": "Sealeo",
-      "back": "/lamincards/back/128.jpg"
+      "back": "/lamincards/back/128.jpg",
+      "thumb": "/lamincards/thumbs/128.jpg"
     },
     {
       "id": "pvla-129",
@@ -1036,7 +1164,8 @@
       "name": "Walrein",
       "image": "/lamincards/front/129.jpg",
       "subject": "Walrein",
-      "back": "/lamincards/back/129.jpg"
+      "back": "/lamincards/back/129.jpg",
+      "thumb": "/lamincards/thumbs/129.jpg"
     },
     {
       "id": "pvla-130",
@@ -1044,7 +1173,8 @@
       "name": "Clamperl",
       "image": "/lamincards/front/130.jpg",
       "subject": "Clamperl",
-      "back": "/lamincards/back/130.jpg"
+      "back": "/lamincards/back/130.jpg",
+      "thumb": "/lamincards/thumbs/130.jpg"
     },
     {
       "id": "pvla-131",
@@ -1052,7 +1182,8 @@
       "name": "Huntail",
       "image": "/lamincards/front/131.jpg",
       "subject": "Huntail",
-      "back": "/lamincards/back/131.jpg"
+      "back": "/lamincards/back/131.jpg",
+      "thumb": "/lamincards/thumbs/131.jpg"
     },
     {
       "id": "pvla-132",
@@ -1060,7 +1191,8 @@
       "name": "Gorebyss",
       "image": "/lamincards/front/132.jpg",
       "subject": "Gorebyss",
-      "back": "/lamincards/back/132.jpg"
+      "back": "/lamincards/back/132.jpg",
+      "thumb": "/lamincards/thumbs/132.jpg"
     },
     {
       "id": "pvla-133",
@@ -1068,7 +1200,8 @@
       "name": "Relicanth",
       "image": "/lamincards/front/133.jpg",
       "subject": "Relicanth",
-      "back": "/lamincards/back/133.jpg"
+      "back": "/lamincards/back/133.jpg",
+      "thumb": "/lamincards/thumbs/133.jpg"
     },
     {
       "id": "pvla-134",
@@ -1076,7 +1209,8 @@
       "name": "Luvdisc",
       "image": "/lamincards/front/134.jpg",
       "subject": "Luvdisc",
-      "back": "/lamincards/back/134.jpg"
+      "back": "/lamincards/back/134.jpg",
+      "thumb": "/lamincards/thumbs/134.jpg"
     },
     {
       "id": "pvla-135",
@@ -1084,7 +1218,8 @@
       "name": "Bagon",
       "image": "/lamincards/front/135.jpg",
       "subject": "Bagon",
-      "back": "/lamincards/back/135.jpg"
+      "back": "/lamincards/back/135.jpg",
+      "thumb": "/lamincards/thumbs/135.jpg"
     },
     {
       "id": "pvla-136",
@@ -1092,7 +1227,8 @@
       "name": "Shelgon",
       "image": "/lamincards/front/136.jpg",
       "subject": "Shelgon",
-      "back": "/lamincards/back/136.jpg"
+      "back": "/lamincards/back/136.jpg",
+      "thumb": "/lamincards/thumbs/136.jpg"
     },
     {
       "id": "pvla-137",
@@ -1100,7 +1236,8 @@
       "name": "Salamence",
       "image": "/lamincards/front/137.jpg",
       "subject": "Salamence",
-      "back": "/lamincards/back/137.jpg"
+      "back": "/lamincards/back/137.jpg",
+      "thumb": "/lamincards/thumbs/137.jpg"
     },
     {
       "id": "pvla-138",
@@ -1108,7 +1245,8 @@
       "name": "Beldum",
       "image": "/lamincards/front/138.jpg",
       "subject": "Beldum",
-      "back": "/lamincards/back/138.jpg"
+      "back": "/lamincards/back/138.jpg",
+      "thumb": "/lamincards/thumbs/138.jpg"
     },
     {
       "id": "pvla-139",
@@ -1116,7 +1254,8 @@
       "name": "Metang",
       "image": "/lamincards/front/139.jpg",
       "subject": "Metang",
-      "back": "/lamincards/back/139.jpg"
+      "back": "/lamincards/back/139.jpg",
+      "thumb": "/lamincards/thumbs/139.jpg"
     },
     {
       "id": "pvla-140",
@@ -1124,7 +1263,8 @@
       "name": "Metagross",
       "image": "/lamincards/front/140.jpg",
       "subject": "Metagross",
-      "back": "/lamincards/back/140.jpg"
+      "back": "/lamincards/back/140.jpg",
+      "thumb": "/lamincards/thumbs/140.jpg"
     },
     {
       "id": "pvla-141",
@@ -1132,7 +1272,8 @@
       "name": "Regirock",
       "image": "/lamincards/front/141.jpg",
       "subject": "Regirock",
-      "back": "/lamincards/back/141.jpg"
+      "back": "/lamincards/back/141.jpg",
+      "thumb": "/lamincards/thumbs/141.jpg"
     },
     {
       "id": "pvla-142",
@@ -1140,7 +1281,8 @@
       "name": "Regice",
       "image": "/lamincards/front/142.jpg",
       "subject": "Regice",
-      "back": "/lamincards/back/142.jpg"
+      "back": "/lamincards/back/142.jpg",
+      "thumb": "/lamincards/thumbs/142.jpg"
     },
     {
       "id": "pvla-143",
@@ -1148,7 +1290,8 @@
       "name": "Registeel",
       "image": "/lamincards/front/143.jpg",
       "subject": "Registeel",
-      "back": "/lamincards/back/143.jpg"
+      "back": "/lamincards/back/143.jpg",
+      "thumb": "/lamincards/thumbs/143.jpg"
     },
     {
       "id": "pvla-144",
@@ -1156,7 +1299,8 @@
       "name": "Latias",
       "image": "/lamincards/front/144.jpg",
       "subject": "Latias",
-      "back": "/lamincards/back/144.jpg"
+      "back": "/lamincards/back/144.jpg",
+      "thumb": "/lamincards/thumbs/144.jpg"
     },
     {
       "id": "pvla-145",
@@ -1164,7 +1308,8 @@
       "name": "Latios",
       "image": "/lamincards/front/145.jpg",
       "subject": "Latios",
-      "back": "/lamincards/back/145.jpg"
+      "back": "/lamincards/back/145.jpg",
+      "thumb": "/lamincards/thumbs/145.jpg"
     },
     {
       "id": "pvla-146",
@@ -1172,7 +1317,8 @@
       "name": "Kyogre",
       "image": "/lamincards/front/146.jpg",
       "subject": "Kyogre",
-      "back": "/lamincards/back/146.jpg"
+      "back": "/lamincards/back/146.jpg",
+      "thumb": "/lamincards/thumbs/146.jpg"
     },
     {
       "id": "pvla-147",
@@ -1180,7 +1326,8 @@
       "name": "Groudon",
       "image": "/lamincards/front/147.jpg",
       "subject": "Groudon",
-      "back": "/lamincards/back/147.jpg"
+      "back": "/lamincards/back/147.jpg",
+      "thumb": "/lamincards/thumbs/147.jpg"
     },
     {
       "id": "pvla-148",
@@ -1188,7 +1335,8 @@
       "name": "Rayquaza",
       "image": "/lamincards/front/148.jpg",
       "subject": "Rayquaza",
-      "back": "/lamincards/back/148.jpg"
+      "back": "/lamincards/back/148.jpg",
+      "thumb": "/lamincards/thumbs/148.jpg"
     },
     {
       "id": "pvla-149",
@@ -1196,7 +1344,8 @@
       "name": "Meowth",
       "image": "/lamincards/front/149.jpg",
       "subject": "Meowth",
-      "back": "/lamincards/back/149.jpg"
+      "back": "/lamincards/back/149.jpg",
+      "thumb": "/lamincards/thumbs/149.jpg"
     },
     {
       "id": "pvla-150",
@@ -1204,7 +1353,8 @@
       "name": "Pokédex",
       "image": "/lamincards/front/150.jpg",
       "subject": "Pokédex",
-      "back": "/lamincards/back/150.jpg"
+      "back": "/lamincards/back/150.jpg",
+      "thumb": "/lamincards/thumbs/150.jpg"
     }
   ]
 }

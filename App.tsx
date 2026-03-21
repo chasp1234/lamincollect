@@ -353,7 +353,7 @@ export default function App() {
           return (
           <TouchableOpacity key={card.id} style={[styles.cardTile, { width: tileWidthPercent, paddingHorizontal: gridMode === 5 ? 1 : 2, marginBottom: gridMode === 5 ? 3 : 5 }]} onPress={() => openCard(card.id)}>
             <View style={styles.cardTileImageWrap}>
-              <Image source={{ uri: resolveAssetUri(card.image) }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
+              <Image source={{ uri: resolveAssetUri((card as any).thumb || card.image) }} style={[styles.cardTileImage as any, tileFilter]} resizeMode="cover" />
               <View style={[styles.cardImageToneOverlay, tileOverlay]} pointerEvents="none" />
             </View>
             {showCardNames ? <Text style={styles.cardTileName} numberOfLines={1} ellipsizeMode="tail">{card.name}</Text> : null}
