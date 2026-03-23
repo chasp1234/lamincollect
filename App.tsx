@@ -383,19 +383,31 @@ export default function App() {
               <Text style={styles.collectionSubtitle}>Anno di uscita: {info.year}</Text>
               <Text style={styles.collectionSubtitle}>Autore: {info.author}</Text>
               <Text style={styles.collectionMeta}>Set completo: nr° Carte {collection.total}</Text>
-              <View style={styles.variantRowCompact}>
-                <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
-                  <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
-                </TouchableOpacity>
-                <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
-                  <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
-                </TouchableOpacity>
-              </View>
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
-              <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
+              <View style={styles.collectionRightCol}>
+                <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
+                <View style={styles.variantRowCompact}>
+                  <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
+                    <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
+                  </TouchableOpacity>
+                  <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
+                    <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
+                  </TouchableOpacity>
+                </View>
+              </View>
             ) : universeLogos[selectedUniverse] ? (
-              <Image source={universeLogos[selectedUniverse]} style={styles.collectionUniverseLogo} resizeMode="contain" />
+              <View style={styles.collectionRightCol}>
+                <Image source={universeLogos[selectedUniverse]} style={styles.collectionUniverseLogo} resizeMode="contain" />
+                <View style={styles.variantRowCompact}>
+                  <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
+                    <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
+                  </TouchableOpacity>
+                  <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
+                    <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
+                  </TouchableOpacity>
+                </View>
+              </View>
             ) : null}
           </View>
         </TouchableOpacity>
@@ -725,6 +737,7 @@ const styles = StyleSheet.create({
   collectionsSubtitle: { color: '#94A3B8', fontSize: 13, marginTop: 5, lineHeight: 18 },
   collectionCard: { backgroundColor: '#0F172A', borderRadius: 22, padding: 16, borderWidth: 1, borderColor: '#1E293B', flexDirection: 'row', gap: 12, alignItems: 'stretch' },
   collectionMainRow: { flex: 1, flexDirection: 'row', gap: 12, alignItems: 'flex-start' },
+  collectionRightCol: { alignItems: 'center', gap: 6 },
   collectionSealedImage: { width: 68, height: 104, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#111827' },
   collectionUniverseLogo: { width: 84, height: 36, marginTop: 2 },
   collectionCardDisabled: { opacity: 0.68 },
@@ -748,7 +761,7 @@ const styles = StyleSheet.create({
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   variantRow: { flexDirection: 'row', gap: 6, marginTop: 8 },
-  variantRowCompact: { flexDirection: 'row', gap: 5, marginTop: 8, alignSelf: 'flex-end' },
+  variantRowCompact: { flexDirection: 'row', gap: 5, marginTop: 2, alignSelf: 'center' },
   variantBtn: { width: 24, height: 24, borderRadius: 999, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A', overflow: 'hidden' },
   variantBtnActive: { borderColor: '#60A5FA', backgroundColor: '#172554' },
   variantFlagCircle: { width: 18, height: 18, borderRadius: 999, borderWidth: 0.6, borderColor: 'rgba(255,255,255,0.28)' },
