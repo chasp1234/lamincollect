@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { Image, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { Image, NativeScrollEvent, NativeSyntheticEvent, Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import { appLevels } from './src/data/catalog';
 import { universes } from './src/data/universes';
 import { universeCollections } from './src/data/universe-collections';
@@ -73,6 +73,9 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
   const [loadedImages, setLoadedImages] = useState<Record<string, boolean>>({});
+  const [homeScrollY, setHomeScrollY] = useState(0);
+  const homeScrollRef = useRef<ScrollView | null>(null);
+  const pendingHomeScrollYRef = useRef<number | null>(null);
   const { width: viewportWidth } = useWindowDimensions();
 
   useEffect(() => {
@@ -86,6 +89,17 @@ export default function App() {
     link.href = 'https://fonts.googleapis.com/css2?family=Bungee&display=swap';
     document.head.appendChild(link);
   }, []);
+
+  useEffect(() => {
+    if (screen !== 'home') return;
+    if (pendingHomeScrollYRef.current === null) return;
+
+    const targetY = Math.max(0, pendingHomeScrollYRef.current);
+    requestAnimationFrame(() => {
+      homeScrollRef.current?.scrollTo({ y: targetY, animated: false });
+      pendingHomeScrollYRef.current = null;
+    });
+  }, [screen]);
 
   const activeUniverse = useMemo(
     () => universes.find((universe) => universe.id === selectedUniverse) ?? universes[0],
@@ -201,6 +215,25 @@ export default function App() {
     setScreen('collections');
   };
 
+  const goHomeTop = () => {
+    pendingHomeScrollYRef.current = 0;
+    if (screen === 'home') {
+      homeScrollRef.current?.scrollTo({ y: 0, animated: true });
+      pendingHomeScrollYRef.current = null;
+      return;
+    }
+    setScreen('home');
+  };
+
+  const backToHomeAtSameHeight = () => {
+    pendingHomeScrollYRef.current = homeScrollY;
+    setScreen('home');
+  };
+
+  const handleHomeScroll = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+    setHomeScrollY(event.nativeEvent.contentOffset.y || 0);
+  };
+
   const openCollection = (collectionId: CollectionId) => {
     setSelectedCollection(collectionId);
     if (selectedUniverse === 'pokemon' && collectionId === 'pokemon-vertical') {
@@ -245,7 +278,12 @@ export default function App() {
   };
 
   const renderHome = () => (
-    <ScrollView contentContainerStyle={styles.content}>
+    <ScrollView
+      ref={homeScrollRef}
+      contentContainerStyle={styles.content}
+      onScroll={handleHomeScroll}
+      scrollEventThrottle={16}
+    >
       <View style={styles.rankStrip}>
         <View>
           <Text style={styles.rankMini}>RANK</Text>
@@ -284,7 +322,7 @@ export default function App() {
 
   const renderCollections = () => (
     <ScrollView contentContainerStyle={styles.content}>
-      <TouchableOpacity style={styles.backButton} onPress={() => setScreen('home')}>
+      <TouchableOpacity style={styles.backButton} onPress={backToHomeAtSameHeight}>
         <Text style={styles.backButtonText}>← Torna ai cartoni</Text>
       </TouchableOpacity>
 
@@ -513,7 +551,7 @@ export default function App() {
         </View>
       </View>
       <View style={styles.searchSubBand}>
-        <TouchableOpacity style={styles.homeIconBtn} onPress={() => setScreen('home')}>
+        <TouchableOpacity style={styles.homeIconBtn} onPress={goHomeTop}>
           <View style={styles.homeIconWrap}>
             <View style={styles.homeRoof} />
             <View style={styles.homeBody} />
