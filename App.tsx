@@ -748,7 +748,7 @@ const styles = StyleSheet.create({
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   variantRow: { flexDirection: 'row', gap: 6, marginTop: 8 },
-  variantRowCompact: { flexDirection: 'row', gap: 5, marginTop: 8 },
+  variantRowCompact: { flexDirection: 'row', gap: 5, marginTop: 8, alignSelf: 'flex-end' },
   variantBtn: { width: 24, height: 24, borderRadius: 999, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A', overflow: 'hidden' },
   variantBtnActive: { borderColor: '#60A5FA', backgroundColor: '#172554' },
   variantFlagCircle: { width: 18, height: 18, borderRadius: 999, borderWidth: 0.6, borderColor: 'rgba(255,255,255,0.28)' },
