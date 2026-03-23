@@ -380,10 +380,10 @@ export default function App() {
                   <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLiveArchive ? collection.pill : 'PREVIEW'}</Text></View>
                   <View style={styles.variantRowCompact}>
                     <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
-                      <Text style={styles.variantFlag}>🇮🇹</Text>
+                      <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
                     </TouchableOpacity>
                     <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
-                      <Text style={styles.variantFlag}>🇪🇸</Text>
+                      <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
                     </TouchableOpacity>
                   </View>
                 </View>
@@ -426,10 +426,10 @@ export default function App() {
             <Text style={styles.listMeta}>Fonte: {activeSet.source} · Set completo: nr° Carte {activeSet.total}</Text>
             <View style={styles.variantRow}>
               <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
-                <Text style={styles.variantFlag}>🇮🇹</Text>
+                <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
               </TouchableOpacity>
               <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
-                <Text style={styles.variantFlag}>🇪🇸</Text>
+                <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
               </TouchableOpacity>
             </View>
           </View>
@@ -749,9 +749,11 @@ const styles = StyleSheet.create({
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   variantRow: { flexDirection: 'row', gap: 6, marginTop: 8 },
   variantRowCompact: { flexDirection: 'row', gap: 5 },
-  variantBtn: { width: 24, height: 24, borderRadius: 999, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A' },
+  variantBtn: { width: 24, height: 24, borderRadius: 999, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A', overflow: 'hidden' },
   variantBtnActive: { borderColor: '#60A5FA', backgroundColor: '#172554' },
-  variantFlag: { fontSize: 12 },
+  variantFlagCircle: { width: 18, height: 18, borderRadius: 999, borderWidth: 0.6, borderColor: 'rgba(255,255,255,0.28)' },
+  variantFlagIt: { backgroundColor: '#FFFFFF', backgroundImage: 'linear-gradient(90deg, #009246 0 33.33%, #FFFFFF 33.33% 66.66%, #CE2B37 66.66% 100%)' as any },
+  variantFlagEs: { backgroundColor: '#FFC400', backgroundImage: 'linear-gradient(180deg, #AA151B 0 25%, #F1BF00 25% 75%, #AA151B 75% 100%)' as any },
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
   namesToggle: { flexDirection: 'row', alignItems: 'center', gap: 6, marginLeft: 'auto', paddingHorizontal: 4 },
