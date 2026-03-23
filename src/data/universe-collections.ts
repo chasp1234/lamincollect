@@ -10,12 +10,12 @@ export const universeCollections = {
       sealedImage: 'https://archives.bulbagarden.net/media/upload/7/79/5._Pok%C3%A9mon_Vertical_Lamincards_Advanced_-_booster_pack_front.jpg',
     },
     {
-      id: 'pokemon-advanced',
-      title: 'Pokémon Advanced',
-      subtitle: 'Espansioni Advance, set numerati e checklist reali',
+      id: 'pokemon-rainbow',
+      title: 'Pokémon Rainbow Lamincards Advanced',
+      subtitle: 'Varianti internazionali ES/FR/DE',
       total: 109,
       accent: '#0EA5E9',
-      pill: 'ADVANCED',
+      pill: 'RAINBOW',
     },
     {
       id: 'pokemon-promo',
