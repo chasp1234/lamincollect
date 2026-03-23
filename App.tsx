@@ -72,6 +72,7 @@ export default function App() {
   const [showCardNames, setShowCardNames] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
+  const [localeVariant, setLocaleVariant] = useState<'it' | 'es'>('it');
   const [loadedImages, setLoadedImages] = useState<Record<string, boolean>>({});
   const [homeScrollY, setHomeScrollY] = useState(0);
   const homeScrollRef = useRef<ScrollView | null>(null);
@@ -375,7 +376,17 @@ export default function App() {
             <View style={{ flex: 1 }}>
               <View style={styles.collectionTopRow}>
                 <Text style={styles.collectionTitle}>{collection.title}</Text>
-                <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLiveArchive ? collection.pill : 'PREVIEW'}</Text></View>
+                <View style={styles.collectionTopRight}>
+                  <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLiveArchive ? collection.pill : 'PREVIEW'}</Text></View>
+                  <View style={styles.variantRowCompact}>
+                    <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
+                      <Text style={styles.variantFlag}>🇮🇹</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
+                      <Text style={styles.variantFlag}>🇪🇸</Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
               </View>
               <Text style={styles.collectionSubtitle}>Anno di uscita: {info.year}</Text>
               <Text style={styles.collectionSubtitle}>Autore: {info.author}</Text>
@@ -413,6 +424,14 @@ export default function App() {
             <Text style={styles.listTitle} numberOfLines={2}>{activeSet.title}</Text>
             <Text style={styles.listSubtitle} numberOfLines={3}>{activeSet.notes}</Text>
             <Text style={styles.listMeta}>Fonte: {activeSet.source} · Set completo: nr° Carte {activeSet.total}</Text>
+            <View style={styles.variantRow}>
+              <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
+                <Text style={styles.variantFlag}>🇮🇹</Text>
+              </TouchableOpacity>
+              <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
+                <Text style={styles.variantFlag}>🇪🇸</Text>
+              </TouchableOpacity>
+            </View>
           </View>
 
           <View style={styles.packEntryCol}>
@@ -711,6 +730,7 @@ const styles = StyleSheet.create({
   collectionCardDisabled: { opacity: 0.68 },
   collectionAccent: { width: 6, borderRadius: 999 },
   collectionTopRow: { flexDirection: 'row', justifyContent: 'space-between', gap: 8, alignItems: 'center' },
+  collectionTopRight: { alignItems: 'flex-end', gap: 6 },
   collectionTitle: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', flex: 1 },
   collectionPill: { backgroundColor: '#172554', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 6 },
   collectionPillText: { color: '#DBEAFE', fontSize: 10, fontWeight: '900' },
@@ -727,6 +747,11 @@ const styles = StyleSheet.create({
   listTitle: { color: '#F8FAFC', fontSize: 19, fontWeight: '900', letterSpacing: 0.4, textTransform: 'uppercase', textShadowColor: 'rgba(96, 165, 250, 0.28)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 10 },
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
+  variantRow: { flexDirection: 'row', gap: 6, marginTop: 8 },
+  variantRowCompact: { flexDirection: 'row', gap: 5 },
+  variantBtn: { width: 24, height: 24, borderRadius: 999, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A' },
+  variantBtnActive: { borderColor: '#60A5FA', backgroundColor: '#172554' },
+  variantFlag: { fontSize: 12 },
   gridSwitchRow: { flexDirection: 'row', gap: 8, marginTop: 12, flexWrap: 'wrap' },
   gridSwitchBtn: { backgroundColor: '#0F172A', borderRadius: 999, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
   namesToggle: { flexDirection: 'row', alignItems: 'center', gap: 6, marginLeft: 'auto', paddingHorizontal: 4 },
