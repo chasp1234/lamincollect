@@ -231,7 +231,12 @@ export default function App() {
   };
 
   const handleHomeScroll = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
-    setHomeScrollY(event.nativeEvent.contentOffset.y || 0);
+    const nativeY = event.nativeEvent?.contentOffset?.y;
+    const targetY =
+      (event.target as any)?.scrollTop ??
+      (event.nativeEvent as any)?.target?.scrollTop ??
+      0;
+    setHomeScrollY(typeof nativeY === 'number' ? nativeY : targetY);
   };
 
   const openCollection = (collectionId: CollectionId) => {
