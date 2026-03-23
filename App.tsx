@@ -76,6 +76,7 @@ export default function App() {
   const [homeScrollY, setHomeScrollY] = useState(0);
   const homeScrollRef = useRef<ScrollView | null>(null);
   const pendingHomeScrollYRef = useRef<number | null>(null);
+  const homeReturnScrollYRef = useRef<number>(0);
   const { width: viewportWidth } = useWindowDimensions();
 
   useEffect(() => {
@@ -210,7 +211,21 @@ export default function App() {
       .slice(0, 4);
   }, [searchNormalized]);
 
+  const readHomeScrollNow = () => {
+    if (Platform.OS === 'web' && typeof document !== 'undefined') {
+      const node = Array.from(document.querySelectorAll('div')).find((el) => {
+        const style = window.getComputedStyle(el as Element);
+        return style.overflowY === 'auto' && (el as HTMLDivElement).scrollHeight > (el as HTMLDivElement).clientHeight + 5;
+      }) as HTMLDivElement | undefined;
+      if (node) return node.scrollTop || 0;
+    }
+    return homeScrollY;
+  };
+
   const openUniverse = (universeId: UniverseId) => {
+    const currentY = readHomeScrollNow();
+    homeReturnScrollYRef.current = currentY;
+    setHomeScrollY(currentY);
     setSelectedUniverse(universeId);
     setScreen('collections');
   };
@@ -226,7 +241,7 @@ export default function App() {
   };
 
   const backToHomeAtSameHeight = () => {
-    pendingHomeScrollYRef.current = homeScrollY;
+    pendingHomeScrollYRef.current = homeReturnScrollYRef.current || homeScrollY;
     setScreen('home');
   };
 
