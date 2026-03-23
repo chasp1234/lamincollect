@@ -320,9 +320,9 @@ export default function App() {
           const logo = universeLogos[uid];
           return (
           <TouchableOpacity key={universe.id} style={styles.universeTile} onPress={() => openUniverse(uid)}>
-            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }, uid === 'marvel' && styles.universeBadgeMarvel]}>
+            <View style={[styles.universeBadge, logo ? styles.universeBadgeLogo : { backgroundColor: universe.color }, uid === 'marvel' && styles.universeBadgeMarvel, uid === 'harry-potter' && styles.universeBadgeHarry]}> 
               {logo ? (
-                <Image source={logo} style={[styles.universeLogoImage, (uid === 'marvel' || uid === 'spongebob') && styles.universeLogoImageFeature, uid === 'gormiti' && styles.universeLogoImageGormiti]} resizeMode="contain" />
+                <Image source={logo} style={[styles.universeLogoImage, (uid === 'marvel' || uid === 'spongebob') && styles.universeLogoImageFeature, uid === 'gormiti' && styles.universeLogoImageGormiti, uid === 'beyblade' && styles.universeLogoImageBeyblade, uid === 'harry-potter' && styles.universeLogoImageHarry]} resizeMode="contain" />
               ) : (
                 <Text style={styles.universeEmoji}>{universe.emoji}</Text>
               )}
@@ -348,10 +348,10 @@ export default function App() {
 
       <View style={styles.collectionsHero}>
         {activeUniverseLogo ? (
-          <Image source={activeUniverseLogo} style={[styles.collectionsHeroLogo, selectedUniverse === 'marvel' && styles.collectionsHeroLogoMarvel]} resizeMode="contain" />
+          <Image source={activeUniverseLogo} style={[styles.collectionsHeroLogo, selectedUniverse === 'marvel' && styles.collectionsHeroLogoMarvel, selectedUniverse === 'harry-potter' && styles.collectionsHeroLogoHarry]} resizeMode="contain" />
         ) : (
           <>
-            <View style={[styles.collectionsBadge, { backgroundColor: activeUniverse.color }]}> 
+            <View style={[styles.collectionsBadge, { backgroundColor: activeUniverse.color }]}>
               <Text style={styles.collectionsEmoji}>{activeUniverse.emoji}</Text>
             </View>
             <View style={{ flex: 1 }}>
@@ -685,9 +685,12 @@ const styles = StyleSheet.create({
   universeBadge: { width: 48, height: 48, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   universeBadgeLogo: { width: '100%', backgroundColor: 'transparent' },
   universeBadgeMarvel: { backgroundColor: 'transparent', borderRadius: 8, paddingHorizontal: 4 },
+  universeBadgeHarry: { backgroundColor: '#FDE68A', borderRadius: 8, paddingHorizontal: 4 },
   universeLogoImage: { width: '100%', height: 34 },
   universeLogoImageFeature: { height: 40 },
   universeLogoImageGormiti: { height: 44 },
+  universeLogoImageBeyblade: { height: 44 },
+  universeLogoImageHarry: { height: 38 },
   universeEmoji: { fontSize: 24 },
   universeName: { color: '#F8FAFC', fontSize: 16, fontWeight: '800', marginTop: 12 },
   universeInfo: { color: '#94A3B8', fontSize: 12, lineHeight: 17, marginTop: 6 },
@@ -696,6 +699,7 @@ const styles = StyleSheet.create({
   collectionsHero: { flexDirection: 'row', gap: 12, backgroundColor: '#0F172A', borderRadius: 24, padding: 18, borderWidth: 1, borderColor: '#1E293B', alignItems: 'center' },
   collectionsHeroLogo: { width: '100%', height: 46 },
   collectionsHeroLogoMarvel: { height: 46 },
+  collectionsHeroLogoHarry: { height: 46, backgroundColor: '#FDE68A', borderRadius: 8, paddingHorizontal: 8 },
   collectionsBadge: { width: 58, height: 58, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   collectionsEmoji: { fontSize: 28 },
   collectionsTitle: { color: '#F8FAFC', fontSize: 22, fontWeight: '900' },
