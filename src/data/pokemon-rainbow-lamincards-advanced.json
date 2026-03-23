@@ -1,0 +1,1360 @@
+{
+  "setId": "pokemon-vertical-lamincards-advanced",
+  "title": "Pokémon Rainbow Lamincards Advanced (Spanish)",
+  "source": "Bulbapedia · Rainbow Lamincards Advanced",
+  "sourceUrl": "https://m.bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Vertical_Lamincards_Advanced",
+  "total": 150,
+  "notes": "Set Rainbow (variante spagnola) con fronte/retro dedicati.",
+  "cards": [
+    {
+      "id": "pvla-1",
+      "number": "1",
+      "name": "Ash, Brock and May",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_1.jpg",
+      "subject": "Ash, Brock and May",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_1.jpg",
+      "thumb": "/lamincards/thumbs/1.jpg"
+    },
+    {
+      "id": "pvla-2",
+      "number": "2",
+      "name": "Ash",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_2.jpg",
+      "subject": "Ash",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_2.jpg",
+      "thumb": "/lamincards/thumbs/2.jpg"
+    },
+    {
+      "id": "pvla-3",
+      "number": "3",
+      "name": "Brock",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_3.jpg",
+      "subject": "Brock",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_3.jpg",
+      "thumb": "/lamincards/thumbs/3.jpg"
+    },
+    {
+      "id": "pvla-4",
+      "number": "4",
+      "name": "Professor Birch",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_4.jpg",
+      "subject": "Professor Birch",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_4.jpg",
+      "thumb": "/lamincards/thumbs/4.jpg"
+    },
+    {
+      "id": "pvla-5",
+      "number": "5",
+      "name": "May",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_5.jpg",
+      "subject": "May",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_5.jpg",
+      "thumb": "/lamincards/thumbs/5.jpg"
+    },
+    {
+      "id": "pvla-6",
+      "number": "6",
+      "name": "Max",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_6.jpg",
+      "subject": "Max",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_6.jpg",
+      "thumb": "/lamincards/thumbs/6.jpg"
+    },
+    {
+      "id": "pvla-7",
+      "number": "7",
+      "name": "Team Magma",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_7.jpg",
+      "subject": "Team Magma",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_7.jpg",
+      "thumb": "/lamincards/thumbs/7.jpg"
+    },
+    {
+      "id": "pvla-8",
+      "number": "8",
+      "name": "Team Rocket",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_8.jpg",
+      "subject": "Team Rocket",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_8.jpg",
+      "thumb": "/lamincards/thumbs/8.jpg"
+    },
+    {
+      "id": "pvla-9",
+      "number": "9",
+      "name": "Team Aqua",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_9.jpg",
+      "subject": "Team Aqua",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_9.jpg",
+      "thumb": "/lamincards/thumbs/9.jpg"
+    },
+    {
+      "id": "pvla-10",
+      "number": "10",
+      "name": "Treecko",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_10.jpg",
+      "subject": "Treecko",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_10.jpg",
+      "thumb": "/lamincards/thumbs/10.jpg"
+    },
+    {
+      "id": "pvla-11",
+      "number": "11",
+      "name": "Grovyle",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_11.jpg",
+      "subject": "Grovyle",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_11.jpg",
+      "thumb": "/lamincards/thumbs/11.jpg"
+    },
+    {
+      "id": "pvla-12",
+      "number": "12",
+      "name": "Sceptile",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_12.jpg",
+      "subject": "Sceptile",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_12.jpg",
+      "thumb": "/lamincards/thumbs/12.jpg"
+    },
+    {
+      "id": "pvla-13",
+      "number": "13",
+      "name": "Torchic",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_13.jpg",
+      "subject": "Torchic",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_13.jpg",
+      "thumb": "/lamincards/thumbs/13.jpg"
+    },
+    {
+      "id": "pvla-14",
+      "number": "14",
+      "name": "Combusken",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_14.jpg",
+      "subject": "Combusken",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_14.jpg",
+      "thumb": "/lamincards/thumbs/14.jpg"
+    },
+    {
+      "id": "pvla-15",
+      "number": "15",
+      "name": "Blaziken",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_15.jpg",
+      "subject": "Blaziken",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_15.jpg",
+      "thumb": "/lamincards/thumbs/15.jpg"
+    },
+    {
+      "id": "pvla-16",
+      "number": "16",
+      "name": "Mudkip",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_16.jpg",
+      "subject": "Mudkip",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_16.jpg",
+      "thumb": "/lamincards/thumbs/16.jpg"
+    },
+    {
+      "id": "pvla-17",
+      "number": "17",
+      "name": "Marshtomp",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_17.jpg",
+      "subject": "Marshtomp",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_17.jpg",
+      "thumb": "/lamincards/thumbs/17.jpg"
+    },
+    {
+      "id": "pvla-18",
+      "number": "18",
+      "name": "Swampert",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_18.jpg",
+      "subject": "Swampert",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_18.jpg",
+      "thumb": "/lamincards/thumbs/18.jpg"
+    },
+    {
+      "id": "pvla-19",
+      "number": "19",
+      "name": "Poochyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_19.jpg",
+      "subject": "Poochyena",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_19.jpg",
+      "thumb": "/lamincards/thumbs/19.jpg"
+    },
+    {
+      "id": "pvla-20",
+      "number": "20",
+      "name": "Mightyena",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_20.jpg",
+      "subject": "Mightyena",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_20.jpg",
+      "thumb": "/lamincards/thumbs/20.jpg"
+    },
+    {
+      "id": "pvla-21",
+      "number": "21",
+      "name": "Zigzagoon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_21.jpg",
+      "subject": "Zigzagoon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_21.jpg",
+      "thumb": "/lamincards/thumbs/21.jpg"
+    },
+    {
+      "id": "pvla-22",
+      "number": "22",
+      "name": "Linoone",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_22.jpg",
+      "subject": "Linoone",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_22.jpg",
+      "thumb": "/lamincards/thumbs/22.jpg"
+    },
+    {
+      "id": "pvla-23",
+      "number": "23",
+      "name": "Wurmple",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_23.jpg",
+      "subject": "Wurmple",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_23.jpg",
+      "thumb": "/lamincards/thumbs/23.jpg"
+    },
+    {
+      "id": "pvla-24",
+      "number": "24",
+      "name": "Silcoon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_24.jpg",
+      "subject": "Silcoon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_24.jpg",
+      "thumb": "/lamincards/thumbs/24.jpg"
+    },
+    {
+      "id": "pvla-25",
+      "number": "25",
+      "name": "Beautifly",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_25.jpg",
+      "subject": "Beautifly",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_25.jpg",
+      "thumb": "/lamincards/thumbs/25.jpg"
+    },
+    {
+      "id": "pvla-26",
+      "number": "26",
+      "name": "Cascoon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_26.jpg",
+      "subject": "Cascoon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_26.jpg",
+      "thumb": "/lamincards/thumbs/26.jpg"
+    },
+    {
+      "id": "pvla-27",
+      "number": "27",
+      "name": "Dustox",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_27.jpg",
+      "subject": "Dustox",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_27.jpg",
+      "thumb": "/lamincards/thumbs/27.jpg"
+    },
+    {
+      "id": "pvla-28",
+      "number": "28",
+      "name": "Lotad",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_28.jpg",
+      "subject": "Lotad",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_28.jpg",
+      "thumb": "/lamincards/thumbs/28.jpg"
+    },
+    {
+      "id": "pvla-29",
+      "number": "29",
+      "name": "Lombre",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_29.jpg",
+      "subject": "Lombre",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_29.jpg",
+      "thumb": "/lamincards/thumbs/29.jpg"
+    },
+    {
+      "id": "pvla-30",
+      "number": "30",
+      "name": "Ludicolo",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_30.jpg",
+      "subject": "Ludicolo",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_30.jpg",
+      "thumb": "/lamincards/thumbs/30.jpg"
+    },
+    {
+      "id": "pvla-31",
+      "number": "31",
+      "name": "Seedot",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_31.jpg",
+      "subject": "Seedot",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_31.jpg",
+      "thumb": "/lamincards/thumbs/31.jpg"
+    },
+    {
+      "id": "pvla-32",
+      "number": "32",
+      "name": "Nuzleaf",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_32.jpg",
+      "subject": "Nuzleaf",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_32.jpg",
+      "thumb": "/lamincards/thumbs/32.jpg"
+    },
+    {
+      "id": "pvla-33",
+      "number": "33",
+      "name": "Shiftry",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_33.jpg",
+      "subject": "Shiftry",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_33.jpg",
+      "thumb": "/lamincards/thumbs/33.jpg"
+    },
+    {
+      "id": "pvla-34",
+      "number": "34",
+      "name": "Taillow",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_34.jpg",
+      "subject": "Taillow",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_34.jpg",
+      "thumb": "/lamincards/thumbs/34.jpg"
+    },
+    {
+      "id": "pvla-35",
+      "number": "35",
+      "name": "Swellow",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_35.jpg",
+      "subject": "Swellow",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_35.jpg",
+      "thumb": "/lamincards/thumbs/35.jpg"
+    },
+    {
+      "id": "pvla-36",
+      "number": "36",
+      "name": "Wingull",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_36.jpg",
+      "subject": "Wingull",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_36.jpg",
+      "thumb": "/lamincards/thumbs/36.jpg"
+    },
+    {
+      "id": "pvla-37",
+      "number": "37",
+      "name": "Pelipper",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_37.jpg",
+      "subject": "Pelipper",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_37.jpg",
+      "thumb": "/lamincards/thumbs/37.jpg"
+    },
+    {
+      "id": "pvla-38",
+      "number": "38",
+      "name": "Ralts",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_38.jpg",
+      "subject": "Ralts",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_38.jpg",
+      "thumb": "/lamincards/thumbs/38.jpg"
+    },
+    {
+      "id": "pvla-39",
+      "number": "39",
+      "name": "Kirlia",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_39.jpg",
+      "subject": "Kirlia",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_39.jpg",
+      "thumb": "/lamincards/thumbs/39.jpg"
+    },
+    {
+      "id": "pvla-40",
+      "number": "40",
+      "name": "Gardevoir",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_40.jpg",
+      "subject": "Gardevoir",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_40.jpg",
+      "thumb": "/lamincards/thumbs/40.jpg"
+    },
+    {
+      "id": "pvla-41",
+      "number": "41",
+      "name": "Surskit",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_41.jpg",
+      "subject": "Surskit",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_41.jpg",
+      "thumb": "/lamincards/thumbs/41.jpg"
+    },
+    {
+      "id": "pvla-42",
+      "number": "42",
+      "name": "Masquerain",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_42.jpg",
+      "subject": "Masquerain",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_42.jpg",
+      "thumb": "/lamincards/thumbs/42.jpg"
+    },
+    {
+      "id": "pvla-43",
+      "number": "43",
+      "name": "Shroomish",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_43.jpg",
+      "subject": "Shroomish",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_43.jpg",
+      "thumb": "/lamincards/thumbs/43.jpg"
+    },
+    {
+      "id": "pvla-44",
+      "number": "44",
+      "name": "Breloom",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_44.jpg",
+      "subject": "Breloom",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_44.jpg",
+      "thumb": "/lamincards/thumbs/44.jpg"
+    },
+    {
+      "id": "pvla-45",
+      "number": "45",
+      "name": "Slakoth",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_45.jpg",
+      "subject": "Slakoth",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_45.jpg",
+      "thumb": "/lamincards/thumbs/45.jpg"
+    },
+    {
+      "id": "pvla-46",
+      "number": "46",
+      "name": "Vigoroth",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_46.jpg",
+      "subject": "Vigoroth",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_46.jpg",
+      "thumb": "/lamincards/thumbs/46.jpg"
+    },
+    {
+      "id": "pvla-47",
+      "number": "47",
+      "name": "Slaking",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_47.jpg",
+      "subject": "Slaking",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_47.jpg",
+      "thumb": "/lamincards/thumbs/47.jpg"
+    },
+    {
+      "id": "pvla-48",
+      "number": "48",
+      "name": "Nincada",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_48.jpg",
+      "subject": "Nincada",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_48.jpg",
+      "thumb": "/lamincards/thumbs/48.jpg"
+    },
+    {
+      "id": "pvla-49",
+      "number": "49",
+      "name": "Ninjask",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_49.jpg",
+      "subject": "Ninjask",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_49.jpg",
+      "thumb": "/lamincards/thumbs/49.jpg"
+    },
+    {
+      "id": "pvla-50",
+      "number": "50",
+      "name": "Shedinja",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_50.jpg",
+      "subject": "Shedinja",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_50.jpg",
+      "thumb": "/lamincards/thumbs/50.jpg"
+    },
+    {
+      "id": "pvla-51",
+      "number": "51",
+      "name": "Whismur",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_51.jpg",
+      "subject": "Whismur",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_51.jpg",
+      "thumb": "/lamincards/thumbs/51.jpg"
+    },
+    {
+      "id": "pvla-52",
+      "number": "52",
+      "name": "Loudred",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_52.jpg",
+      "subject": "Loudred",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_52.jpg",
+      "thumb": "/lamincards/thumbs/52.jpg"
+    },
+    {
+      "id": "pvla-53",
+      "number": "53",
+      "name": "Exploud",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_53.jpg",
+      "subject": "Exploud",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_53.jpg",
+      "thumb": "/lamincards/thumbs/53.jpg"
+    },
+    {
+      "id": "pvla-54",
+      "number": "54",
+      "name": "Makuhita",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_54.jpg",
+      "subject": "Makuhita",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_54.jpg",
+      "thumb": "/lamincards/thumbs/54.jpg"
+    },
+    {
+      "id": "pvla-55",
+      "number": "55",
+      "name": "Hariyama",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_55.jpg",
+      "subject": "Hariyama",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_55.jpg",
+      "thumb": "/lamincards/thumbs/55.jpg"
+    },
+    {
+      "id": "pvla-56",
+      "number": "56",
+      "name": "Azurill",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_56.jpg",
+      "subject": "Azurill",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_56.jpg",
+      "thumb": "/lamincards/thumbs/56.jpg"
+    },
+    {
+      "id": "pvla-57",
+      "number": "57",
+      "name": "Marill",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_57.jpg",
+      "subject": "Marill",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_57.jpg",
+      "thumb": "/lamincards/thumbs/57.jpg"
+    },
+    {
+      "id": "pvla-58",
+      "number": "58",
+      "name": "Azumarill",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_58.jpg",
+      "subject": "Azumarill",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_58.jpg",
+      "thumb": "/lamincards/thumbs/58.jpg"
+    },
+    {
+      "id": "pvla-59",
+      "number": "59",
+      "name": "Nosepass",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_59.jpg",
+      "subject": "Nosepass",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_59.jpg",
+      "thumb": "/lamincards/thumbs/59.jpg"
+    },
+    {
+      "id": "pvla-60",
+      "number": "60",
+      "name": "Skitty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_60.jpg",
+      "subject": "Skitty",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_60.jpg",
+      "thumb": "/lamincards/thumbs/60.jpg"
+    },
+    {
+      "id": "pvla-61",
+      "number": "61",
+      "name": "Delcatty",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_61.jpg",
+      "subject": "Delcatty",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_61.jpg",
+      "thumb": "/lamincards/thumbs/61.jpg"
+    },
+    {
+      "id": "pvla-62",
+      "number": "62",
+      "name": "Sableye",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_62.jpg",
+      "subject": "Sableye",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_62.jpg",
+      "thumb": "/lamincards/thumbs/62.jpg"
+    },
+    {
+      "id": "pvla-63",
+      "number": "63",
+      "name": "Mawile",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_63.jpg",
+      "subject": "Mawile",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_63.jpg",
+      "thumb": "/lamincards/thumbs/63.jpg"
+    },
+    {
+      "id": "pvla-64",
+      "number": "64",
+      "name": "Aron",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_64.jpg",
+      "subject": "Aron",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_64.jpg",
+      "thumb": "/lamincards/thumbs/64.jpg"
+    },
+    {
+      "id": "pvla-65",
+      "number": "65",
+      "name": "Lairon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_65.jpg",
+      "subject": "Lairon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_65.jpg",
+      "thumb": "/lamincards/thumbs/65.jpg"
+    },
+    {
+      "id": "pvla-66",
+      "number": "66",
+      "name": "Aggron",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_66.jpg",
+      "subject": "Aggron",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_66.jpg",
+      "thumb": "/lamincards/thumbs/66.jpg"
+    },
+    {
+      "id": "pvla-67",
+      "number": "67",
+      "name": "Meditite",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_67.jpg",
+      "subject": "Meditite",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_67.jpg",
+      "thumb": "/lamincards/thumbs/67.jpg"
+    },
+    {
+      "id": "pvla-68",
+      "number": "68",
+      "name": "Medicham",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_68.jpg",
+      "subject": "Medicham",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_68.jpg",
+      "thumb": "/lamincards/thumbs/68.jpg"
+    },
+    {
+      "id": "pvla-69",
+      "number": "69",
+      "name": "Electrike",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_69.jpg",
+      "subject": "Electrike",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_69.jpg",
+      "thumb": "/lamincards/thumbs/69.jpg"
+    },
+    {
+      "id": "pvla-70",
+      "number": "70",
+      "name": "Manectric",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_70.jpg",
+      "subject": "Manectric",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_70.jpg",
+      "thumb": "/lamincards/thumbs/70.jpg"
+    },
+    {
+      "id": "pvla-71",
+      "number": "71",
+      "name": "Plusle",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_71.jpg",
+      "subject": "Plusle",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_71.jpg",
+      "thumb": "/lamincards/thumbs/71.jpg"
+    },
+    {
+      "id": "pvla-72",
+      "number": "72",
+      "name": "Minun",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_72.jpg",
+      "subject": "Minun",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_72.jpg",
+      "thumb": "/lamincards/thumbs/72.jpg"
+    },
+    {
+      "id": "pvla-73",
+      "number": "73",
+      "name": "Volbeat",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_73.jpg",
+      "subject": "Volbeat",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_73.jpg",
+      "thumb": "/lamincards/thumbs/73.jpg"
+    },
+    {
+      "id": "pvla-74",
+      "number": "74",
+      "name": "Illumise",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_74.jpg",
+      "subject": "Illumise",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_74.jpg",
+      "thumb": "/lamincards/thumbs/74.jpg"
+    },
+    {
+      "id": "pvla-75",
+      "number": "75",
+      "name": "Roselia",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_75.jpg",
+      "subject": "Roselia",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_75.jpg",
+      "thumb": "/lamincards/thumbs/75.jpg"
+    },
+    {
+      "id": "pvla-76",
+      "number": "76",
+      "name": "Gulpin",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_76.jpg",
+      "subject": "Gulpin",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_76.jpg",
+      "thumb": "/lamincards/thumbs/76.jpg"
+    },
+    {
+      "id": "pvla-77",
+      "number": "77",
+      "name": "Swalot",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_77.jpg",
+      "subject": "Swalot",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_77.jpg",
+      "thumb": "/lamincards/thumbs/77.jpg"
+    },
+    {
+      "id": "pvla-78",
+      "number": "78",
+      "name": "Carvanha",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_78.jpg",
+      "subject": "Carvanha",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_78.jpg",
+      "thumb": "/lamincards/thumbs/78.jpg"
+    },
+    {
+      "id": "pvla-79",
+      "number": "79",
+      "name": "Sharpedo",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_79.jpg",
+      "subject": "Sharpedo",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_79.jpg",
+      "thumb": "/lamincards/thumbs/79.jpg"
+    },
+    {
+      "id": "pvla-80",
+      "number": "80",
+      "name": "Wailmer",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_80.jpg",
+      "subject": "Wailmer",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_80.jpg",
+      "thumb": "/lamincards/thumbs/80.jpg"
+    },
+    {
+      "id": "pvla-81",
+      "number": "81",
+      "name": "Wailord",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_81.jpg",
+      "subject": "Wailord",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_81.jpg",
+      "thumb": "/lamincards/thumbs/81.jpg"
+    },
+    {
+      "id": "pvla-82",
+      "number": "82",
+      "name": "Numel",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_82.jpg",
+      "subject": "Numel",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_82.jpg",
+      "thumb": "/lamincards/thumbs/82.jpg"
+    },
+    {
+      "id": "pvla-83",
+      "number": "83",
+      "name": "Camerupt",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_83.jpg",
+      "subject": "Camerupt",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_83.jpg",
+      "thumb": "/lamincards/thumbs/83.jpg"
+    },
+    {
+      "id": "pvla-84",
+      "number": "84",
+      "name": "Magcargo",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_84.jpg",
+      "subject": "Magcargo",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_84.jpg",
+      "thumb": "/lamincards/thumbs/84.jpg"
+    },
+    {
+      "id": "pvla-85",
+      "number": "85",
+      "name": "Torkoal",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_85.jpg",
+      "subject": "Torkoal",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_85.jpg",
+      "thumb": "/lamincards/thumbs/85.jpg"
+    },
+    {
+      "id": "pvla-86",
+      "number": "86",
+      "name": "Spoink",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_86.jpg",
+      "subject": "Spoink",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_86.jpg",
+      "thumb": "/lamincards/thumbs/86.jpg"
+    },
+    {
+      "id": "pvla-87",
+      "number": "87",
+      "name": "Grumpig",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_87.jpg",
+      "subject": "Grumpig",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_87.jpg",
+      "thumb": "/lamincards/thumbs/87.jpg"
+    },
+    {
+      "id": "pvla-88",
+      "number": "88",
+      "name": "Spinda",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_88.jpg",
+      "subject": "Spinda",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_88.jpg",
+      "thumb": "/lamincards/thumbs/88.jpg"
+    },
+    {
+      "id": "pvla-89",
+      "number": "89",
+      "name": "Trapinch",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_89.jpg",
+      "subject": "Trapinch",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_89.jpg",
+      "thumb": "/lamincards/thumbs/89.jpg"
+    },
+    {
+      "id": "pvla-90",
+      "number": "90",
+      "name": "Vibrava",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_90.jpg",
+      "subject": "Vibrava",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_90.jpg",
+      "thumb": "/lamincards/thumbs/90.jpg"
+    },
+    {
+      "id": "pvla-91",
+      "number": "91",
+      "name": "Flygon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_91.jpg",
+      "subject": "Flygon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_91.jpg",
+      "thumb": "/lamincards/thumbs/91.jpg"
+    },
+    {
+      "id": "pvla-92",
+      "number": "92",
+      "name": "Cacnea",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_92.jpg",
+      "subject": "Cacnea",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_92.jpg",
+      "thumb": "/lamincards/thumbs/92.jpg"
+    },
+    {
+      "id": "pvla-93",
+      "number": "93",
+      "name": "Cacturne",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_93.jpg",
+      "subject": "Cacturne",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_93.jpg",
+      "thumb": "/lamincards/thumbs/93.jpg"
+    },
+    {
+      "id": "pvla-94",
+      "number": "94",
+      "name": "Swablu",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_94.jpg",
+      "subject": "Swablu",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_94.jpg",
+      "thumb": "/lamincards/thumbs/94.jpg"
+    },
+    {
+      "id": "pvla-95",
+      "number": "95",
+      "name": "Altaria",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_95.jpg",
+      "subject": "Altaria",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_95.jpg",
+      "thumb": "/lamincards/thumbs/95.jpg"
+    },
+    {
+      "id": "pvla-96",
+      "number": "96",
+      "name": "Zangoose",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_96.jpg",
+      "subject": "Zangoose",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_96.jpg",
+      "thumb": "/lamincards/thumbs/96.jpg"
+    },
+    {
+      "id": "pvla-97",
+      "number": "97",
+      "name": "Seviper",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_97.jpg",
+      "subject": "Seviper",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_97.jpg",
+      "thumb": "/lamincards/thumbs/97.jpg"
+    },
+    {
+      "id": "pvla-98",
+      "number": "98",
+      "name": "Lunatone",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_98.jpg",
+      "subject": "Lunatone",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_98.jpg",
+      "thumb": "/lamincards/thumbs/98.jpg"
+    },
+    {
+      "id": "pvla-99",
+      "number": "99",
+      "name": "Solrock",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_99.jpg",
+      "subject": "Solrock",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_99.jpg",
+      "thumb": "/lamincards/thumbs/99.jpg"
+    },
+    {
+      "id": "pvla-100",
+      "number": "100",
+      "name": "Barboach",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_100.jpg",
+      "subject": "Barboach",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_100.jpg",
+      "thumb": "/lamincards/thumbs/100.jpg"
+    },
+    {
+      "id": "pvla-101",
+      "number": "101",
+      "name": "Whiscash",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_101.jpg",
+      "subject": "Whiscash",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_101.jpg",
+      "thumb": "/lamincards/thumbs/101.jpg"
+    },
+    {
+      "id": "pvla-102",
+      "number": "102",
+      "name": "Corphish",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_102.jpg",
+      "subject": "Corphish",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_102.jpg",
+      "thumb": "/lamincards/thumbs/102.jpg"
+    },
+    {
+      "id": "pvla-103",
+      "number": "103",
+      "name": "Crawdaunt",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_103.jpg",
+      "subject": "Crawdaunt",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_103.jpg",
+      "thumb": "/lamincards/thumbs/103.jpg"
+    },
+    {
+      "id": "pvla-104",
+      "number": "104",
+      "name": "Baltoy",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_104.jpg",
+      "subject": "Baltoy",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_104.jpg",
+      "thumb": "/lamincards/thumbs/104.jpg"
+    },
+    {
+      "id": "pvla-105",
+      "number": "105",
+      "name": "Claydol",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_105.jpg",
+      "subject": "Claydol",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_105.jpg",
+      "thumb": "/lamincards/thumbs/105.jpg"
+    },
+    {
+      "id": "pvla-106",
+      "number": "106",
+      "name": "Lileep",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_106.jpg",
+      "subject": "Lileep",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_106.jpg",
+      "thumb": "/lamincards/thumbs/106.jpg"
+    },
+    {
+      "id": "pvla-107",
+      "number": "107",
+      "name": "Cradily",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_107.jpg",
+      "subject": "Cradily",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_107.jpg",
+      "thumb": "/lamincards/thumbs/107.jpg"
+    },
+    {
+      "id": "pvla-108",
+      "number": "108",
+      "name": "Anorith",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_108.jpg",
+      "subject": "Anorith",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_108.jpg",
+      "thumb": "/lamincards/thumbs/108.jpg"
+    },
+    {
+      "id": "pvla-109",
+      "number": "109",
+      "name": "Armaldo",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_109.jpg",
+      "subject": "Armaldo",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_109.jpg",
+      "thumb": "/lamincards/thumbs/109.jpg"
+    },
+    {
+      "id": "pvla-110",
+      "number": "110",
+      "name": "Feebas",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_110.jpg",
+      "subject": "Feebas",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_110.jpg",
+      "thumb": "/lamincards/thumbs/110.jpg"
+    },
+    {
+      "id": "pvla-111",
+      "number": "111",
+      "name": "Milotic",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_111.jpg",
+      "subject": "Milotic",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_111.jpg",
+      "thumb": "/lamincards/thumbs/111.jpg"
+    },
+    {
+      "id": "pvla-112",
+      "number": "112",
+      "name": "Castform",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_112.jpg",
+      "subject": "Castform",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_112.jpg",
+      "thumb": "/lamincards/thumbs/112.jpg"
+    },
+    {
+      "id": "pvla-113",
+      "number": "113",
+      "name": "Kecleon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_113.jpg",
+      "subject": "Kecleon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_113.jpg",
+      "thumb": "/lamincards/thumbs/113.jpg"
+    },
+    {
+      "id": "pvla-114",
+      "number": "114",
+      "name": "Shuppet",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_114.jpg",
+      "subject": "Shuppet",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_114.jpg",
+      "thumb": "/lamincards/thumbs/114.jpg"
+    },
+    {
+      "id": "pvla-115",
+      "number": "115",
+      "name": "Banette",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_115.jpg",
+      "subject": "Banette",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_115.jpg",
+      "thumb": "/lamincards/thumbs/115.jpg"
+    },
+    {
+      "id": "pvla-116",
+      "number": "116",
+      "name": "Duskull",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_116.jpg",
+      "subject": "Duskull",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_116.jpg",
+      "thumb": "/lamincards/thumbs/116.jpg"
+    },
+    {
+      "id": "pvla-117",
+      "number": "117",
+      "name": "Dusclops",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_117.jpg",
+      "subject": "Dusclops",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_117.jpg",
+      "thumb": "/lamincards/thumbs/117.jpg"
+    },
+    {
+      "id": "pvla-118",
+      "number": "118",
+      "name": "Tropius",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_118.jpg",
+      "subject": "Tropius",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_118.jpg",
+      "thumb": "/lamincards/thumbs/118.jpg"
+    },
+    {
+      "id": "pvla-119",
+      "number": "119",
+      "name": "Chimecho",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_119.jpg",
+      "subject": "Chimecho",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_119.jpg",
+      "thumb": "/lamincards/thumbs/119.jpg"
+    },
+    {
+      "id": "pvla-120",
+      "number": "120",
+      "name": "Absol",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_120.jpg",
+      "subject": "Absol",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_120.jpg",
+      "thumb": "/lamincards/thumbs/120.jpg"
+    },
+    {
+      "id": "pvla-121",
+      "number": "121",
+      "name": "Pichu",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_121.jpg",
+      "subject": "Pichu",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_121.jpg",
+      "thumb": "/lamincards/thumbs/121.jpg"
+    },
+    {
+      "id": "pvla-122",
+      "number": "122",
+      "name": "Pikachu",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_122.jpg",
+      "subject": "Pikachu",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_122.jpg",
+      "thumb": "/lamincards/thumbs/122.jpg"
+    },
+    {
+      "id": "pvla-123",
+      "number": "123",
+      "name": "Raichu",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_123.jpg",
+      "subject": "Raichu",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_123.jpg",
+      "thumb": "/lamincards/thumbs/123.jpg"
+    },
+    {
+      "id": "pvla-124",
+      "number": "124",
+      "name": "Wynaut",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_124.jpg",
+      "subject": "Wynaut",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_124.jpg",
+      "thumb": "/lamincards/thumbs/124.jpg"
+    },
+    {
+      "id": "pvla-125",
+      "number": "125",
+      "name": "Snorunt",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_125.jpg",
+      "subject": "Snorunt",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_125.jpg",
+      "thumb": "/lamincards/thumbs/125.jpg"
+    },
+    {
+      "id": "pvla-126",
+      "number": "126",
+      "name": "Glalie",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_126.jpg",
+      "subject": "Glalie",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_126.jpg",
+      "thumb": "/lamincards/thumbs/126.jpg"
+    },
+    {
+      "id": "pvla-127",
+      "number": "127",
+      "name": "Spheal",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_127.jpg",
+      "subject": "Spheal",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_127.jpg",
+      "thumb": "/lamincards/thumbs/127.jpg"
+    },
+    {
+      "id": "pvla-128",
+      "number": "128",
+      "name": "Sealeo",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_128.jpg",
+      "subject": "Sealeo",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_128.jpg",
+      "thumb": "/lamincards/thumbs/128.jpg"
+    },
+    {
+      "id": "pvla-129",
+      "number": "129",
+      "name": "Walrein",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_129.jpg",
+      "subject": "Walrein",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_129.jpg",
+      "thumb": "/lamincards/thumbs/129.jpg"
+    },
+    {
+      "id": "pvla-130",
+      "number": "130",
+      "name": "Clamperl",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_130.jpg",
+      "subject": "Clamperl",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_130.jpg",
+      "thumb": "/lamincards/thumbs/130.jpg"
+    },
+    {
+      "id": "pvla-131",
+      "number": "131",
+      "name": "Huntail",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_131.jpg",
+      "subject": "Huntail",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_131.jpg",
+      "thumb": "/lamincards/thumbs/131.jpg"
+    },
+    {
+      "id": "pvla-132",
+      "number": "132",
+      "name": "Gorebyss",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_132.jpg",
+      "subject": "Gorebyss",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_132.jpg",
+      "thumb": "/lamincards/thumbs/132.jpg"
+    },
+    {
+      "id": "pvla-133",
+      "number": "133",
+      "name": "Relicanth",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_133.jpg",
+      "subject": "Relicanth",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_133.jpg",
+      "thumb": "/lamincards/thumbs/133.jpg"
+    },
+    {
+      "id": "pvla-134",
+      "number": "134",
+      "name": "Luvdisc",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_134.jpg",
+      "subject": "Luvdisc",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_134.jpg",
+      "thumb": "/lamincards/thumbs/134.jpg"
+    },
+    {
+      "id": "pvla-135",
+      "number": "135",
+      "name": "Bagon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_135.jpg",
+      "subject": "Bagon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_135.jpg",
+      "thumb": "/lamincards/thumbs/135.jpg"
+    },
+    {
+      "id": "pvla-136",
+      "number": "136",
+      "name": "Shelgon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_136.jpg",
+      "subject": "Shelgon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_136.jpg",
+      "thumb": "/lamincards/thumbs/136.jpg"
+    },
+    {
+      "id": "pvla-137",
+      "number": "137",
+      "name": "Salamence",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_137.jpg",
+      "subject": "Salamence",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_137.jpg",
+      "thumb": "/lamincards/thumbs/137.jpg"
+    },
+    {
+      "id": "pvla-138",
+      "number": "138",
+      "name": "Beldum",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_138.jpg",
+      "subject": "Beldum",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_138.jpg",
+      "thumb": "/lamincards/thumbs/138.jpg"
+    },
+    {
+      "id": "pvla-139",
+      "number": "139",
+      "name": "Metang",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_139.jpg",
+      "subject": "Metang",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_139.jpg",
+      "thumb": "/lamincards/thumbs/139.jpg"
+    },
+    {
+      "id": "pvla-140",
+      "number": "140",
+      "name": "Metagross",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_140.jpg",
+      "subject": "Metagross",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_140.jpg",
+      "thumb": "/lamincards/thumbs/140.jpg"
+    },
+    {
+      "id": "pvla-141",
+      "number": "141",
+      "name": "Regirock",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_141.jpg",
+      "subject": "Regirock",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_141.jpg",
+      "thumb": "/lamincards/thumbs/141.jpg"
+    },
+    {
+      "id": "pvla-142",
+      "number": "142",
+      "name": "Regice",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_142.jpg",
+      "subject": "Regice",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_142.jpg",
+      "thumb": "/lamincards/thumbs/142.jpg"
+    },
+    {
+      "id": "pvla-143",
+      "number": "143",
+      "name": "Registeel",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_143.jpg",
+      "subject": "Registeel",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_143.jpg",
+      "thumb": "/lamincards/thumbs/143.jpg"
+    },
+    {
+      "id": "pvla-144",
+      "number": "144",
+      "name": "Latias",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_144.jpg",
+      "subject": "Latias",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_144.jpg",
+      "thumb": "/lamincards/thumbs/144.jpg"
+    },
+    {
+      "id": "pvla-145",
+      "number": "145",
+      "name": "Latios",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_145.jpg",
+      "subject": "Latios",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_145.jpg",
+      "thumb": "/lamincards/thumbs/145.jpg"
+    },
+    {
+      "id": "pvla-146",
+      "number": "146",
+      "name": "Kyogre",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_146.jpg",
+      "subject": "Kyogre",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_146.jpg",
+      "thumb": "/lamincards/thumbs/146.jpg"
+    },
+    {
+      "id": "pvla-147",
+      "number": "147",
+      "name": "Groudon",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_147.jpg",
+      "subject": "Groudon",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_147.jpg",
+      "thumb": "/lamincards/thumbs/147.jpg"
+    },
+    {
+      "id": "pvla-148",
+      "number": "148",
+      "name": "Rayquaza",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_148.jpg",
+      "subject": "Rayquaza",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_148.jpg",
+      "thumb": "/lamincards/thumbs/148.jpg"
+    },
+    {
+      "id": "pvla-149",
+      "number": "149",
+      "name": "Meowth",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_149.jpg",
+      "subject": "Meowth",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_149.jpg",
+      "thumb": "/lamincards/thumbs/149.jpg"
+    },
+    {
+      "id": "pvla-150",
+      "number": "150",
+      "name": "Pokédex",
+      "image": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_150.jpg",
+      "subject": "Pokédex",
+      "back": "https://archives.bulbagarden.net/wiki/Special:FilePath/Pok%C3%A9mon_Rainbow_Lamincards_Advanced_-_back_150.jpg",
+      "thumb": "/lamincards/thumbs/150.jpg"
+    }
+  ]
+}

@@ -59,6 +59,7 @@ const universeLogos: Partial<Record<UniverseId, any>> = {
 
 const collectionInfo: Partial<Record<CollectionId, { year: string; author: string }>> = {
   'pokemon-vertical': { year: '2004', author: 'Edibas Collections' },
+  'pokemon-rainbow': { year: '2004', author: 'Edibas Collections' },
 };
 
 export default function App() {
@@ -119,6 +120,9 @@ export default function App() {
     }
     if (selectedUniverse === 'dragon-ball' && selectedCollection === 'dragon-ball-core') {
       return require('./src/data/dbz-edibas-lamincards.json');
+    }
+    if (selectedUniverse === 'pokemon' && selectedCollection === 'pokemon-rainbow') {
+      return require('./src/data/pokemon-rainbow-lamincards-advanced.json');
     }
     return require('./src/data/pokemon-vertical-lamincards-advanced.json');
   }, [selectedUniverse, selectedCollection, screen, searchOpen]);
@@ -257,8 +261,10 @@ export default function App() {
 
   const openCollection = (collectionId: CollectionId) => {
     setSelectedCollection(collectionId);
-    if (selectedUniverse === 'pokemon' && collectionId === 'pokemon-vertical') {
-      const pokemonSet = require('./src/data/pokemon-vertical-lamincards-advanced.json');
+    if (selectedUniverse === 'pokemon' && (collectionId === 'pokemon-vertical' || collectionId === 'pokemon-rainbow')) {
+      const pokemonSet = collectionId === 'pokemon-rainbow'
+        ? require('./src/data/pokemon-rainbow-lamincards-advanced.json')
+        : require('./src/data/pokemon-vertical-lamincards-advanced.json');
       setSelectedCardId(pokemonSet.cards[0].id);
       setScreen('cards');
       return;
@@ -289,7 +295,7 @@ export default function App() {
   const openSearchCollection = (universeId: UniverseId, collectionId: CollectionId) => {
     setSelectedUniverse(universeId);
     setSelectedCollection(collectionId);
-    if (universeId === 'pokemon' && collectionId === 'pokemon-vertical') {
+    if (universeId === 'pokemon' && (collectionId === 'pokemon-vertical' || collectionId === 'pokemon-rainbow')) {
       setScreen('cards');
     } else {
       setScreen('collections');
@@ -391,7 +397,7 @@ export default function App() {
       <Text style={styles.sectionTitle}>Collezioni</Text>
       {filteredCollections.map((collection) => {
         const isLiveArchive =
-          (selectedUniverse === 'pokemon' && collection.id === 'pokemon-vertical') ||
+          (selectedUniverse === 'pokemon' && (collection.id === 'pokemon-vertical' || collection.id === 'pokemon-rainbow')) ||
           (selectedUniverse === 'dragon-ball' && collection.id === 'dragon-ball-core');
         const info = collectionInfo[collection.id as CollectionId] ?? { year: 'N/D', author: 'N/D' };
         return (
