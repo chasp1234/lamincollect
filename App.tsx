@@ -378,19 +378,19 @@ export default function App() {
                 <Text style={styles.collectionTitle}>{collection.title}</Text>
                 <View style={styles.collectionTopRight}>
                   <View style={styles.collectionPill}><Text style={styles.collectionPillText}>{isLiveArchive ? collection.pill : 'PREVIEW'}</Text></View>
-                  <View style={styles.variantRowCompact}>
-                    <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
-                      <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
-                    </TouchableOpacity>
-                    <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
-                      <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
-                    </TouchableOpacity>
-                  </View>
                 </View>
               </View>
               <Text style={styles.collectionSubtitle}>Anno di uscita: {info.year}</Text>
               <Text style={styles.collectionSubtitle}>Autore: {info.author}</Text>
               <Text style={styles.collectionMeta}>Set completo: nr° Carte {collection.total}</Text>
+              <View style={styles.variantRowCompact}>
+                <TouchableOpacity style={[styles.variantBtn, localeVariant === 'it' && styles.variantBtnActive]} onPress={() => setLocaleVariant('it')}>
+                  <View style={[styles.variantFlagCircle, styles.variantFlagIt]} />
+                </TouchableOpacity>
+                <TouchableOpacity style={[styles.variantBtn, localeVariant === 'es' && styles.variantBtnActive]} onPress={() => setLocaleVariant('es')}>
+                  <View style={[styles.variantFlagCircle, styles.variantFlagEs]} />
+                </TouchableOpacity>
+              </View>
             </View>
             {'sealedImage' in collection && typeof collection.sealedImage === 'string' ? (
               <Image source={{ uri: collection.sealedImage }} style={styles.collectionSealedImage} resizeMode="cover" />
@@ -748,7 +748,7 @@ const styles = StyleSheet.create({
   listSubtitle: { color: '#CBD5E1', fontSize: 13, lineHeight: 18, marginTop: 8 },
   listMeta: { color: '#60A5FA', fontSize: 12, marginTop: 8, fontWeight: '700' },
   variantRow: { flexDirection: 'row', gap: 6, marginTop: 8 },
-  variantRowCompact: { flexDirection: 'row', gap: 5 },
+  variantRowCompact: { flexDirection: 'row', gap: 5, marginTop: 8 },
   variantBtn: { width: 24, height: 24, borderRadius: 999, borderWidth: 1, borderColor: '#475569', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0F172A', overflow: 'hidden' },
   variantBtnActive: { borderColor: '#60A5FA', backgroundColor: '#172554' },
   variantFlagCircle: { width: 18, height: 18, borderRadius: 999, borderWidth: 0.6, borderColor: 'rgba(255,255,255,0.28)' },
