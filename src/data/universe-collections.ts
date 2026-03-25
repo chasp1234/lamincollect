@@ -102,6 +102,18 @@ export const universeCollections = {
   hamtaro: [
     { id: 'hamtaro-core', title: 'Hamtaro core set', subtitle: 'Kids cards e sticker', total: 24, accent: '#FBBF24', pill: 'HAM' },
   ],
+  'shaman-king': [
+    { id: 'shaman-king-core', title: 'Shaman King core set', subtitle: 'Anime cards e promo', total: 24, accent: '#F97316', pill: 'SPIRIT' },
+  ],
+  medarot: [
+    { id: 'medarot-core', title: 'Medarot core set', subtitle: 'Robot cards e promo', total: 24, accent: '#3B82F6', pill: 'MEDA' },
+  ],
+  'angels-friends': [
+    { id: 'angels-friends-core', title: "Angel's Friends core set", subtitle: 'Sticker, card e promo', total: 24, accent: '#EC4899', pill: 'ANGEL' },
+  ],
+  'power-rangers': [
+    { id: 'power-rangers-core', title: 'Power Rangers core set', subtitle: 'TV cards e promo', total: 24, accent: '#DC2626', pill: 'RANGER' },
+  ],
   digimon: [
     { id: 'digimon-core', title: 'Digimon core set', subtitle: 'Digital monster cards', total: 24, accent: '#2563EB', pill: 'DIGI' },
   ],
